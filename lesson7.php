@@ -128,29 +128,30 @@
           <h3>Lets Create a few nav-tabs that will work in mere seconds!</h3>
           <p class="lead">Open our project folder we have been using the past few days</p>
           <ol>
-          	<li>Start with a new <code>container</code> div, create a <code>ul</code> with a class of <code>nav nav-tabs nav-justified</code> & and a <code> role="tablist"</code> attribute.</li>
-          	<li>Add 3 li tags with anchor tags inside each one. Set our 1st li class to <code>active</code>. Name each anchor i.e. Tab One, Tab Two & Tab Three.</li>
+          	<li>Start with a new <code>container</code> div, create a <code>ul</code> with a class of <code>nav nav-tabs nav-justified</code> &amp; and a <code> role="tablist"</code> attribute.</li>
+          	<li>Add 3 li tags with anchor tags inside each one. Set our 1st li class to <code>active</code>. Name each anchor i.e. Tab One, Tab Two &amp; Tab Three.</li>
           	<li>Outside of our <code>ul</code> create a new div with a class of <code>tab-content</code>.  Inside 3 more divs with a class of <code>tab-pane</code>, since we have 3 list items we will link to above.  To the 1st <code>tab-pane</code> add an additional class of active, to correlate with our active<code>li</code>.</li>
-          	<li>Set each tap-pane div's id to <code>id="tab1"</code>, <code>id="tab2"</code> & <code>id="tab3"</code> in order, then in the anchor href's above add the id #tab1, #tab2, #tab3, which will correlate the tabs: 
+          	<li>Set each tap-pane div's id to <code>id="tab1"</code>, <code>id="tab2"</code> &amp; <code>id="tab3"</code> in order, then in the anchor href's above add the id #tab1, #tab2, #tab3, which will correlate the tabs: 
           		<code><br>&lt;a href="#tab1"&gt; = &lt;div id="tab1" class="tab-pane active"&gt;<br> &lt;a href="#tab2"&gt; = &lt;div id="tab2" class="tab-pane"&gt; <br> &lt;a href="#tab3"&gt; = &lt;div id="tab3" class="tab-pane"&gt;</code>
           	</li>
-          	<li>Finally Lets add some content into our tabs and then check it out.  Add a <code>h1 & p</code> to our first div with a class of <code>tab-pane active</code>, a <code>h2 & p</code> to our second div with a class of <code>tab-pane</code> & a <code>h3 & p</code> to our third div with a class of <code>tab-pane</code>.</li>
+          	<li>Finally Lets add some content into our tabs and then check it out.  Add a <code>h1 &amp; p</code> to our first div with a class of <code>tab-pane active</code>, a <code>h2 & p</code> to our second div with a class of <code>tab-pane</code> & a <code>h3 & p</code> to our third div with a class of <code>tab-pane</code>.</li>
           	<li>Fill out our new HTML tags using <a href="" target="_blank">Lorem Lipsum</a></li>
           	<li>Last but certainly not least, Actually probably the most important thing to make these work is adding our <code>data-toggle="tab"</code> to all of our anchor tags in our <code>ul</code>. With this, browsers will now know to toggle between tabs!</li>
           </ol>
           <p>Open this file in our browser to see the magic you just made!</p>
-          <br>
           <a href="answers/lesson7a.php" target="_blank" class="text-danger">Check out how our new file should look</a>
+          <br><br>
           <p>AMAZING!!! Tabs are a very difficult concept to wrap our heads around, Way to get through it with ease!</p>
           <p>Check out more on <a href="http://getbootstrap.com/components/#nav" target="_blank">Bootstrap Navs</a></p>
           <div class="next1">
-            <a href="#navbars" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i>Below we have Easy Navbars! <i class="fa fa-2x fa-child"></i></a>
+            <a href="#navbars" class="btn btn-code btn-lg"><i class="fa fa-child fa-2x"></i> Next Up: Easy Navbars! <i class="fa fa-2x fa-child"></i></a>
           </div>
         </div>
       </div>
+      <div class="clearfix"></div>
       <br>
       <div class="col-md-12">
-        <a class="btn btn-danger btn-lg btn_task btn-block"><i class="fa fa-terminal"></i> Complete The <Strong>Bootstrap Nav</Strong> Task Before Moving On!</a>
+        <a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This <Strong>Bootstrap Nav</Strong> Task Before Moving On!</a>
       </div>
     </div>
 
@@ -504,18 +505,19 @@
           	<li>Create at least three <code>li</code> tags with <code>a</code>'s inside. set our 1st <code>li</code> class to active. And Last we will name our 6 links whatever you would like i.e. Home, Profile, Link 1, Link 2.</li>
           </ol>
           <p>Open this file in our browser to see what we just did!</p>
-          <br>
           <a href="answers/lesson7b.php" target="_blank" class="text-danger">Check out how our new file looks</a>
+          <br><br>
           <p>Great Job. Navigation is essential in all websites and webapps, With Bootstrap all our worries can be put at ease!</p>
           <p>More on <a href="http://getbootstrap.com/components/#navbar" target="_blank">Bootstrap Navigation Bars</a> can be found here!</p>
           <div class="next1">
-            <a href="#breads" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i>Next section up, Bootstrap Breadcrumbs & Pagination! <i class="fa fa-2x fa-child"></i></a>
+            <a href="#breads" class="btn btn-code btn-lg"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Breadcrumbs &amp; Pagination! <i class="fa fa-2x fa-child"></i></a>
           </div>
         </div>
       </div>
+      <div class="clearfix"></div>
       <br>
       <div class="col-md-12">
-        <a class="btn btn-danger btn-lg btn_task btn-block"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Navigation Bars</Strong> Task Before Moving On!</a>
+        <a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Navigation Bars</Strong> Task Before Moving On!</a>
       </div>
     </div>
 
@@ -776,18 +778,19 @@
           	<li>Between our 1st anchor start with <code>&larr ; Older</code> again remove the space between the last r and ; to create a arrow left, Finally between our 2nd anchor start with <code>&rarr ; Newer</code> again remove the space between the last r and ; to create a arrow right</li>
           </ol>
           <p>Open this file in our browser to see check our our new creations!</p>
-          <br>
           <a href="answers/lesson7c.php" target="_blank" class="text-danger">Check out how our new file should look</a>
+          <br><br>
           <p>Great Job working with Bootstrap breadcrumbs & paginations</p>
           <p>Check out more on <a href="http://getbootstrap.com/components/#breadcrumbs" target="_blank">Bootstrap Breadcrumbs</a>, <a href="http://getbootstrap.com/components/#pagination" target="_blank">Bootstrap Pagination</a> & <a href="http://getbootstrap.com/components/#pagination-pager" target="_blank">Bootstrap Pagers</a>!</p>
           <div class="next1">
-            <a href="#tab8" data-toggle="tab" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i>Next section up, Bootstrap Labels & Badges! <i class="fa fa-2x fa-child"></i></a>
+            <a href="#tab8" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Labels &amp; Badges! <i class="fa fa-2x fa-child"></i></a>
           </div>
         </div>
       </div>
+      <div class="clearfix"></div>
       <br>
       <div class="col-md-12">
-        <a class="btn btn-danger btn-lg btn_task"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Breadcrumbs & Pagination</Strong> Task Before Moving On!</a>
+        <a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Breadcrumbs & Pagination</Strong> Task Before Moving On!</a>
       </div>
     </div>
 

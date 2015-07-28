@@ -5,11 +5,11 @@
   	<!-- lesson title -->
     <div class="lesson_title">
       <h4>Lesson 2</h4>
-      <h1>Understanding The Bootstrap Grid, Containers & Rows!</h1>
+      <h1>Understanding The Bootstrap Grid, Containers &amp; Rows!</h1>
     </div>
     <!-- lesson paragraph -->
     <div>
-    	<p class="lead">Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. It includes predefined classes for easy layout options.</p>
+    	<p class="lead">Bootstrap includes a responsive, mobile first fluid grid system that scales up to 12 columns. It includes predefined classes for easy layout options.</p>
     </div>
 
 	<!-- containers -->
@@ -203,7 +203,7 @@
 		  <div class="col-md-6">.col-md-6</div>
 		</div>
 		<br>
-		<a href="http://getbootstrap.com/css/#grid-example-basic" target="_blank" class="btn btn-success">Check Out This Grids Code Here</a>
+		<a href="http://getbootstrap.com/css/#grid-example-basic" target="_blank" class="btn btn-code btn-lg"><i class="fa fa-angle-double-left"></i> Check Out This Grids Code Here <i class="fa fa-angle-double-right"></i></a>
 	</div>
 
 	<div class="row"></div>
@@ -428,30 +428,31 @@
 	<div class="task">
 		<div class="task1">
 			<div class="col-md-8">
-				<h3>Now we understand the grid a bit...so lets dig in and solidify what we learned!</h3>
-				<p class="lead">Start with a new boiler plate.</p>
+				<h3>Now that you understand the grid a bit more...lets dig to some code, to solidify what you learned!</h3>
+				<p class="lead">Start with Folder called BootstrapTest, add an index.html and main.css file, lastly add the cdn to Bootstrap CSS from lesson 1</p>
 				<ol>
-					<li>Add either a <code>container</code> or <code>container-fluid</code> to the first div after the <code>body</code></li>
-					<li>Now lets add a <code>row</code> to our next <code>div</code></li>
-					<li>Add the classes <code>col-xs-12 col-sm-6 col-md-12</code> to our 3rd <code>div</code></li>
-					<li>Create an <code>h1</code> tag and a <code>p</code> tag inside the 3rd <code>div</code>. Use <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a> to fill these two tags in with content</li>
-					<li>Create 3 new divs after the 3rd div, all with the following grid classes <code>col-xs-12 col-sm-6 col-md-4</code></li>
-					<li>Add a few html elements inside each new div, an <code>h3</code>, <code>p class="lead"</code> & <code>h6</code></li>
-					<li>Again using <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a> fill these 9 new HTML tags with different amounts of text.</li>
+					<li>Start by adding either a <code>container</code> or <code>container-fluid</code> to a div tag after the opening <code>body</code> tag</li>
+					<li>Inside this div, add a <code>row</code> class to a new <code>div</code> tag</li>
+					<li>Add another div with the classes: <code>col-xs-12</code> <code>col-sm-6</code> &amp; <code>col-md-12</code> to a <code>div</code> inside our row</li>
+					<li>Create an <code>h1</code> tag and a <code>p</code> tag inside this <code>div</code>. Use <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a> to fill these two tags in with content</li>
+					<li>Create 3 new, seperate divs after the closing 3rd div, add with the following grid classes <code>col-xs-12 col-sm-6 col-md-4</code></li>
+					<li>Also add a few html elements inside each new div, a <code>h3</code>, <code>p class="lead"</code> &amp; <code>h6</code></li>
+					<li>Again using <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a> again, fill these 9 new HTML tags with different amounts of text.</li>
 				</ol>
-				<p>Open this new file in our browser, and try resizing the browser. You should notice alot of stacking effects going on.</p>
-				<br>
-				<a href="answers/lesson2.php" target="_blank" class="text-danger">Check out how our new file should look</a>
+				<p>Open this new index file in you browser, and try resizing the browser. You should notice alot of stacking effects going on.</p>
+				<a href="answers/lesson2.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
+				<br><br>
 				<p>GREAT JOB!!! you just hand built your first bootstrap grid, positioning will be a breeze from here on out, using our NEW 12 Column Grid System.</p>
 				<p>Check out <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap Grid</a> for even more in-depth talk about the GRID</p>
 				<div class="next1">
-					<a href="#tab3" data-toggle="tab" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i> NEXT UP BOOTSTRAP HELPER CLASSES & RESPONSIVBE UTILITIES <i class="fa fa-2x fa-child"></i></a>
+					<a href="#tab3" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Helper lasses &amp; Responsive utilities <i class="fa fa-2x fa-child"></i></a>
 				</div>
 			</div>
 		</div>
+		<div class="clearfix"></div>
 		<br>
 		<div class="col-md-6">
-			<a class="btn btn-danger btn-lg btn_task"><i class="fa fa-terminal"></i> Complete This Bootstrap <strong>GRID</strong> Task Before Moving On!</a>
+			<a class="btn btn-task btn-lg btn_task"><i class="fa fa-terminal"></i> Complete This Bootstrap <strong>GRID</strong> Task Before Moving On!</a>
 		</div>
 	</div>
 

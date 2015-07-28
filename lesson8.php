@@ -3,7 +3,7 @@
 
     <div class="lesson_title">
       <h4>Lesson 8</h4>
-      <h1>Including Labels & Badges</h1>
+      <h1>Adding Labels &amp; Badges</h1>
     </div>
 
     <!-- labels -->
@@ -169,19 +169,20 @@
             <li>Set our 1st <code>li</code> to have a class of <code>active</code>. Add a span in each <code>a</code> with a class of <code>badge pull-right</code> and a number before the closing span tag.</li>
             <li>Finally Label ou Nav items, on the next line after each span, designate names i.e. Home, Profile, Email, Contacts.</li>
           </ol>
-          <p>Open this file in our browser to see what we just did!</p>
-          <br>
+          <p>Open this file in our browser to see what we just did!</p>          
           <a href="answers/lesson8.php" target="_blank" class="text-danger">Check out how our new file should look</a>
+          <br><br>
           <p>EXCELLENT!!! We just built some bootstrap sweet labels & badges, those will come in handy down the road!</p>
           <p>Check out <a href="http://getbootstrap.com/components/#labels" target="_blank">Bootstrap Labels</a> & <a href="http://getbootstrap.com/components/#badges" target="_blank">Bootstrap Badges</a> to learn even more!</p>
           <div class="next1">
-            <a href="#tab9" data-toggle="tab" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i>Next section up, Bootstrap ALERTS & Progressbars! <i class="fa fa-2x fa-child"></i></a>
+            <a href="#tab9" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Alerts &amp; Progress-bars! <i class="fa fa-2x fa-child"></i></a>
           </div>
         </div>
       </div>
+      <div class="clearfix"></div>
       <br>
       <div class="col-md-12">
-        <a class="btn btn-danger btn-lg btn_task"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Labels & Badges</Strong> Task Before Moving On!</a>
+        <a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Labels &amp; Badges</Strong> Task Before Moving On!</a>
       </div>
     </div>
 

@@ -41,17 +41,15 @@
               <li class="">
                 <a href="#tab3" data-toggle="tab" class="tabs">
                   <strong>Lesson 3</strong>
-                  <h4>Helper Classes & Responsive Utilities</h4>
+                  <h4>Helper Classes &amp; Responsive Utilities</h4>
                 </a>
               </li>
-
-
 
               <!-- Lesson 4 - Bootstrap's Tables & Forms - Sidebar Link -->
               <li class="">
                 <a href="#tab4" data-toggle="tab" class="tabs">
                   <strong>Lesson 4</strong>
-                  <h4>Bootstrap Tables & Forms</h4>
+                  <h4>Bootstrap Tables &amp; Forms</h4>
                 </a>
               </li>
 
@@ -59,7 +57,7 @@
               <li class="">
                 <a href="#tab5" data-toggle="tab" class="tabs">
                   <strong>Lesson 5</strong>
-                  <h4>Bootstrap Buttons & Images</h4>
+                  <h4>Bootstrap Buttons &amp; Images</h4>
                 </a>
               </li>
 
@@ -67,7 +65,7 @@
               <li class="">
                 <a href="#tab6" data-toggle="tab" class="tabs">
                   <strong>Lesson 6</strong>
-                  <h4>More Buttons & Input Groups</h4>
+                  <h4>More Buttons &amp; Input Groups</h4>
                 </a>
               </li>
               <!-- Lesson 7 - Navbars, Breadcrumbs and Pagination - Sidebar Link -->
@@ -77,39 +75,39 @@
                   <h4>Navbars, Breadcrumbs and Pagination</h4>
                 </a>
               </li>
-              <!-- Lesson 8 - Including Labels & Badges - Sidebar Link -->
+              <!-- Lesson 8 - Adding Labels & Badges - Sidebar Link -->
               <li class="">
                 <a href="#tab8" data-toggle="tab" class="tabs">
                   <strong>Lesson 8</strong>
-                  <h4>Including Labels & Badges</h4>
+                  <h4>Adding Labels &amp; Badges</h4>
                 </a>
               </li>
               <!-- Lesson 9 - How to use Alerts & Progress Bars - Sidebar Link -->
               <li class="">
                 <a href="#tab9" data-toggle="tab" class="tabs">
                   <strong>Lesson 9</strong>
-                  <h4>How to use Alerts & Progress Bars</h4>
+                  <h4>How to use Alerts &amp; Progress Bars</h4>
                 </a>
               </li>
               <!-- Lesson 10 - Working with the "Jumbotron" - Sidebar Link -->
               <li class="">
                 <a href="#tab10" data-toggle="tab" class="tabs">
                   <strong>Lesson 10</strong>
-                  <h4>Headers, Thumbnails & The "Jumbotron"</h4>
+                  <h4>Headers, Thumbnails &amp; The "Jumbotron"</h4>
                 </a>
               </li>
-              <!-- Lesson 11- The Use Of Panels & Wells - Sidebar Link -->
+              <!-- Lesson 11- The Use Of Panels &amp; Wells - Sidebar Link -->
               <li class="">
                 <a href="#tab11" data-toggle="tab" class="tabs">
                   <strong>Lesson 11</strong>
-                  <h4>The Use Of Panels, Wells & List Groups</h4>
+                  <h4>The Use Of Panels, Wells &amp; List Groups</h4>
                 </a>
               </li>
               <!-- Lesson 12 - Using Glyphicons & Font-Awesome - Sidebar Link -->
               <li class="">
                 <a href="#tab12" data-toggle="tab" class="tabs">
                   <strong>Lesson 12</strong>
-                  <h4>Using Glyphicons & Font-Awesome</h4>
+                  <h4>Using Glyphicons &amp; Font-Awesome</h4>
                 </a>
               </li>
                
@@ -128,7 +126,7 @@
                 <div class="main">
                   <header class="header center">
                     <h1>Coding with Twitter Bootstrap 3</h1>
-                    <h3>Front End CSS & Javascript Framework</h3>
+                    <h3>Front End CSS &amp; Javascript Framework</h3>
                   </header>
                 </div>
 
@@ -136,20 +134,20 @@
                   <ol class="course_overview_lessons">
                     <li><a href="#tab1" data-toggle="tab" title="Getting Strated With Bootstrap" class="tabs">Whats Up With That Bootstrap?</a></li>
                     <li><a href="#tab2" data-toggle="tab" title="Grasping The Bootstrap Grid" class="tabs">Grasping The Bootstrap Grid</a></li>
-                    <li><a href="#tab3" data-toggle="tab" title="Bootstrap's Table & Forms" class="tabs">Helper Classes & Responsive Utilities</a></li>
-                    <li><a href="#tab4" data-toggle="tab" title="Bootstrap's Table & Forms" class="tabs">Bootstrap Table & Forms</a></li>
+                    <li><a href="#tab3" data-toggle="tab" title="Bootstrap's Table &amp; Forms" class="tabs">Helper Classes &amp; Responsive Utilities</a></li>
+                    <li><a href="#tab4" data-toggle="tab" title="Bootstrap's Table &amp; Forms" class="tabs">Bootstrap Table &amp; Forms</a></li>
                     <li><a href="#tab5" data-toggle="tab" title="Bootstrap's Buttons and Images" class="tabs">Bootstrap Buttons and Images</a></li>
-                    <li><a href="#tab6" data-toggle="tab" title="More Button & Input Groups" class="tabs">More Buttons & Input Groups</a></li>              
+                    <li><a href="#tab6" data-toggle="tab" title="More Button &amp; Input Groups" class="tabs">More Buttons &amp; Input Groups</a></li>              
                   </ol>
                 </div>
 
                 <div class="course_overview col-md-6">
                   <ol class="tabs course_overview_lessons course_overview_lessons_2">                  
-                    <li><a href="#tab7" data-toggle="tab" title="Navbars, Breadcrumbs & Pagination" class="tabs">Navbars, Breadcrumbs & Pagination</a></li>
-                    <li><a href="#tab8" data-toggle="tab" title="Including Labels & Badges" class="tabs">Including Labels & Badges</a></li>
-                    <li><a href="#tab9" data-toggle="tab" title="How to use Alerts & Progress Bars" class="tabs">How to use Alerts & Progress Bars</a></li>
-                    <li><a href="#tab10" data-toggle="tab" title="Working with the JUMBOTRON" class="tabs tab_circle">Headers, Thumbnails & The "JUMBOTRON"</a></li>
-                    <li><a href="#tab11" data-toggle="tab" title="Utilizing Panels & Wells" class="tabs tab_circle">Utilizing Panels, Wells & List Groups</a></li>
+                    <li><a href="#tab7" data-toggle="tab" title="Navbars, Breadcrumbs &amp; Pagination" class="tabs">Navbars, Breadcrumbs &amp; Pagination</a></li>
+                    <li><a href="#tab8" data-toggle="tab" title="Adding Labels &amp; Badges" class="tabs">Adding Labels &amp; Badges</a></li>
+                    <li><a href="#tab9" data-toggle="tab" title="How to use Alerts &amp; Progress Bars" class="tabs">How to use Alerts &amp; Progress Bars</a></li>
+                    <li><a href="#tab10" data-toggle="tab" title="Working with the JUMBOTRON" class="tabs tab_circle">Headers, Thumbnails &amp; The "JUMBOTRON"</a></li>
+                    <li><a href="#tab11" data-toggle="tab" title="Utilizing Panels &amp; Wells" class="tabs tab_circle">Utilizing Panels, Wells &amp; List Groups</a></li>
                     <li><a href="#tab12" data-toggle="tab" title="Using Glyphicons and Font-Awesome" class="tabs tab_circle">Using Glyphicons and Font-Awesome</a></li>
                   </ol>
                 </div>
@@ -186,7 +184,7 @@
               <!-- tab 7 - Content -Navbars, Breadcrumbs & Pagination  -->
               <?php include('lesson7.php');?>
               
-              <!-- tab 8 - Content -Including Labels & Badges -->
+              <!-- tab 8 - Content -Adding Labels & Badges -->
               <?php include('lesson8.php');?>
               
               <!-- tab 9 - Content -How to use Alerts & Progress Bars  -->

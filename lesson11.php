@@ -233,19 +233,20 @@
             <li>Add a new <code>h3</code> tag inside your <code>panel-heading</code> with a class of <code>panel-title</code> & some text i.e. "Danger Panel Title".</li>
             <li>We need to add a little <code>panel-body</code> content, i.e. "Danger Panel content". between your open and closing div. And the same for your <code>panel-footer</code> and some text. i.e. "Danger Panel footer".</li>
           </ol>
-          <p>Open this file in your browser to see what we just did!</p>
-          <br>
+          <p>Open this file in your browser to see what we just did!</p>          
           <a href="answers/lesson11a.php" target="_blank" class="text-danger">Check out how the new file should look</a>
+          <br><br>
           <p>EXCELLENT!!! Building wells is pretty easy, as are panels, just adding a class or two to a div or two. Inspect some of the elements to see what Bootstrap's CSS is doing to your tags!</p>
-          <p>Check out <a href="http://getbootstrap.com/components/#panels" target="_blank">Bootstrap Panels</a> & <a href="http://getbootstrap.com/components/#wells" target="_blank">Bootstrap Wells</a> to learn even more!</p>
+          <p>Check out <a href="http://getbootstrap.com/components/#panels" target="_blank">Bootstrap Panels</a> &amp; <a href="http://getbootstrap.com/components/#wells" target="_blank">Bootstrap Wells</a> to learn even more!</p>
           <div class="next1">
-            <a href="#lists" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i>Continue on to List Groups next! <i class="fa fa-2x fa-child"></i></a>
+            <a href="#lists" class="btn btn-code btn-lg"><i class="fa fa-child fa-2x"></i> Next Up: List Groups <i class="fa fa-2x fa-child"></i></a>
           </div>
         </div>
       </div>
+      <div class="clearfix"></div>
       <br>
       <div class="col-md-12">
-        <a class="btn btn-danger btn-lg btn_task btn-block"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Panels & Wells</Strong> Task Before Moving On!</a>
+        <a class="btn btn-task btn-lg btn_task btn-block"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Panels &amp; Wells</Strong> Task Before Moving On!</a>
       </div>
     </div>
 
@@ -465,18 +466,19 @@
             <li>To your 4th <code>li</code> add a class of <code>list-group-item-warning</code> & the 5th anchor another class of <code>list-group-item-danger</code>.</li>
           </ol>
           <p>Open this file in our browser to see what we just did!</p>
-          <br>
           <a href="answers/lesson11b.php" target="_blank" class="text-danger">Compare what you've built to ours</a>
+          <br><br>
           <p>WooHoo! You can make really nice looking list-groups that can link if you want them too! A nice addition I must say Bootstrap!</p>
           <p>Learn more about <a href="http://getbootstrap.com/components/#list-group" target="_blank">Bootstrap List Groups</a>!</p>
           <div class="next1">
-            <a href="#tab12" data-toggle="tab" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i>Final Section, Bootstrap Gylphicons & Fontawesome Icons! <i class="fa fa-2x fa-child"></i></a>
+            <a href="#tab12" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Final Section, Bootstrap Gylphicons &amp; Fontawesome Icons! <i class="fa fa-2x fa-child"></i></a>
           </div>
         </div>
       </div>
+      <div class="clearfix"></div>
       <br>
       <div class="col-md-12">
-        <a class="btn btn-danger btn-lg btn_task"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>List Groups</Strong> Task Before Moving On!</a>
+        <a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>List Groups</Strong> Task Before Moving On!</a>
       </div>
     </div>
 

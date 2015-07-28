@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster|Ruda:400,700' rel='stylesheet' type='text/css'>
     <!--Our Added CSS-->
     <link rel="stylesheet" href="css/styles.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

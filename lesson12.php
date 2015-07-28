@@ -833,7 +833,7 @@
               </li>
             </div>
           </ul>
-          <button class="btn btn-danger btn-lg" id="more_bootstrap"><i class="fa fa-angle-double-left"></i> See All Bootstrap Icons <i class="fa fa-angle-double-right"></i></button>
+          <button class="btn btn-task btn-lg" id="more_bootstrap"><i class="fa fa-angle-double-left"></i> See All Bootstrap Icons <i class="fa fa-angle-double-right"></i></button>
         </div>
       </div>
 
@@ -1453,7 +1453,7 @@
         </div>
       </div>
       <br>
-      <a href="http://fontawesome.io/icons/" target="_blank" class="btn btn-success btn-lg"><i class="fa fa-angle-double-left"></i> Check Out All 400+ Icons Here! <i class="fa fa-angle-double-right"></i></a>
+      <a href="http://fontawesome.io/icons/" target="_blank" class="btn btn-task btn-lg"><i class="fa fa-angle-double-left"></i> Check Out All 400+ Icons Here! <i class="fa fa-angle-double-right"></i></a>
 
       <div class="clearfix"></div>
 
@@ -1793,17 +1793,17 @@
           <li>In your two new spans add 2 <code>i</code> tags.  To your 1st <code>i</code> add a class of <code>fa fa-square-o fa-stack-2x</code>, to your 2nd <code>i</code> add a class of <code>fa fa-html5 fa-stack-1x</code>.</li>
           <li>Inside your 2nd span give a class of <code>fa fa-twitter fa-flip-horizontal fa-stack-1x</code> to your first <code>&lt;i&gt;</code>.</li>
           <li>Finally give a class of <code>fa fa-ban fa-stack-2x text-danger</code> to your last <code>i</code> tag.</li>
-        </ol>
-        <br>
+        </ol>        
         <a href="answers/lesson12.php" target="_blank" class="text-danger">Check out how your new file should look</a>
-        <p>EXCELLENT!!! Your a pro at adding both Bootstrap & Font Awesome icons to your websites now! Well Done.</p>
-        <p>Check out <a href="http://getbootstrap.com/components/#glyphicons" target="_blank">Bootstrap Glyphicons</a> & <a href="http://www.fontawesome.io" target="_blank">Font Awesome</a> For More!</p>
-        
+        <br><br>
+        <p>EXCELLENT!!! Your a pro at adding both Bootstrap &amp; Font Awesome icons to your websites now! Well Done.</p>
+        <p>Check out <a href="http://getbootstrap.com/components/#glyphicons" target="_blank">Bootstrap Glyphicons</a> &amp; <a href="http://www.fontawesome.io" target="_blank">Font Awesome</a> For More!</p>        
       </div>
     </div>
+    <div class="clearfix"></div>
     <br>
     <div class="col-md-12">
-      <a class="btn btn-danger btn-lg btn_task"><i class="fa fa-terminal"></i> Complete The <strong>Glyphicons</Strong> & <strong>Font Awesome</strong> Task!</a>
+      <a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This <strong>Glyphicons</Strong> &amp; <strong>Font Awesome</strong> Task!</a>
     </div>
   </div>
 

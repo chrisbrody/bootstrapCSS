@@ -224,18 +224,19 @@
 					<li>For your 2nd button, add a class of <code>btn btn-lg btn-info</code> and call this one Button Number Two.</li>
 				</ol>
 				<p>Open this file in your browser to test the code!</p>
-				<br>
 				<a href="answers/lesson6a.php" target="_blank" class="text-danger">Compare what you've built to ours</a>
+				<br><br>
 				<p>You just hand built some more bootstrap buttons, vertical and justified!!!  <strong>Remember:</strong> Dropdowns need a class of <code>dropdown-toggle</code> and a <code>data-toggle="dropdown"</code> to make them work!</p>
 				<p>Read through <a href="http://getbootstrap.com/components/#btn-groups" target="_blank">Bootstrap Button Groups</a> to learn more about bootstrap buttons.</p>
 				<div class="next1">
-					<a href="#button_drops" class="btn btn-default btn btn-lg tabs"><i class="fa fa-child fa-2x"></i>Continue on to Button Dropdowns! <i class="fa fa-2x fa-child"></i></a>
+					<a href="#button_drops" class="btn btn-code btn btn-lg"><i class="fa fa-child fa-2x"></i> Next Up: Button Dropdowns! <i class="fa fa-2x fa-child"></i></a>
 				</div>
 			</div>
 		</div>
+		<div class="clearfix"></div>
 		<br>
 		<div class="col-md-12">
-			<a class="btn btn-danger btn-lg btn_task btn-block"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Buttons</Strong> Task Before Moving On!</a>
+			<a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Buttons</Strong> Task Before Moving On!</a>
 		</div>
 	</div>
 
@@ -492,7 +493,7 @@
 				<ol>
 					<li>Start with a new div that has a class of <code>container</code>.</li>
 					<li>Create a <code>row</code> div, and a <code>col-md-6</code> div.</li>
-					<li>Inside add a <code>p</code> & <code>a</code> tag, set your <code>a</code> class to <code>btn btn-danger btn-block</code>. Between your opening and closing anchor tags name it, Anchor Button.</li>
+					<li>Inside add a <code>p</code> &amp; <code>a</code> tag, set your <code>a</code> class to <code>btn btn-danger btn-block</code>. Between your opening and closing anchor tags name it, Anchor Button.</li>
 					<li>Fill your paragraph out with a few lines from <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a>.</li>
 					<li>Start with a new <code>row</code> div, with another div with a class of <code>btn-group dropup</code> inside.</li>
 					<li>Add two buttons with a <code>type="button"</code> attribute. Name your 1st button "Split Dropup Button" and give it a class of <code>btn btn-defualt</code>.</li>
@@ -502,19 +503,20 @@
 					<li>Lets create 5 <code>&lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;</code> tags, remove the 4th anchor tag and give the remaining <code>a</code> tags a name of Drop Up Link 1 - Drop Up Link 4, in between the opening and closing <code>a</code> tags.</li>
 					<li>The 4th <code>li</code> should get a class of <code>divider</code>, to create a divid between your 3rd and 4th anchor links.</li>
 				</ol>
-				<p>Open this file in your browser to check out your new full-width & drop up buttons!!!</p>
-				<br>
+				<p>Open this file in your browser to check out your new full-width &amp; drop up buttons!!!</p>				
 				<a href="answers/lesson6b.php" target="_blank" class="text-danger">Check out how your new file should look</a>
+				<br><br>
 				<p>Way to go...mastering even more of bootstrap, the most wonderful css/js framework out there!</p>
 				<p>Check out <a href="http://getbootstrap.com/components/#btn-dropdowns" target="_blank">Bootstrap Button Dropdowns</a> for more on this subject!</p>
 				<div class="next1">
-					<a href="#inputs" class="btn btn-default btn btn-lg tabs"><i class="fa fa-child fa-2x"></i>Next section up, More Inputs! <i class="fa fa-2x fa-child"></i></a>
+					<a href="#inputs" class="btn btn-code btn btn-lg"><i class="fa fa-child fa-2x"></i> Next Up: More Inputs! <i class="fa fa-2x fa-child"></i></a>
 				</div>
 			</div>
 		</div>
+		<div class="clearfix"></div>
 		<br>
 		<div class="col-md-12">
-			<a class="btn btn-danger btn-lg btn_task btn-block"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Dropdown & Dropup Buttons</Strong> Task Before Moving On!</a>
+			<a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Dropdown & Dropup Buttons</Strong> Task Before Moving On!</a>
 		</div>
 	</div>
 
@@ -670,18 +672,19 @@
 					<li>Add another Input in your <code>col-xs-7 col-md-6</code> div with <code>type="date"</code> attribute, and a <code>class="form-control"</code>.</li>
 				</ol>
 				<p>Open this file in your browser to see how good out inputs look...<code>Be Aware:</code> Not all inputs are compatible with all browsers, Go to: <a href="http://www.w3schools.com/html/html5_form_input_types.asp" target="_blank">HTML5 Inputs</a> for a current list of all inputs and which browsers they work on.  If you can't use some of your new inputs try switching browsers based on your helpful link.</p>
-				<br>
 				<a href="answers/lesson6c.php" target="_blank" class="text-danger">Check out how your new file should look</a>
+				<br><br>
 				<p>EXCELLENT JOB!!! building bootstrapified inputs, pretty easy just adding a class to any input!</p>
 				<p>Check out <a href="http://getbootstrap.com/components/#input-groups" target="_blank">Bootstrap Input Groups</a> to learn even more on inputs!</p>
 				<div class="next1">
-					<a href="#tab7" data-toggle="tab" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i>Next section up, Navigation Bars & More! <i class="fa fa-2x fa-child"></i></a>
+					<a href="#tab7" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Navigation Bars &amp; More! <i class="fa fa-2x fa-child"></i></a>
 				</div>
 			</div>
 		</div>
+		<div class="clearfix"></div>
 		<br>
 		<div class="col-md-12">
-			<a class="btn btn-danger btn-lg btn_task"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Inputs</Strong> Task Before Moving On!</a>
+			<a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Inputs</Strong> Task Before Moving On!</a>
 		</div>
 	</div>
 

@@ -218,22 +218,23 @@
             <li>Next inside your <code>row</code> div, we need to add four new divs with a class of <code>col-sm-6 col-md-3</code>. Add a new div inside each grid div with a class of <code>thumbnail</code>.</li>
             <li>Add a <code>img</code> & a <code>div</code> with a class of <code>caption</code> in your thumbnail div. Again link your img src to <a href="http://img1.wikia.nocookie.net/__cb20100519113307/mafiawars/images/8/8d/7-eleven_logo-250x250.gif.png" target="_blank">This Sweet 7Eleven Logo</a>.</li>
             <li>We need to add <code>h3</code>, <code>p</code> & 2 <code>a</code>tags inside your caption div. Add the text of "Thumbnail label" to your <code>h3</code>. Fill your <code>p</code> in with some dummy <a href="http://www.lipsum.com" target="_blank">Lorem Ipsum</a> text.</li>
-            <li>Add the text of "button" in between both of your open and close <code>a</code> tags, & attach a role of <code>button</code> to each.</li>
+            <li>Add the text of "button" in between both of your open and close <code>a</code> tags, &amp; attach a role of <code>button</code> to each.</li>
             <li>Give the 1st anchor a class of <code>btn btn-success</code> & the 2nd anchor a class of <code>btn btn-danger</code>.</li>
           </ol>
-          <p>Open this file in your browser to see your Thumbs, Page-header & JUMBOTRON!</p>
-          <br>
+          <p>Open this file in your browser to see your Thumbs, Page-header &amp; JUMBOTRON!</p>
           <a href="answers/lesson10.php" target="_blank" class="text-danger">Compare yours to ours</a>
+          <br><br>
           <p>Jumbotrons, Thumbnails & Page Headers are great Bootstrap CSS elements that you can utilize anytime now!</p>
           <p>Check out <a href="http://getbootstrap.com/components/#page-header" target="_blank">Bootstrap Page Headers</a>, <a href="http://getbootstrap.com/components/#thumbnails" target="_blank">Bootstrap Thumbnails</a> & <a href="http://getbootstrap.com/components/#jumbotron" target="_blank">Bootstrap's Jumbotrons</a> to learn even more!</p>
           <div class="next1">
-            <a href="#tab11" data-toggle="tab" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i>Second to last section, Bootstrap Panels, Wells & List-Groups! <i class="fa fa-2x fa-child"></i></a>
+            <a href="#tab11" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Panels, Wells &amp; List-Groups! <i class="fa fa-2x fa-child"></i></a>
           </div>
         </div>
       </div>
+      <div class="clearfix"></div>
       <br>
       <div class="col-md-12">
-        <a class="btn btn-danger btn-lg btn_task"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Header, Thumbnails & Jumbotron</Strong> Task Before Moving On!</a>
+        <a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Header, Thumbnails &amp; Jumbotron</Strong> Task Before Moving On!</a>
       </div>
     </div>
 

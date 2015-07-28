@@ -10,7 +10,7 @@
 		<div class="intro">
 
 			<div class="col-md-6">
-				<p>Twitter Bootstrap 3 is a CSS & Javascript Framework, which has many preset CSS classes with preset CSS properties, which can be called to any HTML element quickly to add style to our projects going forward.</p> 
+				<p><strong>Twitter Bootstrap 3 is a CSS &amp; Javascript Framework</strong>, which has many preset CSS classes with preset CSS properties, which can be called to any HTML element quickly to add style to our projects going forward.</p> 
 				<p>What does all that mean? They've simplified responsive design so much, that you only need to enter a class into your elements to make them fully responsive.</p>
 				<div class="responsive_icons center">
 					<i class="fa fa-mobile fa-5x"></i><i class="fa fa-arrow-right fa-5x"></i><i class="fa fa-laptop fa-5x"></i><i class="fa fa-arrow-right fa-5x"></i><i class="fa fa-desktop fa-5x"></i>
@@ -19,29 +19,24 @@
 			<div class="col-md-6">
 				<span class="col-md-6 col-md-offset-3  center fa fa-child fa-2x well"> YEA!</span>
 				<span class="col-md-6 col-md-offset-3 center">With Bootstrap we'll be making responsive sites with ease! Download the bootstrap boilerplate from initializr.com to get started.</span>
-				<a class="btn btn-primary btn-lg col-md-6 col-md-offset-3 center" href="http://www.initializr.com/" target="_blank">Download Boilerplate</a>
 			</div>
 
 			<div class="row"></div>
 			<!-- CDN & Bootstrap download -->
 			<div class="bootstrap_files">
-				<h1>2 Other Ways to Start Using Bootstrap</h1>
-					<hr>
-				<div class="cdn col-md-8">
+				<h1 class="center">2 Other Ways to Start Using Bootstrap</h1>
+				<hr>
+				<div class="cdn col-md-9">
 					<h2>The Bootstrap CDN</h2>
 					<p>CDN:// - Content Delivery Network - Add the links below into the header of your website, and you can start using bootstrap right away. It's that easy.</p>
 					<div class="col-md-12">
-						<div class="well well-sm">Include CSS - &lt;link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"&gt;</div>
-					</div>
-					<div class="row"></div>
-					<div class="col-md-12">
-						<div class="well well-sm">Include JS  - &lt;script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"&gt;&lt;/script&gt;</div>
+						<p>Include required CSS - <pre class="prettyprint">&lt;link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"&gt;</pre></p>
 					</div>
 				</div>
 
-				<div class="files col-md-4">
+				<div class="files col-md-3">
 					<h2 class="center">Source Code</h2>
-					<p class="center col-md-8 col-md-offset-2">You can also download the source files right from their website, this will give you access to the code from all the example templates bootstrap comes with. Just be sure to include everything else you'll need to build your site.
+					<p class="center col-md-12">You can also download the source files right from their website, this will give you access to the code from all the example templates bootstrap comes with.
 					<a href="http://getbootstrap.com/getting-started/#download" target="_blank">Download Files</a>
 					</p>
 				</div>
@@ -97,7 +92,7 @@
 				      <img src="img/capture4.jpg" alt="Bootstrap Jumbotron-Narrow">
 				    </a>
 				    <h4>Narrow Jumbotron</h4>
-				    <p>Narrow Jumbotron inside a Container & a two column grid</p>
+				    <p>Narrow Jumbotron inside a Container &amp; a two column grid</p>
 				</div>
 			  </div>
 
@@ -154,13 +149,13 @@
 				    <p>Attach a footer to the bottom of the viewport with a fixed navbar at the top.</p>
 				</div>
 				<!-- View All Bootstrap Examples  -->
-				<a href="http://getbootstrap.com/getting-started/#examples" target="_blank" class='btn btn-primary btn-lg view_more_examples'><i class="fa fa-angle-double-left"></i> View ALL Bootstrap Examples Here<i class="fa fa-angle-double-right"></i></a>				
+				<a href="http://getbootstrap.com/getting-started/#examples" target="_blank" class='btn btn-task btn-lg view_more_examples'><i class="fa fa-angle-double-left"></i> View ALL Bootstrap Examples Here<i class="fa fa-angle-double-right"></i></a>				
 					
 			  </div>
 
 			</div>
 			<!-- View More Examples Button -->
-			<a class='btn btn-danger btn-lg view_more_examples'><i class="fa fa-angle-double-left"></i> View More Examples <i class="fa fa-angle-double-right"></i></a>
+			<a class='btn btn-code btn-lg view_more_examples'><i class="fa fa-angle-double-left"></i> View More Examples <i class="fa fa-angle-double-right"></i></a>
 			
 			
 		</div>
@@ -178,40 +173,11 @@
 			</ul>
 		</div>
 
-		<!-- licence -->
-		<!-- <div class="licence">
-			<h2>Bootstrap Licence</h2>
-			<hr>
-			<p class="lead">Bootstrap is released under the MIT license and is copyright 2014 Twitter. Boiled down to smaller chunks, it can be described with the following conditions.</p>
-			<h4 class="text-success">It requires us to:</h4>
-			<ul>
-				<li>Include the license and copyright notice in your works - contained in the /* comments */</li>
-				<br>
-				<img src="img/licence1.JPG">
-			</ul>
-			<h4 class="text-info">It permits us to:</h4>
-			<ul>
-				<li>Freely download and use Bootstrap, in whole or in part, for personal, private, company internal, or commercial purposes</li>
-				<li>Use Bootstrap in packages or distributions that you create</li>
-				<li>Modify the source code</li>
-				<li>Grant a sublicense to modify and distribute Bootstrap to third parties not included in the license</li>
-				<h5 class="lead">This is sweet we can use Bootstrap for anything we need!</h5>
-			</ul>
-			<h4 class="text-danger">It forbids you to:</h4>
-			<ul>
-				<li>Hold the authors and license owners liable for damages as Bootstrap is provided without warranty</li>
-				<li>Hold the creators or copyright holders of Bootstrap liable</li>
-				<li>Redistribute any piece of Bootstrap without proper attribution</li>
-				<li>Use any marks owned by Twitter in any way that might state or imply that Twitter endorses your distribution</li>
-				<h5 class="lead"> So, no suing twitter and ensure we have the proper licence in our bootstrap.css and bootstrap.js files.</h5>
-			</ul>
-
-		</div> -->
 		<br>
 
 		<!-- next section -->
 		<div class="">
-			<a href="#tab2" data-toggle="tab" class="btn btn-danger btn-lg tabs"><i class="fa fa-child fa-2x" style="vertical-align:middle;"></i> LETS GET MOVIN ON TO THE BOOTSTRAP GRID SYSTEM <i class="fa fa-2x fa-child"></i></a>
+			<a href="#tab2" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x" style="vertical-align:middle;"></i> LETS GET MOVIN ON TO THE BOOTSTRAP GRID SYSTEM <i class="fa fa-2x fa-child"></i></a>
 		</div>
 
   	</article>

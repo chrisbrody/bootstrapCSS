@@ -208,18 +208,19 @@
 					<li>On your 3rd <code>img</code>, add a class of <code>img-thumbnail</code>, to create a thumbnail feel around your Image.</li>
 				</ol>
 				<p>Open this file in your browser to see what you just did!</p>
-				<br>
 				<a href="answers/lesson5.php" target="_blank" class="text-danger">Check out how your new file should look</a>
+				<br><br>
 				<p>EXCELLENT!!! Everyone loves nice buttons and images! Inspect some of the elements to see what Bootstrap's Css is doing to your tags!</p>
-				<p>Take a look at <a href="http://getbootstrap.com/css/#buttons" target="_blank">Bootstrap Buttons</a> & <a href="http://getbootstrap.com/css/#images" target="_blank">Bootstrap Images</a> to learn even more about editing bootstrap buttons and images</p>
+				<p>Take a look at <a href="http://getbootstrap.com/css/#buttons" target="_blank">Bootstrap Buttons</a> &amp; <a href="http://getbootstrap.com/css/#images" target="_blank">Bootstrap Images</a> to learn even more about editing bootstrap buttons and images</p>
 				<div class="next1">
-					<a href="#tab6" data-toggle="tab" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i>On to the next section, More Buttons & Inputs!<i class="fa fa-2x fa-child"></i></a>
+					<a href="#tab6" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: More Buttons &amp; Inputs! <i class="fa fa-2x fa-child"></i></a>
 				</div>
 			</div>
 		</div>
+		<div class="clearfix"></div>
 		<br>
 		<div class="col-md-12">
-			<a class="btn btn-danger btn-lg btn_task"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Buttons & Images</Strong> Task Before Moving On!</a>
+			<a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Buttons &amp; Images</Strong> Task Before Moving On!</a>
 		</div>
 	</div>
 

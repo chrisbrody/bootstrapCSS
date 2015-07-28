@@ -500,21 +500,22 @@
 					</li>
 					<li>After the closing <code>&lt;thead&gt;...&lt;/thead&gt;</code> tag, add your <code>&lt;tbody&gt;</code> element and include 3 table rows <code>&lt;tr&gt;...&lt;/tr&gt;</code></li>
 					<li>Inside each <code>&lt;tr&gt;...&lt;/tr&gt;</code> add 3 table defines <code>&lt;td&gt;...&lt;td&gt;...</code>, and add a few more contextual classes to our new <code>tr</code> and <code>td</code> tags.</li>
-					<li>Finally lets fill out our table with some fake information & see how it looks.</li>
+					<li>Finally lets fill out our table with some fake information &amp; see how it looks.</li>
 				</ol>
 				<p>Open this new file in your browser to see how you did!</p>
-				<br>
 				<a href="answers/lesson4a.php" target="_blank" class="text-danger">Check out how your new file should look</a>
+				<br><br>
 				<p>GREAT JOB!!! you just hand built your first bootstrap table, looks pretty funky with all those table classes, maybe next time we'll use less, like we're supposed to.</p>
 				<p>Check out <a href="http://getbootstrap.com/css/#tables" target="_blank">Bootstrap Tables</a> to get even more in-depth knowledge of Bootstrap Tables!</p>
 				<div class="next1">
-					<a href="#forms" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i> Alright on to FORMS we go! <i class="fa fa-2x fa-child"></i></a>
+					<a href="#forms" class="btn btn-code btn-lg"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Forms <i class="fa fa-2x fa-child"></i></a>
 				</div>
 			</div>
 		</div>
+		<div class="clearfix"></div>
 		<br>
 		<div class="col-md-12">
-			<a class="btn btn-danger btn-lg btn-group-justified btn_task"><i class="fa fa-terminal"></i> Complete The Bootstrap <strong>TABLES</strong> Task Before Moving On!</a>
+			<a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <strong>TABLES</strong> Task Before Moving On!</a>
 		</div>
 	</div>
 
@@ -1017,18 +1018,19 @@
 					<li>Finally lets add a little dummy text to your <code>&lt;p&gt;</code> tags with <a href="http://www.lipsum.com" target="_blank">Lurem Ipsum</a> again, add as many words as you'd like into each one.</li>
 				</ol>
 				<p>Open this new file in your browser, and try resizing the browser. You should notice the form resizing automatically. Grid columns for the win!</p>
-				<br>
 				<a href="answers/lesson4b.php" target="_blank" class="text-danger">Compare what you built to ours</a>
+				<br><br>				
 				<p>GREAT JOB!!! you just hand built your first bootstrap form.</p>
 				<p>Check out <a href="http://getbootstrap.com/css/#forms" target="_blank">Bootstrap Forms</a> for even more info about forms</p>
 				<div class="next">
-					<a href="#tab5" data-toggle="tab" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i> NEXT UP, BOOTSTRAP BUTTONS & IMAGES <i class="fa fa-2x fa-child"></i></a>
+					<a href="#tab5" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Buttons &amp; Images <i class="fa fa-2x fa-child"></i></a>
 				</div>
 			</div>
 		</div>
+		<div class="clearfix"></div>
 		<br>
 		<div class="col-md-6">
-			<a class="btn btn-danger btn-lg btn_task"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>FORMS</Strong> Task Before Moving On!</a>
+			<a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>FORMS</Strong> Task Before Moving On!</a>
 		</div>
 	</div>
 

@@ -344,18 +344,19 @@
             <li>To our last div add 2 more classes to make it striped & animated <code>progress-bar-striped active</code>.</li>
           </ol>
           <p>Open this file in our browser to see View our new Bootstrap Alerts & Progress Bars!</p>
-          <br>
           <a href="answers/lesson9.php" target="_blank" class="text-danger">Check out how our new file looked</a>
+          <br><br>
           <p>EXCELLENT!!! you just hand built your first bootstrap alerts & some progress bars. Inspect some of the elements to see exactly what Bootstrap's Css is doing to our tags!</p>
           <p>Check out more on <a href="http://getbootstrap.com/components/#alerts" target="_blank">Bootstrap Alerts</a> & <a href="http://getbootstrap.com/components/#progress" target="_blank">Bootstrap Progressbars</a>!</p>
           <div class="next1">
-            <a href="#tab10" data-toggle="tab" class="btn btn-default btn-lg tabs"><i class="fa fa-child fa-2x"></i>Next section up, Bootstrap Headers, Thumbnails & Jumbotron! <i class="fa fa-2x fa-child"></i></a>
+            <a href="#tab10" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Headers, Thumbnails &amp; Jumbotron! <i class="fa fa-2x fa-child"></i></a>
           </div>
         </div>
       </div>
+      <div class="clearfix"></div>
       <br>
       <div class="col-md-12">
-        <a class="btn btn-danger btn-lg btn_task"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Labels & Badges</Strong> Task Before Moving On!</a>
+        <a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Alerts &amp; Progress Bars</Strong> Task Before Moving On!</a>
       </div>
     </div>
 

@@ -44,11 +44,11 @@
           <h6>Donec sit amet fermentum metus.</h6>
         </div>
       </div>
-
-      <div class="col-md-6">
-        <img src="../img/answer2.jpg" class="">
-      </div>
-      
+      <div class="row">
+        <div class="col-md-12">
+          <img src="../img/answer2.jpg" width="100%">
+        </div>
+      </div>      
     </div>
 
 
