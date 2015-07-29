@@ -483,27 +483,22 @@
 	<!-- lesson task -->
 	<div class="task">
 		<div class="task1">
-			<div class="col-md-8">
+			<div class="col-md-12">
 				<h3>Sweet building tables with basic styles is easy now...so lets write some more of our own <code>CODE</code>.</h3>
 				<ol>
-					<li>Create either a new <code>container</code> or <code>container-fuild</code> div outside our previous div.
-					</li>
-					<li>Again we will add a <code>row</code> inside our <code>.contaier</code> or <code>container-fluid</code> div.</li>
-					<li>Create a div inside our <code>.row</code>  with a class of <code>col-xs-8</code> which will limit our table size to span 8 columns on all devices.</li>
-					<li>Now we can create our <code>&lt;table class="table"&gt;...&lt;/table&gt;</code> and lets include all these table classes <code>table-striped table-bordered table-hover table-condensed</code> to our <code>&lt;table&gt;</code> tag.
-					</li>
-					<li>Add the <code>&lt;thead&gt;...&lt;/thead&gt;</code> inside your table tag</li> 
-					<li>nest one table row with any contextual color you want <code>&lt;tr class="active"&gt;...&lt;/tr&gt;</code> inside <code>&lt;thead&gt;...&lt;/thead&gt;</code>.</li> 
-					<li>Add 3 <code>&lt;th&gt;...&lt;/th&gt;</code>elements inside your <code>&lt;thead&gt;...&lt;/thead&gt;</code>. Add the text of "Name" in the first <code>&lt;th&gt;</code>,
-						the text of "Email" in the second <code>&lt;th&gt;</code>,
-						and the text of "Phone Number" in the third <code>&lt;th&gt;</code>
-					</li>
-					<li>After the closing <code>&lt;thead&gt;...&lt;/thead&gt;</code> tag, add your <code>&lt;tbody&gt;</code> element and include 3 table rows <code>&lt;tr&gt;...&lt;/tr&gt;</code></li>
-					<li>Inside each <code>&lt;tr&gt;...&lt;/tr&gt;</code> add 3 table defines <code>&lt;td&gt;...&lt;td&gt;...</code>, and add a few more contextual classes to our new <code>tr</code> and <code>td</code> tags.</li>
-					<li>Finally lets fill out our table with some fake information &amp; see how it looks.</li>
+					<li>Start a new <code>container</code> or <code>container-fuild</code> div outside all your previous div tags</li>
+					<li>Next add a <code>row</code> div, inside our <code>.contaier</code> or <code>container-fluid</code> div</li>
+					<li>Create a div inside our <code>.row</code>  with a 2 classes of <code>col-xs-8 col-xs-offset-2</code> which will limit our table size to span 8 columns on all devices, and offset it by 2 columns</li>
+					<li>Now create a <code>table</code> tag and lets include all these Bootstrap table classes <code>table table-striped table-bordered table-hover table-condensed</code> to our tag</li>
+					<li>Add a <code>thead</code> inside your table tag</li> 
+					<li>Nest one table row with any contextual color you want and add a class of <code>active</code> as a second class</li> 
+					<li>Add 3 <code>th</code> tags inside your <code>thead</code>. Add the text of "Name" in between the first opeing and closing <code>th</code> - this should be content, the text of "Email" in the second <code>&lt;th&gt;</code>, and the text of "Phone Number" in the third <code>&lt;th&gt;</code></li>
+					<li>After the closing <code>thead</code> tag, add your <code>tbody</code> tag and include 3 table rows <code>tr</code> tags inside</li>
+					<li>Inside each <code>&lt;tr&gt;...&lt;/tr&gt;</code> add 3 table defines <code>&lt;td&gt;...&lt;td&gt;...</code>, and add a few more contextual classes to our new <code>tr</code> and <code>td</code> tags, any are good</li>
+					<li>Finally lets fill out our table with some fake information &amp; see how it looks</li>
 				</ol>
 				<p>Open this new file in your browser to see how you did!</p>
-				<a href="answers/lesson4a.php" target="_blank" class="text-danger">Check out how your new file should look</a>
+				<a href="answers/lesson4a.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
 				<br><br>
 				<p>GREAT JOB!!! you just hand built your first bootstrap table, looks pretty funky with all those table classes, maybe next time we'll use less, like we're supposed to.</p>
 				<p>Check out <a href="http://getbootstrap.com/css/#tables" target="_blank">Bootstrap Tables</a> to get even more in-depth knowledge of Bootstrap Tables!</p>
@@ -574,31 +569,6 @@
     				<?php include('code/lesson4/basic.php'); ?>
     			</code>
     		</div>
-    		<!-- <div class="col-md-6">
-    			<div class="panel panel-danger">
-	    			<div class="panel-heading">
-	    				<h4>Don't mix form groups with input groups</h4>
-	    			</div>
-	    			<div class="panel-body">
-	    				<p class="text-muted">Do not mix form groups directly with input groups, this can cause a lot of unneeded stress. So, nest the input group inside of the form group!</p>
-	    			</div>
-	    		</div>
-    		</div>
-    		<div class="col-md-6">
-    			<div class="panel panel-warning">
-	    			<div class="panel-heading">
-	    				<h4>Always use Labels for every <code>input</code> tag</h4>
-	    			</div>
-	    			<div class="panel-body">
-	    				<p class="text-muted">
-	    					Screen readers will have trouble with our forms if we don't include a label for each input. We can hide the labels, if desired using the
-							<code>sr-only</code>
-							class.
-						</p>
-	    			</div>
-	    		</div>
-    		</div> -->
-
     	</div>
 
     	<!-- inline form -->
@@ -1001,24 +971,24 @@
 	<!-- lesson task -->
 	<div class="task">
 		<div class="task1">
-			<div class="col-md-8">
+			<div class="col-md-12">
 				<h3>Now that you understand how to style form components, It's time to do some coding to solidify what you've learned!</h3>
-				<p class="lead">Open the project folder you created earlier</p>
+				<p class="lead">Open the project folder we have been using all along</p>
 				<ol>
-					<li>Start by creating a new div with a class of <code>container</code>.</li>
-					<li>Add a <code>row</code> inside your <code>container</code> div.</li>
-					<li>Create a div inside your <code>row</code> with a class of <code>col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4</code>, which will limit your forms size.</li>
+					<li>Start by creating a new div with a class of <code>container</code></li>
+					<li>Add a <code>row</code> inside your <code>container</code> div</li>
+					<li>Create a div inside your <code>row</code> with a class of <code>col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4</code>, which will limit your forms size</li>
 					<li>nest the <code>&lt;form role="form"&gt;...&lt;/form&gt;</code> tags inside that div</li>
-					<li>nest 4 <code>div</code> tags with the class of <code>form-group</code> inside your form tags.</li>
+					<li>nest 4 <code>div</code> tags with the class of <code>form-group</code> inside your form tags</li>
 					<li>Inside each  of the first 3 <code>form-group</code>s, create a <code>&lt;label&gt;...&lt;/label</code>, an <code>&lt;input &gt;</code> and a <code>&lt;p class="help-block"...&lt;/p&gt;</code></li>
 					<li>Inside the 4th <code>form-group</code> create a textarea with <code>&lt;textarea rows="5"&gt;...&lt;/textarea&gt;</code></li>
 					<li>Next, you need to include the nice looking bootstrap css to your inputs and the textarea by adding <code>class="form-control"</code> to all 4 of them. Otherwise they wont look pretty!</li>
-					<li>Now you need to assign some text to your labels by putting it between the opening and closing tags. Set your first label to say: Full Name, your second label should say: Email & the third: Subject</li>
+					<li>Now you need to assign some text to your labels by putting it between the opening and closing tags. Set your first label to say: Full Name, your second label should say: Email &amp; the third: Subject</li>
 					<li>Add type="text" to the 1st & 3rd <code>input</code> and type="email" in your 2nd <code>input</code></li>
-					<li>Finally lets add a little dummy text to your <code>&lt;p&gt;</code> tags with <a href="http://www.lipsum.com" target="_blank">Lurem Ipsum</a> again, add as many words as you'd like into each one.</li>
+					<li>Finally lets add a little dummy text to your <code>&lt;p&gt;</code> tags with <a href="http://www.lipsum.com" target="_blank">Lurem Ipsum</a> again, add as many words as you'd like into each one</li>
 				</ol>
 				<p>Open this new file in your browser, and try resizing the browser. You should notice the form resizing automatically. Grid columns for the win!</p>
-				<a href="answers/lesson4b.php" target="_blank" class="text-danger">Compare what you built to ours</a>
+				<a href="answers/lesson4b.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
 				<br><br>				
 				<p>GREAT JOB!!! you just hand built your first bootstrap form.</p>
 				<p>Check out <a href="http://getbootstrap.com/css/#forms" target="_blank">Bootstrap Forms</a> for even more info about forms</p>

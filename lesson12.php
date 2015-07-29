@@ -1790,11 +1790,11 @@
           <li>Give the 2nd <code>i</code> a class of <code>fa fa-book fa-fw</code> add another space after your <code>/i</code> tag and add text "Library" before your closing <code>a</code> tag.</li>
           <li>For your 3rd <code>i</code> add a class of <code>fa fa-pencil fa-rotate-90 fa-fw</code> add space after your <code>/i</code> tag and add text "Applications" before your <code>/a</code> tag.</li>
           <li>And for the last <code>i</code> add a class of <code>fa fa-cog fa-spin fa-fw</code> add space after your <code>/i</code> tag and add text "Settings" before your <code>/a</code> tag.</li>
-          <li>In your two new spans add 2 <code>i</code> tags.  To your 1st <code>i</code> add a class of <code>fa fa-square-o fa-stack-2x</code>, to your 2nd <code>i</code> add a class of <code>fa fa-html5 fa-stack-1x</code>.</li>
+          <li>In your two new spans add 2 <code>i</code> tags. To your 1st <code>i</code> add a class of <code>fa fa-square-o fa-stack-2x</code>, to your 2nd <code>i</code> add a class of <code>fa fa-html5 fa-stack-1x</code>.</li>
           <li>Inside your 2nd span give a class of <code>fa fa-twitter fa-flip-horizontal fa-stack-1x</code> to your first <code>&lt;i&gt;</code>.</li>
           <li>Finally give a class of <code>fa fa-ban fa-stack-2x text-danger</code> to your last <code>i</code> tag.</li>
         </ol>        
-        <a href="answers/lesson12.php" target="_blank" class="text-danger">Check out how your new file should look</a>
+        <a href="answers/lesson12.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
         <br><br>
         <p>EXCELLENT!!! Your a pro at adding both Bootstrap &amp; Font Awesome icons to your websites now! Well Done.</p>
         <p>Check out <a href="http://getbootstrap.com/components/#glyphicons" target="_blank">Bootstrap Glyphicons</a> &amp; <a href="http://www.fontawesome.io" target="_blank">Font Awesome</a> For More!</p>        
@@ -1809,3 +1809,4 @@
 
   </article>
 </div>
+

@@ -49,16 +49,17 @@ $(document).ready(function(){
 });
 
 function closeSidebar() {
-	$('#sidebar').removeClass('open').addClass('closed').animate({'width':'3.5%'}, 500);
+	$('#sidebar').removeClass('open').addClass('closed');
 	$("#sidebar > a").animate({'left':'1%'}, 500);
 	$('#main_content').animate({ 'width':'96.5%' }, 500);
+	$('#sidebar').animate({'width':'3.5%'}, 500);
 	$('.primary_logo').fadeToggle();
 	$('.course_materials').fadeToggle();
 }
 function openSidebar() {
+	$('#main_content').animate({ 'width':'75%' }, 500);
 	$('#sidebar').addClass('open').removeClass('closed').animate({'width':'25%'}, 500);
 	$("#sidebar > a").animate({'left':'22%'}, 500);
-	$('#main_content').animate({ 'width':'75%' }, 500);
 	$('.primary_logo').fadeToggle();
 	$('.course_materials').fadeToggle();
 }
@@ -72,4 +73,5 @@ function adjustSidebar() {
 }
 if(window.location.href.indexOf("answers") > -1) {
    $('body').css('overflow', 'auto');
+   $('img').css('width', '100%');
 }

@@ -321,7 +321,7 @@
     <!-- lesson task -->
     <div class="task">
       <div class="task1">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <h3>Alerts & Progress Bars are Extremely helpful, lets div right in to writing <code>CODE</code> for these!</h3>
           <p class="lead">Open our project folder we have been using the past few days</p>
           <ol>
@@ -344,7 +344,7 @@
             <li>To our last div add 2 more classes to make it striped & animated <code>progress-bar-striped active</code>.</li>
           </ol>
           <p>Open this file in our browser to see View our new Bootstrap Alerts & Progress Bars!</p>
-          <a href="answers/lesson9.php" target="_blank" class="text-danger">Check out how our new file looked</a>
+          <a href="answers/lesson9.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>EXCELLENT!!! you just hand built your first bootstrap alerts & some progress bars. Inspect some of the elements to see exactly what Bootstrap's Css is doing to our tags!</p>
           <p>Check out more on <a href="http://getbootstrap.com/components/#alerts" target="_blank">Bootstrap Alerts</a> & <a href="http://getbootstrap.com/components/#progress" target="_blank">Bootstrap Progressbars</a>!</p>

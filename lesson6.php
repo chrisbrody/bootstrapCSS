@@ -204,7 +204,7 @@
     <!-- lesson task 1 -->
 	<div class="task">
 		<div class="task1">
-			<div class="col-md-8">
+			<div class="col-md-12">
 				<h3>Aligning buttons properly can be hard, luckily bootstraps got you covered. Time to practice your newly aquired skills!</h3>
 				<ol>
 					<li>Start by adding a new div with the class of <code>container</code>.</li>
@@ -224,7 +224,7 @@
 					<li>For your 2nd button, add a class of <code>btn btn-lg btn-info</code> and call this one Button Number Two.</li>
 				</ol>
 				<p>Open this file in your browser to test the code!</p>
-				<a href="answers/lesson6a.php" target="_blank" class="text-danger">Compare what you've built to ours</a>
+				<a href="answers/lesson6a.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
 				<br><br>
 				<p>You just hand built some more bootstrap buttons, vertical and justified!!!  <strong>Remember:</strong> Dropdowns need a class of <code>dropdown-toggle</code> and a <code>data-toggle="dropdown"</code> to make them work!</p>
 				<p>Read through <a href="http://getbootstrap.com/components/#btn-groups" target="_blank">Bootstrap Button Groups</a> to learn more about bootstrap buttons.</p>
@@ -488,7 +488,7 @@
     <!-- lesson task 2 -->
 	<div class="task">
 		<div class="task1">
-			<div class="col-md-8">
+			<div class="col-md-12">
 				<h3>Creating more variations of Bootstrap buttons should be second nature by now ;)...time to write some of your own <code>CODE</code>!</h3>
 				<ol>
 					<li>Start with a new div that has a class of <code>container</code>.</li>
@@ -504,7 +504,7 @@
 					<li>The 4th <code>li</code> should get a class of <code>divider</code>, to create a divid between your 3rd and 4th anchor links.</li>
 				</ol>
 				<p>Open this file in your browser to check out your new full-width &amp; drop up buttons!!!</p>				
-				<a href="answers/lesson6b.php" target="_blank" class="text-danger">Check out how your new file should look</a>
+				<a href="answers/lesson6b.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
 				<br><br>
 				<p>Way to go...mastering even more of bootstrap, the most wonderful css/js framework out there!</p>
 				<p>Check out <a href="http://getbootstrap.com/components/#btn-dropdowns" target="_blank">Bootstrap Button Dropdowns</a> for more on this subject!</p>
@@ -660,7 +660,7 @@
     <!-- lesson task 3 -->
 	<div class="task">
 		<div class="task1">
-			<div class="col-md-8">
+			<div class="col-md-12">
 				<h3>We Have the Ability to Create a variety of <code>inputs</code>.</h3>
 				<ol>
 					<li>Start with a new <code>contianer-fluid</code> and <code>row</code> divs</li>
@@ -672,7 +672,7 @@
 					<li>Add another Input in your <code>col-xs-7 col-md-6</code> div with <code>type="date"</code> attribute, and a <code>class="form-control"</code>.</li>
 				</ol>
 				<p>Open this file in your browser to see how good out inputs look...<code>Be Aware:</code> Not all inputs are compatible with all browsers, Go to: <a href="http://www.w3schools.com/html/html5_form_input_types.asp" target="_blank">HTML5 Inputs</a> for a current list of all inputs and which browsers they work on.  If you can't use some of your new inputs try switching browsers based on your helpful link.</p>
-				<a href="answers/lesson6c.php" target="_blank" class="text-danger">Check out how your new file should look</a>
+				<a href="answers/lesson6c.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
 				<br><br>
 				<p>EXCELLENT JOB!!! building bootstrapified inputs, pretty easy just adding a class to any input!</p>
 				<p>Check out <a href="http://getbootstrap.com/components/#input-groups" target="_blank">Bootstrap Input Groups</a> to learn even more on inputs!</p>

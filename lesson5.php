@@ -187,7 +187,7 @@
     <!-- lesson task -->
 	<div class="task">
 		<div class="task1">
-			<div class="col-md-8">
+			<div class="col-md-12">
 				<h3>Creating buttons and adjusting the look of your images is a breeze now. Time to practice what you've learned.</h3>
 				<ol>
 					<li>Creating 2 new divs, one with a class of <code>container-fluid</code>, and one with a class of <code>container</code>.</li>
@@ -208,7 +208,7 @@
 					<li>On your 3rd <code>img</code>, add a class of <code>img-thumbnail</code>, to create a thumbnail feel around your Image.</li>
 				</ol>
 				<p>Open this file in your browser to see what you just did!</p>
-				<a href="answers/lesson5.php" target="_blank" class="text-danger">Check out how your new file should look</a>
+				<a href="answers/lesson5.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
 				<br><br>
 				<p>EXCELLENT!!! Everyone loves nice buttons and images! Inspect some of the elements to see what Bootstrap's Css is doing to your tags!</p>
 				<p>Take a look at <a href="http://getbootstrap.com/css/#buttons" target="_blank">Bootstrap Buttons</a> &amp; <a href="http://getbootstrap.com/css/#images" target="_blank">Bootstrap Images</a> to learn even more about editing bootstrap buttons and images</p>

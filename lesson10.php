@@ -202,7 +202,7 @@
     <!-- lesson task -->
     <div class="task">
       <div class="task1">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <h3>Adding Jumbotrons, Page Headers & Thumbnails to any website is a breeze now...so lets write some more of your own <code>CODE</code> to master these!</h3>
           <p class="lead">Open your project folder we have been using the past few days</p>
           <ol>
@@ -222,7 +222,7 @@
             <li>Give the 1st anchor a class of <code>btn btn-success</code> & the 2nd anchor a class of <code>btn btn-danger</code>.</li>
           </ol>
           <p>Open this file in your browser to see your Thumbs, Page-header &amp; JUMBOTRON!</p>
-          <a href="answers/lesson10.php" target="_blank" class="text-danger">Compare yours to ours</a>
+          <a href="answers/lesson10.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Jumbotrons, Thumbnails & Page Headers are great Bootstrap CSS elements that you can utilize anytime now!</p>
           <p>Check out <a href="http://getbootstrap.com/components/#page-header" target="_blank">Bootstrap Page Headers</a>, <a href="http://getbootstrap.com/components/#thumbnails" target="_blank">Bootstrap Thumbnails</a> & <a href="http://getbootstrap.com/components/#jumbotron" target="_blank">Bootstrap's Jumbotrons</a> to learn even more!</p>

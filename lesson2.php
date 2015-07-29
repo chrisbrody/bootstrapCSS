@@ -15,9 +15,9 @@
 	<!-- containers -->
     <div class="containers">
     	<div class="">
-			<h2>CONTAINERS</h2>
-			<p>Bootstrap requires a containing element to wrap site content and house our grid system. You may choose one of two containers to use in your projects. Note that, due to padding and more, neither container is nestable.</p>
-			<p><strong>Use the .container class for a responsive fixed width container.</strong></p>
+			<h2>CONTAINERS &amp; CONTAINER-FLUID</h2>
+			<p>Bootstrap requires a containing element to wrap site content and house our grid system. You may choose one of two containers to use in your projects.</p>
+			<p><strong>Use the <code>.container</code> class for a responsive fixed width container.</strong></p>
 			<div class="well well-sm">
 				<span class="div_color">&lt;div</span> 
 				<span class="class_color">class=</span><span class="container_color">"container"</span><span class="div_color">&gt;</span>
@@ -36,7 +36,7 @@
 				<br>
 				<span class="div_color">&lt;/div&gt;</span>
 			</div>
-			<p><strong>Use the .container-fluid class for a full width container, spanning the entire width of your viewport.</strong></p>
+			<p><strong>Use the <code>.container-fluid</code> class for a full width container, spanning the entire width of your viewport.</strong></p>
 			<div class="well well-sm">
 				<span class="div_color">&lt;div</span> 
 				<span class="class_color">class=</span><span class="container_color">"container-fluid"</span><span class="div_color">&gt;</span>
@@ -64,14 +64,14 @@
     		<h2>Introduction</h2>
     		
     		<p>Grid systems are used for creating page layouts through a series of rows and columns that house your content. Here's how the Bootstrap grid system works:</p>
-		    <ul>
-		    	<li class="text-primary">Rows must be placed within a <code>.container</code> (fixed-width) or <code>.container-fluid</code> (full-width) for proper alignment and padding.</li>
-		    	<li class="text-success">Use rows to create horizontal groups of columns.</li>
-		    	<li class="text-warning">Content should be placed within columns, and only columns may be immediate children of rows.</li>
-		    	<li class="text-info">Predefined grid classes like <code>.row</code> and <code>.col-xs-4</code> are available for quickly making grid layouts.</li>
-		    	<li class="text-muted">Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three <code>.col-xs-4</code>.</li>
-		    	<li class="text-danger">If more than 12 columns are placed within a single row, each group of extra columns will, as one unit, wrap onto a new line.</li>
-		    	<li class="text-primary">Grid classes apply to devices with screen widths greater than or equal to the breakpoint sizes, and override grid classes targeted at smaller devices. Applying any <code>.col-md-</code> class to an element will not only affect its styling on medium devices but also on large devices if a <code>.col-lg-</code> class is not present.</li>
+		    <ul id="gridIntro">
+		    	<li>Rows must be placed within a <code>.container</code> (fixed-width) or <code>.container-fluid</code> (full-width) for proper alignment and padding.</li>
+		    	<li>Use rows to create horizontal groups of columns.</li>
+		    	<li>Content should be placed within columns, and only columns may be immediate children of rows.</li>
+		    	<li>Predefined grid classes like <code>.row</code> and <code>.col-xs-4</code> are available for quickly making grid layouts.</li>
+		    	<li>Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three <code>.col-xs-4</code>.</li>
+		    	<li>If more than 12 columns are placed within a single row, each group of extra columns will, as one unit, wrap onto a new line.</li>
+		    	<li>Grid classes apply to devices with screen widths greater than or equal to the breakpoint sizes, and override grid classes targeted at smaller devices. Applying any <code>.col-md-</code> class to an element will not only affect its styling on medium devices but also on large devices if a <code>.col-lg-</code> class is not present.</li>
 		    </ul>
 		</div>
 		<div class="col-xs-12 col-md-6">
@@ -427,9 +427,9 @@
 	<!-- lesson task -->
 	<div class="task">
 		<div class="task1">
-			<div class="col-md-8">
+			<div class="col-md-12">
 				<h3>Now that you understand the grid a bit more...lets dig to some code, to solidify what you learned!</h3>
-				<p class="lead">Start with Folder called BootstrapTest, add an index.html and main.css file, lastly add the cdn to Bootstrap CSS from lesson 1</p>
+				<p class="lead">Create a Folder called BootstrapTest, add an index.html and main.css file, lastly add the cdn to Bootstrap CSS from lesson 1</p>
 				<ol>
 					<li>Start by adding either a <code>container</code> or <code>container-fluid</code> to a div tag after the opening <code>body</code> tag</li>
 					<li>Inside this div, add a <code>row</code> class to a new <code>div</code> tag</li>
@@ -437,12 +437,12 @@
 					<li>Create an <code>h1</code> tag and a <code>p</code> tag inside this <code>div</code>. Use <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a> to fill these two tags in with content</li>
 					<li>Create 3 new, seperate divs after the closing 3rd div, add with the following grid classes <code>col-xs-12 col-sm-6 col-md-4</code></li>
 					<li>Also add a few html elements inside each new div, a <code>h3</code>, <code>p class="lead"</code> &amp; <code>h6</code></li>
-					<li>Again using <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a> again, fill these 9 new HTML tags with different amounts of text.</li>
+					<li>Again using <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a> again, fill these 9 new HTML tags with different amounts of text</li>
 				</ol>
 				<p>Open this new index file in you browser, and try resizing the browser. You should notice alot of stacking effects going on.</p>
 				<a href="answers/lesson2.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
 				<br><br>
-				<p>GREAT JOB!!! you just hand built your first bootstrap grid, positioning will be a breeze from here on out, using our NEW 12 Column Grid System.</p>
+				<p>GREAT JOB!!! you just hand built your first bootstrap grid layout, positioning will be a breeze from here on out, using our NEW 12 Column Grid System!</p>
 				<p>Check out <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap Grid</a> for even more in-depth talk about the GRID</p>
 				<div class="next1">
 					<a href="#tab3" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Helper lasses &amp; Responsive utilities <i class="fa fa-2x fa-child"></i></a>

@@ -138,7 +138,7 @@ ol.course_overview_lessons li {
     content: counter(lesson, decimal);
     font-size: 20px;
     margin: -0.142857rem 0.714286rem 0.0714286rem -2.85714rem;
-    padding: 0.4em 0.6em;
+    padding: 0.3em 0.6em;
     color: #FFFFFF;
     transition: all 0.3s ease-in-out;
 }
@@ -265,6 +265,12 @@ a.thumbnail {
 /*=================================================
 					Lesson 2
 =================================================*/
+ul#gridIntro {
+	padding:20 5px;
+}
+ul#gridIntro li{
+	padding: 7px 0;
+}
 .div_color,
 .nt {
 	color:#2f6f9f;

@@ -46,7 +46,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <img src="../img/answer2.jpg" width="100%">
+          <img src="../img/answer2.jpg">
         </div>
       </div>      
     </div>

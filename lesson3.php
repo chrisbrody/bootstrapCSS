@@ -174,16 +174,6 @@
 			. They are only available for block level toggling.
 			</p>
 			<p>
-			<code>.hide</code>
-			is available, but it does not always affect screen readers and is
-			<strong>deprecated</strong>
-			as of v3.0.1. Use
-			<code>.hidden</code>
-			or
-			<code>.sr-only</code>
-			instead.
-			</p>
-			<p>
 			Furthermore,
 			<code>.invisible</code>
 			can be used to toggle only the visibility of an element, meaning its
@@ -374,22 +364,22 @@
 	<!-- lesson task -->
 	<div class="task">
 		<div class="task1">
-			<div class="col-md-8">
+			<div class="col-md-12">
 				<h3>Helper classes &amp; Responsive classes come in handy!</h3>
 				<p class="lead">Lets open our project folder again in sublime.</p>
 				<ol>
-					<li>Start with a new <code>.container-fluid</code> for first div after the <code>body</code> again.</li>
-					<li>Next add a class of <code>row</code> to our next <code>div</code></li>
-					<li>Create 3 new divs with varying columns <code>col-xs-12 col-md-6</code>, <code>col-xs-6 col-md-6</code> and <code>col-xs-6 col-md-12</code></li>
-					<li>Create an <code>h1</code> tag, an <code>h3</code> tag and a <code>p</code> tag in each <code>div</code> and using <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a> fill these tags in with dummy text.</li>
+					<li>Create a new div after lesson 2 stuff, add a class <code>.container-fluid</code> to this new div</li>
+					<li>Next add a class of <code>row</code> to a <code>div</code> that you create inside your <code>continer-fluid</code></li>
+					<li>Create 3 new divs inside here, with varying column classe: <code>col-xs-12 col-md-6</code>, <code>col-xs-6 col-md-6</code> and <code>col-xs-6 col-md-12</code></li>
+					<li>Inside each and a <code>h1</code> tag, a <code>h3</code> tag and a <code>p</code> tag and using <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a> fill these tags in with dummy text</li>
 					<li>In our 1st column div set the h1 to have a class of <code>text-primary</code> &amp; <code>hidden-xs</code>, attach a class of <code>text-danger</code> &amp; <code>hidden-md</code> to our h3, and finally <code>bg-info</code> to our p</li>
 					<li>In our 2nd column div add the class of <code>bg-danger</code> &amp; <code>hidden-md</code> to our h1, attach a class of <code>text-warning</code> &amp; <code>hidden-md</code> to our h3, and a <code>text-info</code> &amp; <code>hidden-xs</code> to the p tag</li>
-					<li>In our final div set our h1 to have a class of <code>bg-info</code>, a class of <code>text-muted</code> for our h3 and <code>bg-success</code> &amp; <code>visible-md</code> to our p tag</li>
+					<li>In our 3rd and final column div set our h1 to have a class of <code>bg-info</code>, a class of <code>text-muted</code> &amp; <code>hidden-md</code> for our h3 and <code>bg-success</code> &amp; <code>visible-md</code> to our p tag</li>
 				</ol>
 				<p>Open this new file in our browser, and try resizing the browser. You should notice alot of stuff disappearing and appearing like MAGIC! You can officially do magic. CONGRATULATIONS</p>
-				<a href="answers/lesson3.php" target="_blank" class="text-danger">Check out how our version looks</a>
+				<a href="answers/lesson3.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
 				<br><br>
-				<p>GOOD JOB!!! You now have a firmer grasp on how to use these helper and responsive classes.</p>
+				<p>GOOD JOB!!! You now have experience using Bootstrap helper and responsive classes.</p>
 				<p>Check out <a href="http://getbootstrap.com/css/#helper-classes" target="_blank">Bootstrap Helper classes</a> &amp; <a href="http://getbootstrap.com/css/#responsive-utilities" target="_blank">Bootstrap Responsive</a> for a look at a few more of these classes that bootstrap provides.</p>
 				<div class="next1">
 					<a href="#tab4" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Tables &amp; Forms <i class="fa fa-2x fa-child"></i></a>

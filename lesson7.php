@@ -124,7 +124,7 @@
 	<!-- lesson task 1 -->
     <div class="task">
       <div class="task1">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <h3>Lets Create a few nav-tabs that will work in mere seconds!</h3>
           <p class="lead">Open our project folder we have been using the past few days</p>
           <ol>
@@ -139,7 +139,7 @@
           	<li>Last but certainly not least, Actually probably the most important thing to make these work is adding our <code>data-toggle="tab"</code> to all of our anchor tags in our <code>ul</code>. With this, browsers will now know to toggle between tabs!</li>
           </ol>
           <p>Open this file in our browser to see the magic you just made!</p>
-          <a href="answers/lesson7a.php" target="_blank" class="text-danger">Check out how our new file should look</a>
+          <a href="answers/lesson7a.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>AMAZING!!! Tabs are a very difficult concept to wrap our heads around, Way to get through it with ease!</p>
           <p>Check out more on <a href="http://getbootstrap.com/components/#nav" target="_blank">Bootstrap Navs</a></p>
@@ -488,7 +488,7 @@
 	<!-- lesson task 2 -->
     <div class="task">
       <div class="task1">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <h3>Time to build our own Bootstrap navigation that will collapse on smaller viewports!</h3>
           <p class="lead">Open our project folder we have been using the past few days</p>
           <ol>
@@ -505,7 +505,7 @@
           	<li>Create at least three <code>li</code> tags with <code>a</code>'s inside. set our 1st <code>li</code> class to active. And Last we will name our 6 links whatever you would like i.e. Home, Profile, Link 1, Link 2.</li>
           </ol>
           <p>Open this file in our browser to see what we just did!</p>
-          <a href="answers/lesson7b.php" target="_blank" class="text-danger">Check out how our new file looks</a>
+          <a href="answers/lesson7b.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Great Job. Navigation is essential in all websites and webapps, With Bootstrap all our worries can be put at ease!</p>
           <p>More on <a href="http://getbootstrap.com/components/#navbar" target="_blank">Bootstrap Navigation Bars</a> can be found here!</p>
@@ -762,7 +762,7 @@
 	<!-- lesson task 3 -->
     <div class="task">
       <div class="task1">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <h3>Woot!!! More Tools To Make Navigation Easier!!</h3>
           <p class="lead">Open our project folder we have been using the past few days</p>
           <ol>
@@ -778,7 +778,7 @@
           	<li>Between our 1st anchor start with <code>&larr ; Older</code> again remove the space between the last r and ; to create a arrow left, Finally between our 2nd anchor start with <code>&rarr ; Newer</code> again remove the space between the last r and ; to create a arrow right</li>
           </ol>
           <p>Open this file in our browser to see check our our new creations!</p>
-          <a href="answers/lesson7c.php" target="_blank" class="text-danger">Check out how our new file should look</a>
+          <a href="answers/lesson7c.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Great Job working with Bootstrap breadcrumbs & paginations</p>
           <p>Check out more on <a href="http://getbootstrap.com/components/#breadcrumbs" target="_blank">Bootstrap Breadcrumbs</a>, <a href="http://getbootstrap.com/components/#pagination" target="_blank">Bootstrap Pagination</a> & <a href="http://getbootstrap.com/components/#pagination-pager" target="_blank">Bootstrap Pagers</a>!</p>

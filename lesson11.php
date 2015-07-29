@@ -448,7 +448,7 @@
     <!-- lesson task 11b-->
     <div class="task">
       <div class="task1">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <h3>Creating buttons and adjusting the look of your images is a breeze now...so lets write some more of your own <code>CODE</code>.</h3>
           <ol>
             <li>This time we will add on to what we did with Bootstrap Wells & Panels. Lets add a <code>ul</code> after your 1st <code>h2</code> inside your <code>well-sm</code> div.</li>
@@ -466,7 +466,7 @@
             <li>To your 4th <code>li</code> add a class of <code>list-group-item-warning</code> & the 5th anchor another class of <code>list-group-item-danger</code>.</li>
           </ol>
           <p>Open this file in our browser to see what we just did!</p>
-          <a href="answers/lesson11b.php" target="_blank" class="text-danger">Compare what you've built to ours</a>
+          <a href="answers/lesson11b.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>WooHoo! You can make really nice looking list-groups that can link if you want them too! A nice addition I must say Bootstrap!</p>
           <p>Learn more about <a href="http://getbootstrap.com/components/#list-group" target="_blank">Bootstrap List Groups</a>!</p>

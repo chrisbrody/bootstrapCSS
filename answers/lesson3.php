@@ -22,7 +22,7 @@
   </head>
   <body>
     
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 col-md-6">
             <h1 class="text-primary hidden-xs">Lorem ipsum dolor sit amet</h1>

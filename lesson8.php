@@ -149,7 +149,7 @@
     <!-- lesson task -->
     <div class="task">
       <div class="task1">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <h3>Lets Jump right into writing some <code>CODE</code> to make some labels & badges.</h3>
           <p class="lead">Open our project folder we have been using the past few days</p>
           <ol>
@@ -170,7 +170,7 @@
             <li>Finally Label ou Nav items, on the next line after each span, designate names i.e. Home, Profile, Email, Contacts.</li>
           </ol>
           <p>Open this file in our browser to see what we just did!</p>          
-          <a href="answers/lesson8.php" target="_blank" class="text-danger">Check out how our new file should look</a>
+          <a href="answers/lesson8.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>EXCELLENT!!! We just built some bootstrap sweet labels & badges, those will come in handy down the road!</p>
           <p>Check out <a href="http://getbootstrap.com/components/#labels" target="_blank">Bootstrap Labels</a> & <a href="http://getbootstrap.com/components/#badges" target="_blank">Bootstrap Badges</a> to learn even more!</p>

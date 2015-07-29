@@ -25,7 +25,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-8">
+        <div class="col-xs-8 col-xs-offset-2">
           <table class="table table-striped table-borderd table-hover table-condensed">
             <thead>
               <tr class="success">
@@ -55,9 +55,10 @@
         </div>
       </div>
     </div>
-
-    <div class="col-md-12">
-      <img src="../img/answer4a.jpg">
+    <div class="container">
+      <div class="row">
+        <img src="../img/answer4a.jpg">
+      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
