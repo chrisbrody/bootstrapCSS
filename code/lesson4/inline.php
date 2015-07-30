@@ -1,5 +1,5 @@
 <!-- start inline input -->
-<br>
+<!-- <br> -->
 <span class="div_color">&lt;form</span> <span class="class_color">class=</span><span class="container_color">"form-inline"</span> <span class="class_color">role=</span><span class="container_color">"form"</span><span class="div_color">&gt;</span>
 <br>
 <!-- start email -->

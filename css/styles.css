@@ -1,3 +1,15 @@
+::-webkit-scrollbar {
+    width: 10px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    background-color: #000;
+} 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background-color: #FFF;
+}
 html, body {
 	height: 100%;
 }
@@ -43,7 +55,8 @@ a:hover {
 	left:21%;
 	color: #FFF;
 	cursor: pointer;
-	transition: color .2s ease-in-out;
+	-webkit-transition: color .2s ease-in-out;
+	        transition: color .2s ease-in-out;
 }
 #sidebar > a:hover,
 #sidebar > a:focus {
@@ -60,11 +73,13 @@ a:hover {
 }
 .primary_logo a {
 	color: #FFF;
-	transition: color .3s ease-in-out;
+	-webkit-transition: color .3s ease-in-out;
+	        transition: color .3s ease-in-out;
 }
 nav ul.course_materials li a {
 	color: #FFF;
-	transition: color .3s ease-in-out;
+	-webkit-transition: color .3s ease-in-out;
+	        transition: color .3s ease-in-out;
 }
 .primary_logo a:hover,
 nav ul.course_materials li a:hover {
@@ -124,9 +139,11 @@ ol.course_overview_lessons li {
     padding-left: 25%;
 }
 .course_overview:first-child {
+    padding-right: 17px;
     padding-right: 1.07143rem;
 }
 .course_overview:last-child {
+    padding-left: 17px;
     padding-left: 1.07143rem;
 }
 .course_overview_lessons_2 {
@@ -137,10 +154,12 @@ ol.course_overview_lessons li {
     border-radius: 50%;
     content: counter(lesson, decimal);
     font-size: 20px;
+    margin: -2px 11px 1px -45px;
     margin: -0.142857rem 0.714286rem 0.0714286rem -2.85714rem;
     padding: 0.3em 0.6em;
     color: #FFFFFF;
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
 }
 .course_overview_lessons a.tab_circle:before {	
 	padding:0.3em;
@@ -149,7 +168,7 @@ ol.course_overview_lessons li {
 	background-color: #1abc9c;
 }
 .course_overview_lessons a {
-    color: #666666;
+    color: #665;
 }
 .course_overview_lessons a:hover {
     color: rgb(46, 50, 54);
@@ -160,7 +179,8 @@ ol.course_overview_lessons li {
 	background-color: rgb(46, 50, 54);
     border-color: rgb(37, 40, 43);
     border-radius: 0;
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
 }
 .start_button:hover,
 .start_button:focus {	
@@ -172,7 +192,8 @@ ol.course_overview_lessons li {
 	background-color: rgb(46, 50, 54);
     border-color: rgb(37, 40, 43);
     border-radius: 0;    
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;    
+            transition: all 0.3s ease-in-out;
 }
 .btn-code:hover,
 .btn-code:focus {
@@ -186,7 +207,8 @@ ol.course_overview_lessons li {
 	background-color: rgb(26, 188, 156);
     border-color: rgb(23, 169, 140);
     border-radius: 0;    
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;    
+            transition: all 0.3s ease-in-out;
 }
 .btn-task:hover,
 .btn-task:focus {
@@ -385,6 +407,7 @@ ul#gridIntro li{
 #button_drops{
 	display: none;
 }
+
 /*=================================================
 					Lesson 10
 =================================================*/
@@ -402,7 +425,8 @@ ul#gridIntro li{
 .glyphicons li {
     font-size: 12px;
     width: 12.5%;
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
 }
 .glyphicons li {
     background-color: #f9f9f9;
@@ -494,6 +518,9 @@ ul#gridIntro li{
     }
     #main_content {
     	padding-top: 10px;
+	}
+	#sidebar ul.course_materials h4 {
+		font-size: 14px;
 	}
 }
 

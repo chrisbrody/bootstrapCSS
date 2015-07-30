@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="example_color">&lt;!-- Justified buttons--&gt;</span>
 <br>
 <span class="div_color">&lt;div</span>

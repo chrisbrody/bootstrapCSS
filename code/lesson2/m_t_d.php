@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="div_color">&lt;div</span> <span class="class_color">class=</span><span class="container_color">"row"</span><span class="div_color">&gt;</span>
 <br>
 <span class="div_color form_padding">&lt;div</span> <span class="class_color">class=</span><span class="container_color">"col-xs-12 col-sm-6 col-md-8"</span><span class="div_color">&gt;</span><span class="content_color">.col-xs-12 .col-sm-6 .col-md-8</span><span class="div_color">&lt;/div&gt;</span>

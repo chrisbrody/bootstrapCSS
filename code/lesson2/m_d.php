@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="example_color">&lt;!-- Stack the columns on mobile by making one full-width and the other half-width --&gt;</span>
 <br>
 <span class="div_color">&lt;div</span> <span class="class_color">class=</span><span class="container_color">"row"</span><span class="div_color">&gt;</span>

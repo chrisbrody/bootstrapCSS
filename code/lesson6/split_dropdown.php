@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="example_color">&lt;!-- Split button --&gt;</span>
 <br>
 <span class="div_color">&lt;div</span> <span class="class_color">class=</span><span class="container_color">"btn-group"</span><span class="div_color">&gt;</span>

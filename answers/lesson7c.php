@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Codify Academy's Learning Bootstrap</title>
+    <link rel="shortcut icon" href="../favicon.ico">
     <meta charset="UTF-8">
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -55,8 +56,12 @@
 
  
     <!-- image answer -->
-    <div class="col-md-12">
-      <img src="../img/answer7c.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="../img/answer7c.jpg">
+        </div>
+      </div>
     </div>
 
 

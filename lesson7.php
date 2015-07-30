@@ -3,13 +3,13 @@
 
     <div class="lesson_title">
       <h4>Lesson 7</h4>
-      <h1>Navbars, Breadcrumbs and Pagination</h1>
+      <h1>Navbars, Breadcrumbs &amp; Pagination</h1>
     </div>
 
     <!-- Navs -->
    	<div class="navs">
    		<h2>Navs</h2>
-   		<p class="lead">
+   		<p>
 		Navs available in Bootstrap have shared markup, starting with the base
 		<code>.nav</code>
 		class, as well as shared states. Swap modifier classes to switch between each style.
@@ -121,24 +121,34 @@
 
 	<div class="row"></div>
 
-	<!-- lesson task 1 -->
+	<!-- task 7a -->
     <div class="task">
       <div class="task1">
         <div class="col-md-12">
-          <h3>Lets Create a few nav-tabs that will work in mere seconds!</h3>
-          <p class="lead">Open our project folder we have been using the past few days</p>
+          <h3>Time to create a few sweet nav-tabs that will work in mere seconds!</h3>
+          <p class="lead">Open your project folder we have been using the past few days</p>
           <ol>
-          	<li>Start with a new <code>container</code> div, create a <code>ul</code> with a class of <code>nav nav-tabs nav-justified</code> &amp; and a <code> role="tablist"</code> attribute.</li>
-          	<li>Add 3 li tags with anchor tags inside each one. Set our 1st li class to <code>active</code>. Name each anchor i.e. Tab One, Tab Two &amp; Tab Three.</li>
-          	<li>Outside of our <code>ul</code> create a new div with a class of <code>tab-content</code>.  Inside 3 more divs with a class of <code>tab-pane</code>, since we have 3 list items we will link to above.  To the 1st <code>tab-pane</code> add an additional class of active, to correlate with our active<code>li</code>.</li>
-          	<li>Set each tap-pane div's id to <code>id="tab1"</code>, <code>id="tab2"</code> &amp; <code>id="tab3"</code> in order, then in the anchor href's above add the id #tab1, #tab2, #tab3, which will correlate the tabs: 
-          		<code><br>&lt;a href="#tab1"&gt; = &lt;div id="tab1" class="tab-pane active"&gt;<br> &lt;a href="#tab2"&gt; = &lt;div id="tab2" class="tab-pane"&gt; <br> &lt;a href="#tab3"&gt; = &lt;div id="tab3" class="tab-pane"&gt;</code>
+          	<li>Start a new <code>div</code> tag outside all the past lessons work, with a class attribute equal to <code>container</code> or <code>container-fluid</code> create a <code>ul</code> tag inside, with the classes of <code>nav</code>, <code>nav-tabs</code> &amp; <code>nav-justified</code> and a role attribute equal to <code>tablist</code></li>
+          	<li>Inside add 3 <code>li</code> tags, each with an <code>a</code> tags inside. Give your 1st <code>li</code> tag a class equal to <code>active</code>. Name each anchor i.e. Tab One, Tab Two &amp; Tab Three - <strong>the content between the tags</strong></li>
+          	<li>Outside of your <code>ul</code> create a new div below, with a class of <code>tab-content</code>.  Inside add 3 more <code>div</code> tags, each with a class of <code>tab-pane</code>, since we have 3 list items we will link to above.  To the 1st <code>tab-pane</code> div add an additional class of active, to correlate with your active<code>li</code> tag</li>
+          	<li>Set each tap-pane div's id attribute to <code>id="tab1"</code>, <code>id="tab2"</code> &amp; <code>id="tab3"</code>, one on each in order, then in the anchor href's above add the id #tab1, #tab2, #tab3, which will correlate the tabs: 
+          		<code><br>&lt;a href="#tab1"&gt; relates to &lt;div id="tab1" class="tab-pane active"&gt;<br> &lt;a href="#tab2"&gt; relates to &lt;div id="tab2" class="tab-pane"&gt; <br> &lt;a href="#tab3"&gt; relates to &lt;div id="tab3" class="tab-pane"&gt;</code>
           	</li>
-          	<li>Finally Lets add some content into our tabs and then check it out.  Add a <code>h1 &amp; p</code> to our first div with a class of <code>tab-pane active</code>, a <code>h2 & p</code> to our second div with a class of <code>tab-pane</code> & a <code>h3 & p</code> to our third div with a class of <code>tab-pane</code>.</li>
-          	<li>Fill out our new HTML tags using <a href="" target="_blank">Lorem Lipsum</a></li>
-          	<li>Last but certainly not least, Actually probably the most important thing to make these work is adding our <code>data-toggle="tab"</code> to all of our anchor tags in our <code>ul</code>. With this, browsers will now know to toggle between tabs!</li>
+          	<li>Finally add content into your tabs and then check it out.  Add a <code>h1</code> &amp; <code>p</code> tags, to your first div with a classes of <code>tab-pane active</code>, add a <code>h2</code> &amp; <code>p</code> tag, to your second div with a class of <code>tab-pane</code> &amp; a <code>h3</code> &amp; <code>p</code> tag, to your third div with a class of <code>tab-pane</code></li>
+          	<li>Fill out your new HTML tags using <a href="" target="_blank">Lorem Lipsum</a></li>
+          	<li>Last but certainly not least, Actually probably the most important thing to make these work is adding your <code>data-toggle="tab"</code> to all of your anchor tags in your <code>ul</code>. With this, browsers will now know to toggle between tabs!</li>
+          	<li class=""><strong>VERY IMPORTANT</strong> - For this to work you must copy &amp; paste 2 <code>script</code> tags right before your closing <code>body</code> tag
+          		<ul>
+          			<li>
+          				<a href="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" target="_blank">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"&gt;&lt;/script&gt;</a> - jQuery is required to use bootstrap JS - paste this above Bootstrap
+          			</li>
+          			<li>
+          				<a href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" target="_blank">&lt;script type='text/javascript' src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"&gt;&lt;/script&gt;</a> - Bootstrap JS is similar to CSS, just a script instead of a link - paste this below jQuery
+          			</li>
+          		</ul>
+          	</li>
           </ol>
-          <p>Open this file in our browser to see the magic you just made!</p>
+          <p>Open this file in your browser to see the magic you just made!</p>
           <a href="answers/lesson7a.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>AMAZING!!! Tabs are a very difficult concept to wrap our heads around, Way to get through it with ease!</p>
@@ -485,26 +495,26 @@
 
 	<div class="row"></div>
 
-	<!-- lesson task 2 -->
+	<!-- task 7b -->
     <div class="task">
       <div class="task1">
         <div class="col-md-12">
-          <h3>Time to build our own Bootstrap navigation that will collapse on smaller viewports!</h3>
-          <p class="lead">Open our project folder we have been using the past few days</p>
+          <h3>Time to build your own Bootstrap navigation that will collapse on smaller viewports!</h3>
+          <p class="lead">Open your project folder we have been using the past lessons</p>
           <ol>
-          	<li>Lets start at the top of our index.html just below our opening <code>body</code> tag. Create two new <code>nav</code> tags, one will be for a fixed-top nav and the other a fixed-bottom navbar.</li>
-          	<li>Add a class of <code>navbar navbar-default navbar-fixed-top</code> and a role of <code>navigation</code> to our 1st nav tag.  For our second nav tag Add a class of <code>navbar navbar-inverse navbar-fixed-bottom</code> and a role of <code>navigation</code>.</li>
-          	<li>Create two new div's inside each <code>nav</code> the 1st with a class of <code>navbar-header</code> & and 2nd with the class of <code>collapse</code> & <code>navbar-collapse</code>.</li>
-          	<li>Add a <code>button</code> and <code>a</code> tag inside each <code>&lt;div class="navbar-header"&gt;...&lt;/div&gt;</code> the button will serve as our button that appears when our nav collapses at smaller screens, & our <code>a</code> will serve as our Brand Name!</li>
-          	<li>Give our 2 anchor tags a class of <code>navbar-brand</code> and name them Brand Name, between the opening and closing tags.</li>
-          	<li>To our buttons we need to add a class of <code>navbar-toggle</code>, set its <code>type="button"</code> and to make them actually work we need to add <code>data-toggle="collapse"</code> and finally set its target <code>data-target="#"</code>, we will match this later to our next closest div!</li>
-          	<li>We need to add 4 span's inside our button tags, the 1st with a class of <code>sr-only</code> and label it Toggle navigation in between the open and close span tag.</li>
-          	<li>To out 2nd, 3rd & 4th span we can set their class to <code>icon-bar</code>, doing this will give us a nice looking toggle button when we are view at smaller viewports.</li>
-          	<li>So we have our collapse button set no lets match it to our correct div, we do this by setting our id's on our <code>&lt;div class="collapse navbar-collapse"&gt;</code> to anything i.e. nav-collapse-1, nav-collapse-2.  We need to copy these names into the respective <code>data-target="#"</code>, Ensure the "#" is kept, remember we are calling an ID here so we need the #.</li>
-          	<li>Finally we can create our actual Nav Items. Start with a <code>ul</code> with a class of <code>nav navbar-nav</code>inside our 2 <code>navbar-collapse</code> divs.</li>
-          	<li>Create at least three <code>li</code> tags with <code>a</code>'s inside. set our 1st <code>li</code> class to active. And Last we will name our 6 links whatever you would like i.e. Home, Profile, Link 1, Link 2.</li>
+          	<li>Lets start at the top of your index.html just below your opening <code>body</code> tag. Create two new <code>nav</code> tags, one will be for a fixed-top nav and the other a fixed-bottom navbar.</li>
+          	<li>Add a classes of <code>navbar</code>, <code>navbar-default</code> &amp; <code>navbar-fixed-top</code> and a role equal to <code>navigation</code>, to your 1st nav tag.  For your second nav tag Add a classes of <code>navbar</code> <code>navbar-inverse</code> <code>navbar-fixed-bottom</code> and a role equal to <code>navigation</code></li>
+          	<li>Create two <code>div</code> tags inside each <code>nav</code> tag. Fore each, give the 1st div a class of <code>navbar-header</code> and 2nd the classes of <code>collapse</code> &amp; <code>navbar-collapse</code></li>
+          	<li>Add a <code>button</code> &amp; <code>a</code> tag inside each <code>&lt;div class="navbar-header"&gt;...&lt;/div&gt;</code> the button will serve as your button that appears when your nav collapses at smaller screens, &amp; your <code>a</code> will serve as our Brand Name!</li>
+          	<li>Give your 2 anchor tags a class of <code>navbar-brand</code> and name them Brand Name - or whatever content you want for your bran, between the opening and closing tags</li>
+          	<li>To your buttons we need to add a class of <code>navbar-toggle</code>, set its type attribute to <code>button</code> and to make them actually work we need to add <code>data-toggle="collapse"</code> as an attribute, and finally set its target <code>data-target="#"</code>, we will match this soon to your next closest div!</li>
+          	<li>Add 4 <code>span</code> tags inside both button tags, the 1st with a class of <code>sr-only</code> and the content should say - Toggle navigation, in between the open and close span tag</li>
+          	<li>To out 2nd, 3rd &amp; 4th span, set their class to <code>icon-bar</code>, doing this will give us a nice looking toggle button when we are view at smaller viewports</li>
+          	<li>So you have your collapse button set now lets match it to the correct div, do this by setting your id attributes on your <code>&lt;div class="collapse navbar-collapse"&gt;</code> to anything i.e. nav-collapse-1, nav-collapse-2.  We need to copy these names into the respective <code>data-target="#"</code> from step 6, Ensure the "#" is kept, remember we are calling an ID here so we must the #</li>
+          	<li>Finally create your actual Nav Items. Start with a <code>ul</code> with a classes of <code>nav</code> &amp; <code>navbar-nav</code> inside your 2 <code>navbar-collapse</code> div tags</li>
+          	<li>Create at least three <code>li</code> tags with an <code>a</code> tag inside. Add a class attribute of active to your 1st <code>li</code> tag. And Last we will name your 6 links or more, whatever you would like i.e. Home, Profile, Link 1, Link 2 - as content between the tags</li>
           </ol>
-          <p>Open this file in our browser to see what we just did!</p>
+          <p>Open this file in your browser to see what we just did!</p>
           <a href="answers/lesson7b.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Great Job. Navigation is essential in all websites and webapps, With Bootstrap all our worries can be put at ease!</p>
@@ -714,7 +724,7 @@
 				Aligned links
 			</h3>
 			<p>
-				Alternatively, you can align each link to the sides. <strong>Note:</strong> Create left and right arrows using <code>&laar;</code> for a Left Arrow & <code>&raar;</code> for a Right Arrow.
+				Alternatively, you can align each link to the sides. <strong>Note:</strong> Create left and right arrows using <code>&laar ;</code> for a Left Arrow &amp; <code>&raar ;</code> for a Right Arrow - <strong>minus the space between the <code>r</code> &amp; <code>;</code></strong>.
 			</p>
 			<div class="table_example">
 				<ul class="pager">
@@ -758,29 +768,29 @@
 
 	</div>
 
-	<!-- lesson task 3 -->
+	<!-- task 7c -->
     <div class="task">
       <div class="task1">
         <div class="col-md-12">
           <h3>Woot!!! More Tools To Make Navigation Easier!!</h3>
-          <p class="lead">Open our project folder we have been using the past few days</p>
+          <p class="lead">Open your index.html from the BootstrapTest folder</p>
           <ol>
-          	<li>Start with a new <code>container-fluid</code> div, with another <code>row</code> div inside</li>
-          	<li>Next lets add 3 new divs in here with a class of <code>col-xs-6 col-md-12</code> for the first, <code>col-xs-6 col-md-8</code> for the second & <code>col-xs-12 col-md-4</code> for the third.</li>
-          	<li>In our first new div we will make some bootstrap breadcrumbs, add a <code>ol</code> with a class of <code>breadcrumb</code>, add 3 li tags in here, with the 1st & 2nd getting <code>a</code> tags inside the <code>li</code>. This way we can link to our previous pages and our third is our current location.</li>
-          	<li>Give our 3rd <code>li</code> a class of <code>active</code> and finally we can name our breadcrumbs, 1st as Home, 2nd as Contact & 3rd as Business Address.</li>
-          	<li>In our 2nd new div lets create some pagination, add a <code>ul</code> with a class of <code>pagination</code>.  Lets add 7 <code>li</code> with <code>&lt;a href="#"&gt;</code> inside.</li>
-          	<li>Between our 1st <code>a</code> tag add <code>&laquo ;</code> without the space between the o & ; and the same for our 7th <code>a</code> but change it to <code>&raquo ;</code> again with out the space between the ; and the o. These will produce two nice double arrows</li>
-          	<li>Lets Number the Rest of the anchors 1 thru 5. And we have built our first bootstrap pagination!!</li>
-          	<li>On to the Final Task, building a Bootstrap Pager. Start in our 3rd div by creating a <code>ul</code> with a class of <code>pager</code>,</li>
-          	<li>Add two <code>li</code> tags with <code>&lt;a href=""&gt;...&lt;/a&gt;</code> inside each.  Give our 1st li a class of <code>previous</code> and our 2nd li a class of <code>next</code>.</li>
-          	<li>Between our 1st anchor start with <code>&larr ; Older</code> again remove the space between the last r and ; to create a arrow left, Finally between our 2nd anchor start with <code>&rarr ; Newer</code> again remove the space between the last r and ; to create a arrow right</li>
+          	<li>Start with adding a <code>div</code> tag, with a class equal to <code>container-fluid</code> or <code>container</code>, and a <code>div</code> tag with a class of <code>row</code> inside</li>
+          	<li>Next add 3 <code>div</code> tags, in here with a classes of <code>col-xs-6</code> &amp; <code>col-md-12</code> for the first, <code>col-xs-6</code> &amp; <code>col-md-8</code> for the second &amp; <code>col-xs-12</code> &amp; <code>col-md-4</code> for the third</li>
+          	<li>In your first new div we will make some bootstrap breadcrumbs, add a <code>ol</code> with a class of <code>breadcrumb</code>, add 3 li tags in here, with the 1st &amp; 2nd getting <code>a</code> tags inside the <code>li</code>. This way we can link to your previous pages and your third is your current location - so we don't need a anchor</li>
+          	<li>Give your 3rd <code>li</code> a class of <code>active</code> and finally we can name your breadcrumbs, 1st as Home, 2nd as Contact &amp; 3rd as Business Address</li>
+          	<li>In your 2nd new div lets create some pagination, add a <code>ul</code> with a class of <code>pagination</code>.  Lets add 7 <code>li</code> with <code>&lt;a href="#"&gt;</code> inside.</li>
+          	<li>Between your 1st <code>a</code> tag add <code>& laquo ;</code> without any spaces and the same for your last <code>a</code> but change it to <code>& raquo ;</code> again without the spaces. These will produce two nice double arrows</li>
+          	<li>Lets Number the Rest of the anchors 1 thru 5. And you will have built your first bootstrap pagination!!</li>
+          	<li>On to the Final Task, building a Bootstrap Pager. Start in your 3rd div by creating a <code>ul</code> and add a class attribute of <code>pager</code></li>
+          	<li>Add two <code>li</code> tags with <code>&lt;a href=""&gt;...&lt;/a&gt;</code> inside each.  Give your 1st li a class of <code>previous</code> and your 2nd li a class of <code>next</code>.</li>
+          	<li>Between your 1st anchor start with <code>&larr ; Older</code> again remove the spaces, Finally between your 2nd anchor start with <code>&rarr ; Newer</code> again no spaces, to create a arrow right</li>
           </ol>
-          <p>Open this file in our browser to see check our our new creations!</p>
+          <p>Open this file in your browser to see checkout your new creations!</p>
           <a href="answers/lesson7c.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
-          <p>Great Job working with Bootstrap breadcrumbs & paginations</p>
-          <p>Check out more on <a href="http://getbootstrap.com/components/#breadcrumbs" target="_blank">Bootstrap Breadcrumbs</a>, <a href="http://getbootstrap.com/components/#pagination" target="_blank">Bootstrap Pagination</a> & <a href="http://getbootstrap.com/components/#pagination-pager" target="_blank">Bootstrap Pagers</a>!</p>
+          <p>Great Job working with Bootstrap breadcrumbs &amp; paginations</p>
+          <p>Check out more on <a href="http://getbootstrap.com/components/#breadcrumbs" target="_blank">Bootstrap Breadcrumbs</a>, <a href="http://getbootstrap.com/components/#pagination" target="_blank">Bootstrap Pagination</a> &amp; <a href="http://getbootstrap.com/components/#pagination-pager" target="_blank">Bootstrap Pagers</a>!</p>
           <div class="next1">
             <a href="#tab8" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Labels &amp; Badges! <i class="fa fa-2x fa-child"></i></a>
           </div>
@@ -788,7 +798,7 @@
       </div>
       <div class="clearfix"></div>
       <div class="col-xs-12">
-        <a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Breadcrumbs & Pagination</Strong> Task Before Moving On!</a>
+        <a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Breadcrumbs &amp; Pagination</Strong> Task Before Moving On!</a>
       </div>
     </div>
   </article>

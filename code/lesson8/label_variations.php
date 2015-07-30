@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="div_color">&lt;span</span> <span class="class_color">class=</span><span class="container_color">"label label-default"</span><span class="div_color">&gt;</span><span class="content_color">Default</span><span class="div_color">&lt;/span&gt;</span>
 <br>
 <span class="div_color">&lt;span</span> <span class="class_color">class=</span><span class="container_color">"label label-primary"</span><span class="div_color">&gt;</span><span class="content_color">Primary</span><span class="div_color">&lt;/span&gt;</span>

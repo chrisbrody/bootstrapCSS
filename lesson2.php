@@ -422,9 +422,7 @@
 	
 	<div class="row"></div>
 
-	<br><br>
-
-	<!-- lesson task -->
+	<!-- task 2 -->
 	<div class="task">
 		<div class="task1">
 			<div class="col-md-12">

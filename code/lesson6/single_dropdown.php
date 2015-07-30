@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="example_color">&lt;!-- Single button --&gt;</span>
 <br>
 <span class="div_color">&lt;div</span>

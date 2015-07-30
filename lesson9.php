@@ -3,7 +3,7 @@
 
     <div class="lesson_title">
       <h4>Lesson 9</h4>
-      <h1>How to use Alerts & Progress Bars</h1>
+      <h1>How to use Alerts &amp; Progress Bars</h1>
     </div>
 
     <!-- Alerts -->
@@ -318,35 +318,34 @@
       </div>
 
 
-    <!-- lesson task -->
+    <!-- task 9 -->
     <div class="task">
       <div class="task1">
         <div class="col-md-12">
           <h3>Alerts &amp; Progress Bars are Extremely helpful, lets div right in to writing <code>CODE</code> for these!</h3>
-          <p class="lead">Open our project folder we have been using the past few days</p>
+          <p class="lead">Open your index.html file</p>
           <ol>
-            <li>Lets start with a new div with a class of <code>container</code>. No row's or grid-columns this time!</li>
-            <li>Create a div with a class of <code>alert alert-success</code>, also set its <code>role="alert"</code>.</li>
-            <li>Add some text between our div tags, something like: Well done! You successfully read this important alert message.</li>
-            <li>Excellent! 1 Bootstrap Alert quickly built! but lets make it so they can dismiss the next alert!</li>
-            <li>Start with a new div in our <code>container</code> giving it a class of <code>alert alert-warning alert-dismissible</code> and again set this alerts <code>role="alert"</code>.</li>
-            <li>Lets make this alert have the ability to be closed or "hidden" to a user, when a user clicks the X on the right hand side of our alert, to do this start by adding a button tag inside our <code>&lt;div class="alert alert-warning alert-dismissible"&gt;</code> and set the buttons' class to <code>close</code>, next set its type attribute to <code>button</code> and finally to make our alert dismiss we need to add the <code>data-dismiss="alert"</code> attribute to our button.</li>
-            <li>Next we need 2 spans inside our button, set the 1st to  have a <code>aria-hidden="true"</code> and add an <strong><code>x</code></strong> between our 1st open and close span tag.</li>
-            <li>In our second span lets set our class to <code>sr-only</code> and add the text of <strong><code>close</code></strong> in between our 2nd open and close span tags.</li>
-            <li>Now lets add some text to our alert, anything you'd like, we want to make part of our new text link to somewhere else, so wrap some of it in <code>a</code> tag, and attach a class of <code>alert-link</code> to this anchor.</li>
-            <li>Sweet Alerts are an amazing bootstrap tool! Now lets make some progress bars to show a user where they are in any process.</li>
-            <li>Lets start basic, with a div with a class of <code>progress</code>, inside add another div with a class of <code>progress-bar progress-bar-striped active</code>, to give our bar a striped and animated look!</li>
-            <li>We need to set this divs role attribute to <code>progressbar</code>, and we will add <code>aria-valuenow="85"</code>, set our min value with<code>aria-valuemin="0"</code> & our max value of our bar to <code>aria-valuemax="100"</code>. Now add inline style and set our progress bar width to 85%.</li>
-            <li>Add and Finally add a little text of 85% in between our open and closing <code>progress-bar</code> div, to have a label of 85% show on our progress bar.</li>
-            <li>Last, lets create a stacked progress bar, to begin create a new div with a class of <code>progress</code>, add 3 new divs inside all getting a class of <code>progress-bar</code> added to it, also add a class of <code>alert-parimry alert-warning alert-danger</code>, one to each div we just made.</li>
-            <li>Let make our 3 progress bars total 100% width, add <code>style="width: ;"</code> &amp; add 3 widths inside that total 100% i.e. 25%, 35%, 40%</li>
-            <li>Add 1 span inside each div with a <code>class="sr-only"</code> add text that will only be seen by screen readers i.e. 25% Complete, 35% Complete</li>
-            <li>To our last div add 2 more classes to make it striped &amp; animated <code>progress-bar-striped active</code>.</li>
+            <li>Lets start with a new <code>div</code> with a class of <code>container</code> or <code>container-fluid</code> below other lessons. No row's or grid-columns this time!</li>
+            <li>Create a <code>div</code> tag, with the classes of <code>alert</code> &amp; <code>alert-success</code>, also set the role attribute to <code>alert</code></li>
+            <li>Add some text between your div tags, something like: Well done! You successfully read this important alert message. Excellent! One Bootstrap Alert quickly built!</li>
+            <li>Add a new div in your <code>container</code> or <code>container-fluid</code>, giving it the classes of <code>alert</code>,  <code>alert-warning</code> &amp; <code>alert-dismissible</code>, again set this role equal to <code>alert</code></li>
+            <li>Lets make this alert have the ability to be closed or "hidden" to a user, when a user clicks the X on the right hand side of your alert, to do this start by adding a <code>button</code> tag inside our <code>&lt;div class="alert alert-warning alert-dismissible"&gt;</code> and set the buttons' class to <code>close</code>, next set its type attribute to <code>button</code> and finally to make your alert dismiss we need to add the <code>data-dismiss="alert"</code> attribute to your button tag</li>
+            <li>Next we need 2 spans inside your button, set the 1st to  have a <code>aria-hidden="true"</code> and add an <strong><code>x</code></strong> between your 1st open and close span tag</li>
+            <li>In your second span, set your class to <code>sr-only</code> and add the text of <strong><code>close</code></strong> in between your 2nd open and close span tag</li>
+            <li>Add some text to your alert, anything you'd like, we want to make part of your new text link to somewhere else, so wrap some of it in <code>a</code> tag, and attach a class of <code>alert-link</code> to this anchor tag</li>
+            <li>Sweet Alerts are an amazing bootstrap tool! Now lets make some progress bars to show a user where they are in any process</li>
+            <li>Lets start basic, with a <code>div</code> tag, with a class of <code>progress</code>, inside add another div with the classes of <code>progress-bar</code>,  <code>progress-bar-striped</code> &amp; <code>active</code>, to give your bar a striped and animated look!</li>
+            <li>We need to set this divs role attribute to <code>progressbar</code>, and add <code>aria-valuenow="85"</code>, set your min value with <code>aria-valuemin="0"</code> and your max value of your bar set the <code>aria-valuemax="100"</code>. Now add inline style and set your progress bar width to 85%</li>
+            <li>Add and Finally add a little text of 85% in between your open and closing <code>progress-bar</code> div, to have a label of 85% show on your progress bar</li>
+            <li>Last, lets create a stacked progress bar, to begin add a <code>div</code> with a class of <code>progress</code>, add 3 new divs inside all getting a class of <code>progress-bar</code> added to it, also add one class to each progress-bar div: <code>alert-parimry</code>,  <code>alert-warning</code> &amp; <code>alert-danger</code></li>
+            <li>Add a style attribute and set the <code>width</code> property of each, that total 100%. e.x. 25%, 35%, 40% = 100%</li>
+            <li>Add 1 <code>span</code> tag, inside each div with a <code>class="sr-only"</code> add text that will only be seen by screen readers i.e. 25% Complete, 35% Complete</li>
+            <li>To your last div add 2 more classes <code>progress-bar-striped</code> &amp; <code>active</code> to add some cool animations to your progress bars</li>
           </ol>
-          <p>Open this file in our browser to see View our new Bootstrap Alerts &amp; Progress Bars!</p>
+          <p>Open this file in your browser to view your new Bootstrap Alerts &amp; Progress Bars!</p>
           <a href="answers/lesson9.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
-          <p>EXCELLENT!!! you just hand built your first bootstrap alerts &amp; some progress bars. Inspect some of the elements to see exactly what Bootstrap's Css is doing to our tags!</p>
+          <p>EXCELLENT!!! you just hand built your first bootstrap alerts &amp; some progress bars. Inspect some of the elements to see exactly what Bootstrap's Css is doing to your tags!</p>
           <p>Check out more on <a href="http://getbootstrap.com/components/#alerts" target="_blank">Bootstrap Alerts</a> &amp; <a href="http://getbootstrap.com/components/#progress" target="_blank">Bootstrap Progressbars</a>!</p>
           <div class="next1">
             <a href="#tab10" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Headers, Thumbnails &amp; Jumbotron! <i class="fa fa-2x fa-child"></i></a>

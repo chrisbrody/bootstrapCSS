@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="example_color">&lt;!-- Drop-Up button --&gt;</span>
 <br>
 <span class="div_color">&lt;div</span> <span class="class_color">class=</span><span class="container_color">"btn-group dropup"</span><span class="div_color">&gt;</span>

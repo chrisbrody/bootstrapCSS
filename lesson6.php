@@ -9,7 +9,7 @@
     <!-- button groups -->
     <div class="More Buttons">
     	<h2>Button Groups</h2>
-    	<p class="lead">Group a series of buttons together on a single line with a div of button group class <code>.btn-group</code> surrounding the buttons.</p>
+    	<p>Group a series of buttons together on a single line with a div of button group class <code>.btn-group</code> surrounding the buttons.</p>
     	<hr>
 
     	<!-- basic  -->
@@ -208,8 +208,8 @@
 				<h3>Aligning buttons can be rough, luckily Bootstrap has you covered!</h3>
 				<p class="lead">Open your index.html from the BootstrapTest folder in sublime</p>
 				<ol>
-					<li>Start by adding a new div with the class of <code>container</code> outside everthing we've done so far</li>
-					<li>Create a <code>div</code> tag with a class of <code>row</code>, and 2 sibiling <code>div</code> tags nested inside of it, one with <code>col-xs-12</code> &amp; the other <code>col-xs-6</code></li>
+					<li>Start by adding a new div with the class attribute of <code>container</code> outside everthing we've done so far</li>
+					<li>Create a <code>div</code> tag with a class attribute of <code>row</code>, and 2 sibiling <code>div</code> tags nested inside of it, one with <code>col-xs-12</code> &amp; the other <code>col-xs-6</code></li>
 					<li>Inside your <code>col-xs-12</code> add a <code>div</code> tag with the class of <code>btn-group-vertical</code> this will make your buttons appear vertically</li>
 					<li>Add 3 <code>button</code> tags with <code>type</code> attribute equal to <code>button</code> and a <code>class</code> attribute equal to <code>btn</code></li>
 					<li>Insert whatever content you want between the opening and closing tags of each <code>button</code></li>
@@ -523,7 +523,7 @@
     <!-- more inputs -->
     <div id="inputs" class="more_inputs">
 	    <h2>Input Groups</h2>
-	    <p class="lead">
+	    <p>
 			Extend form controls by adding text or buttons before, after, or on both sides of any text-based input. Use
 			<code>.input-group</code>
 			with an
@@ -655,14 +655,14 @@
 
     </div>
 
-    <!-- lesson task 3 -->
+    <!-- task 6c -->
 	<div class="task">
 		<div class="task1">
 			<div class="col-md-12">
 				<h3>Bootstrap gives you the ability to create a variety of sweet looking <code>inputs</code>!</h3>
 				<p class="lead">Open your index.html from the BootstrapTest folder in sublime.</p>
 				<ol>
-					<li>Start with a new <code>div</code> tag, &amp; add a class attribute equal to <code>contianer-fluid</code>, add a <code>div</code> inside, give it a class of <code>row</code></li>
+					<li>Start with a new <code>div</code> tag, &amp; add a class attribute equal to <code>contianer-fluid</code>, add a <code>div</code> inside, give this a class attribute of <code>row</code></li>
 					<li>Add 2 <code>div</code> tags inside for your grid, one  with the classes of <code>col-xs-9 col-md-6</code> &amp; the other with the classes of <code>col-xs-7 col-md-6</code></li>
 					<li>In your first col-xs-9, add 2 <code>input</code> with a class attribute equal to <code>form-control</code>, give the 1st a type attribute of <code>color</code>.  Next create a <code>&lt;br&gt;</code> in between your two new inputs</li>
 					<li>Give your 2nd input a type attribute of <code>number</code> with a min attribute equal to <code>1</code> and a max attribute equal to <code>5</code></li>

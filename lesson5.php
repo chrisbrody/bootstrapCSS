@@ -184,7 +184,7 @@
     	
     </div>
 
-    <!-- lesson task -->
+    <!-- task 5 -->
 	<div class="task">
 		<div class="task1">
 			<div class="col-md-12">

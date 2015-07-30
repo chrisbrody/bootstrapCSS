@@ -3,23 +3,20 @@
 
     <div class="lesson_title">
       <h4>Lesson 12</h4>
-      <h1>Using Glyphicons & Font-Awesome</h1>
+      <h1>Using Glyphicons &amp; Font-Awesome</h1>
     </div>
-    
+    <div class="row">
+      <code>
+        <?php include('code/lesson12/basic_fa.php'); ?>
+      </code>
+    </div>
     <!-- Gylphicons -->
     <div class="glyphiconss">
       <h2>Bootstrap Glyphicons</h2>
       <hr>
       <!-- basic icons -->
-      <div class="col-md-12">
-        <div class="well well-sm">    
-          <code>
-            <?php include('code/lesson12/basic_fa.php'); ?>
-          </code>     
-        </div>
-        <h3>
-          Available Glyphs
-        </h3>
+      <div class="col-md-12">  
+        <h3>Available Glyphs</h3>
         <div class="clearfix"></div>
         <div class="glyphicons">
           <ul class="glyphicons-list">
@@ -873,7 +870,7 @@
     <!-- font awesome -->
     <div class="font_awesome">
       <h2>Font Awesome</h2>
-      <p class="lead">In addition to Bootstraps Glyphicons we can also use Font-Awesomes <strong>439</strong> Icons nearly the same way.</p>
+      <p>In addition to Bootstraps Glyphicons we can also use Font-Awesomes <strong>400+</strong> Icons nearly the same way.</p>
       <hr>
       <!-- Font Awesome CDN -->
       <div class="col-md-12">
@@ -886,7 +883,7 @@
           section of your site's HTML. 
         </p>
         <div class="table_example">
-          <code class="example_color">&lt;link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"&gt;</code>
+          <code class="example_color">&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css&gt;</code>
         </div>
       </div>
 
@@ -1510,7 +1507,7 @@
         <p>
           Use
           <code>fa-fw</code>
-          to set icons at a fixed width. Great to use when different icon widths throw off alignment. Especially useful in things like nav lists & list groups. 
+          to set icons at a fixed width. Great to use when different icon widths throw off alignment. Especially useful in things like nav lists &amp; list groups. 
         </p>
         <div class="table_example">
           <div class="list-group">
@@ -1558,7 +1555,7 @@
       <!-- Bordered & Pulled Icons -->
       <div class="col-md-12">
         <h3>
-          Bordered & Pulled Icons
+          Bordered &amp; Pulled Icons
         </h3>
         <p>
           Use
@@ -1622,7 +1619,7 @@
       <!-- Rotated & Flipped -->
       <div class="col-md-12">
         <h3>
-          Rotated & Flipped Icons
+          Rotated &amp; Flipped Icons
         </h3>
         <p>
           To arbitrarily rotate and flip icons, use the
@@ -1753,41 +1750,46 @@
       
     </div>
 
-     <!-- lesson task -->
+     <!-- task 12 -->
   <div class="task">
     <div class="task1">
       <div class="col-md-12">
         <h3>Adding in Icons to elements in your websites seems easy enough...so lets write some of your own <code>CODE</code> to prove it.</h3>
-        <p class="lead">Open your project folder we have been using the past few days</p>
+        <p class="lead">Open your index.html file we have been using the past few days</p>
         <ol>
-          <li>Lets with a new div and give it a class of <code>container-fluid</code>. Create a new button inside with a <code>type="button"</code> and class set to <code>btn btn-default btn-lg btn-block</code>.</li>
-          <li>Add a new span in your button with a class of <code>glyphicon glyphicon-refresh fa-spin</code>, add the text of "Refresh".</li>
-          <li>Create a new div with a class of <code>col-md-6 col-md-offset-3</code> add a new button inside with a <code>type="button"</code> and class of <code>btn btn-danger btn-lg btn-block</code>.</li>
-          <li>Next add a new span in your button with a class of <code>glyphicon glyphicon-cog fa-spin</code>, with the text of "Cog".</li>
-          <li>Make a new div with a class of <code>clearfix</code>, and another button below with a class of <code>btn btn-default btn-lg</code> with a type of <code>button</code>.</li> 
-          <li>Add another span inside your new button with a class of <code>glyphicon glyphicon-repeat fa-spin</code> & a text of "Repeat".</li>
-          <li>Time to create a new div with a class of <code>container</code>, inside add 3 <code>&lt;i&gt;</code> tags, a div with a class of <code>list-group</code> & 2 span tags the 1st with a class of <code>fa-stack fa-lg fa-4x</code> and the 2nd a class of <code>fa-stack fa-lg fa-5x</code>.</li>
-          <li>Give your first <code>i</code> tag a class of <code>fa fa-glass fa-5x</code>, the second <code>i</code> a class of <code>fa fa-coffee fa-3x</code>, and the third <code>i</code> a class of <code>fa fa-beer fa-lg</code>.</li>
-          <li>Inside your <code>list-group</code> div, lets add 4 <code>a</code> tags with a class of <code>list-group-item</code>.</li>
-          <li>Add 1 <code>i</code> tag in each anchor tag. Give the 1st <code>i</code> a class of <code>fa fa-home fa-fw</code> add a space after your <code>/i</code> and add text "Home" before your closing <code>a</code> tag.</li>
-          <li>Give the 2nd <code>i</code> a class of <code>fa fa-book fa-fw</code> add another space after your <code>/i</code> tag and add text "Library" before your closing <code>a</code> tag.</li>
-          <li>For your 3rd <code>i</code> add a class of <code>fa fa-pencil fa-rotate-90 fa-fw</code> add space after your <code>/i</code> tag and add text "Applications" before your <code>/a</code> tag.</li>
-          <li>And for the last <code>i</code> add a class of <code>fa fa-cog fa-spin fa-fw</code> add space after your <code>/i</code> tag and add text "Settings" before your <code>/a</code> tag.</li>
-          <li>In your two new spans add 2 <code>i</code> tags. To your 1st <code>i</code> add a class of <code>fa fa-square-o fa-stack-2x</code>, to your 2nd <code>i</code> add a class of <code>fa fa-html5 fa-stack-1x</code>.</li>
-          <li>Inside your 2nd span give a class of <code>fa fa-twitter fa-flip-horizontal fa-stack-1x</code> to your first <code>&lt;i&gt;</code>.</li>
-          <li>Finally give a class of <code>fa fa-ban fa-stack-2x text-danger</code> to your last <code>i</code> tag.</li>
+          <li>
+            <strong>Important:</strong> You must add in the font awesome link to your header, to make their icons work 
+            <br> 
+            <code class="content_color">&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css&gt;</code>
+          </li>
+          <li>Make 2 <code>div</code> tags and give each 1 class of <code>container</code> or <code>container-fluid</code>. Create a <code>button</code> tag inside your container-fluid div, with a type attribute equal to <code>button</code> and the classes of <code>btn</code>,  <code>btn-default</code>,  <code>btn-lg</code> &amp; btn-block</code></li>
+          <li>Add a <code>span</code> tag in your button with the classes of <code>glyphicon</code>,  <code>glyphicon-refresh</code> &amp; <code>fa-spin</code>. Add content to the tag e.x. "Refresh"</li>
+          <li>Below your button, create a <code>div</code> tag with the classes of <code>col-md-6</code> &amp; <code>col-md-offset-3</code>. Add a <code>button</code> tag inside with type attribute equal to <code>button</code> and the classes of <code>btn</code>,  <code>btn-danger</code> &amp; <code>btn-lg btn-block</code></li>
+          <li>Next add a <code>span</code> tag inside your button with the classes of <code>glyphicon</code>, <code>glyphicon-cog</code> &amp; <code>fa-spin</code>, with some content e.x. "Cog"</li>
+          <li>Make a <code>div</code> with a class of <code>clearfix</code> and another button below this div, with the classes of <code>btn</code>, <code>btn-default</code> &amp; <code>btn-lg</code>, with a type attribute equal to <code>button</code></li> 
+          <li>Add a <code>span</code> tag in your button, with the classes of <code>glyphicon</code>, <code>glyphicon-repeat</code> &amp; <code>fa-spin</code>, with some content e.x. "Repeat"</li>
+          <li>In the div with a class of <code>container</code>, add 3 <code>i</code> tags, below that a <code>div</code> tag with a class of <code>list-group</code> and 2 <code>span</code> tags, the 1st with the classes <code>fa-stack</code>, <code>fa-lg</code> &amp; <code>fa-4x</code>. For the 2nd span add the classes <code>fa-stack</code>, <code>fa-lg</code> &amp; <code>fa-5x</code></li>
+          <li>Give your 1st i tag the classes <code>fa</code>, <code>fa-glass</code> &amp; <code>fa-5x</code>, the 2nd i tag, the classes <code>fa</code>, <code>fa-coffee</code> &amp; <code>fa-3x</code>, and the 3rd i tag, the classes <code>fa</code>, <code>fa-beer</code> &amp; <code>fa-lg</code></li>
+          <li>Inside your list-group div, add 4 <code>a</code> tags with a class of <code>list-group-item</code></li>
+          <li>Add 1 <code>i</code> tag in each anchor tag. Give the 1st i tag the classes of <code>fa</code>, <code>fa-home</code> &amp; <code>fa-fw</code>. Add a space after each closing i tag, and add content e.x. "Home" before your closing <code>a</code> tag</li>
+          <li>Give the 2nd i tag the classes <code>fa</code>, <code>fa-book</code> &amp; <code>fa-fw</code>, add another space after your closing i tag and add content e.x. "Library" before your closing <code>a</code> tag</li>
+          <li>For your 3rd i add the classes of <code>fa</code>,  <code>fa-pencil</code>, <code>fa-rotate-90</code> &amp; <code>fa-fw</code>, again add space after your closing i tag, and add content e.x. "Applications" before your closing <code>a</code> tag</li>
+          <li>And for the last i tag add the classes of <code>fa</code>, <code>fa-cog</code>, <code>fa-spin</code> &amp; <code>fa-fw</code>, add space after your closing i tag, and add content e.x. "Settings" before your clsoing <code>a</code> tag</li>
+          <li>In your two fa-stack span tags, add 2 <code>i</code> tags each. For your 1st i tag, add the classes of <code>fa</code>, <code>fa-square-o</code> &amp; <code>fa-stack-2x</code>, to your 2nd i tag add the classes of <code>fa</code>, <code>fa-html5</code> &amp; <code>fa-stack-1x</code></li>
+          <li>Inside your 2nd span add the classes of <code>fa</code>, <code>fa-twitter</code>, <code>fa-flip-horizontal</code> &amp; <code>fa-stack-1x</code> to your first <code>i</code> tag</li>
+          <li>Last add the classes of <code>fa</code>, <code>fa-ban</code>, <code>fa-stack-2x</code> &amp; <code>text-danger</code> to your last <code>i</code> tag</li>
         </ol>        
         <a href="answers/lesson12.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
         <br><br>
         <p>EXCELLENT!!! Your a pro at adding both Bootstrap &amp; Font Awesome icons to your websites now! Well Done.</p>
         <p>Check out <a href="http://getbootstrap.com/components/#glyphicons" target="_blank">Bootstrap Glyphicons</a> &amp; <a href="http://www.fontawesome.io" target="_blank">Font Awesome</a> For More!</p>        
         <div class="next1">
-          <a href="http://codifyacademy.com/bootstrapjs" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Tutorial: Bootstrap Javascrpit Plugins!!! <i class="fa fa-2x fa-child"></i></a>
+          <a href="http://codifyacademy.com/bootstrapjs" target="_blank"><span class="text-danger">Next Tutorial Up:</span> Bootstrap Javascrpit Plugins</a>
         </div>
       </div>
     </div>
     <div class="clearfix"></div>
-    <div class="col-xs-12">s
+    <div class="col-xs-12">
       <a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This <strong>Glyphicons</Strong> &amp; <strong>Font Awesome</strong> Task!</a>
     </div>
   </div>

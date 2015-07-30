@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="example_color">&lt;!-- Large Buttons --&gt;</span>
 <br>
 <span class="div_color">&lt;p&gt;</span>

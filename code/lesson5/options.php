@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <!-- default -->
 <span class="example_color">&lt;!-- Standard button --&gt;</span>
 <br>

@@ -3,13 +3,13 @@
     
     <div class="lesson_title">
       <h4>Lesson 10</h4>
-      <h1>Page Headers, Nice Thumbnails, and The "Jumbotron"</h1>
+      <h1>Page Headers, Nice Thumbnails, &amp; The "Jumbotron"</h1>
     </div>
 
     <!-- page headers -->
     <div class="page_headers">
       <h2>Page Headers</h2>
-      <p class="lead">
+      <p>
         A simple shell for an
         <code>h1</code>
         to appropriately space out and segment sections of content on a page. It can utilize the
@@ -42,7 +42,7 @@
     <!-- thumbnails -->
     <div class="page_headers">
       <h2>Thumbnails</h2>
-      <p class="lead">Extend Bootstrap's grid system with the thumbnail component to easily display grids of images, videos, text, and more.</p>
+      <p>Extend Bootstrap's grid system with the thumbnail component to easily display grids of images, videos, text, and more.</p>
       <hr>
 
       <!-- Default example -->
@@ -149,7 +149,7 @@
     <!-- jumbotron -->
     <div class="jumbotrons">
       <h2>Jumboptron</h2>
-      <p class="lead">A lightweight, flexible component that can optionally extend the entire viewport to showcase key content on your site.</p>
+      <p>A lightweight, flexible component that can optionally extend the entire viewport to showcase key content on your site.</p>
       <hr>
 
       <!-- Basic -->
@@ -198,33 +198,33 @@
 
     </div>
 
-    <!-- lesson task -->
+    <!-- task 10 -->
     <div class="task">
       <div class="task1">
         <div class="col-md-12">
-          <h3>Adding Jumbotrons, Page Headers & Thumbnails to any website is a breeze now...so lets write some more of your own <code>CODE</code> to master these!</h3>
-          <p class="lead">Open your project folder we have been using the past few days</p>
+          <h3>Adding Jumbotrons, Page Headers &amp; Thumbnails to any website is a breeze now...so lets write some more of your own <code>CODE</code> to master these!</h3>
+          <p class="lead">Open your index.html again</p>
           <ol>
-            <li>Lets Create 3 new divs below everything, give a class of <code>jumbtron</code> to the 1st, a class of <code>clearfix</code> to the 2nd & <code>container</code> to your 3rd new div.</li>
-            <li>Inside your jumbotron div, add another div with a class of <code>container</code>. Inside here, add an <code>h1</code> tag with some words, i.e. Awesome Bootstrap Jumbrotron!</li>
-            <li>Add a <code>p</code> and fill it with a line of random text from <a href="http://www.lipsum.com" target="_blank">Lorem Ipsum</a>, also add 1 <code>a</code> tag with the class of <code>btn btn-primary btn-lg</code> and its role attribute equal to <code>button</code>. Name the anchor: Learn More</li>
-            <li>Below add a div with a class of <code>clearfix</code> here and a line break <code>&lt;br&gt;</code>, followed by another div with a class of <code>row</code>. We need 4 more divs inside this row with a class of <code>col-xs-6 col-md-3</code>.</li>
-            <li>Inside each new <code>&lt;div="col-md-3"&gt;</code> add 1 anchor tag with a class of <code>thumbnail</code> and a <code>img</code> tag inside each anchor with a class of <code>thumb_img</code>, we'll use the same image we used before <a href="http://img1.wikia.nocookie.net/__cb20100519113307/mafiawars/images/8/8d/7-eleven_logo-250x250.gif.png" target="_blank">This Sweet 7Eleven Logo</a>.</li>
-            <li>Set each img src to your 7.11 logo <code>src="img/711.jpg"</code>. <strong>Alternatively</strong> you can set each img <code>src="http://img1.wikia.nocookie.net/__cb20100519113307/mafiawars/images/8/8d/7-eleven_logo-250x250.gif.png"</code>, the images file location, rendering the image without saving it.</li>
-            <li>Move into your 3rd original div with the class of <code>container</code>, add 3 new divs inside here, the 1st with a class of <code>jumbotron</code>, the 2nd div give a class of <code>page-header</code> and your 3rd div a class of <code>row</code>.</li>
-            <li>In the interior of your container lets again add a <code>h1</code> with some text i.e.: Bootstraps Jumbotron! Add a <code>p</code> below and fill a line of text with <a href="http://www.lipsum.com" target="_blank">Lorem Ipsum</a>, And finally add a <code>a</code> tag with a class of <code>btn btn-success btn-lg</code> and a <code>role="button"</code>. Name the anchor. i.e. Learn More</li>
-            <li>In your <code>page=header</code> div add a <code>h1</code>tag and add some text i.e. Example Bootstrap Page Header - Nice!</li>
-            <li>Next inside your <code>row</code> div, we need to add four new divs with a class of <code>col-sm-6 col-md-3</code>. Add a new div inside each grid div with a class of <code>thumbnail</code>.</li>
-            <li>Add a <code>img</code> & a <code>div</code> with a class of <code>caption</code> in your thumbnail div. Again link your img src to <a href="http://img1.wikia.nocookie.net/__cb20100519113307/mafiawars/images/8/8d/7-eleven_logo-250x250.gif.png" target="_blank">This Sweet 7Eleven Logo</a>.</li>
-            <li>We need to add <code>h3</code>, <code>p</code> & 2 <code>a</code>tags inside your caption div. Add the text of "Thumbnail label" to your <code>h3</code>. Fill your <code>p</code> in with some dummy <a href="http://www.lipsum.com" target="_blank">Lorem Ipsum</a> text.</li>
-            <li>Add the text of "button" in between both of your open and close <code>a</code> tags, &amp; attach a role of <code>button</code> to each.</li>
-            <li>Give the 1st anchor a class of <code>btn btn-success</code> & the 2nd anchor a class of <code>btn btn-danger</code>.</li>
+            <li>Create 3 <code>div</code> tags below everything, give a class of <code>jumbtron</code> to the 1st, a class of <code>clearfix</code> to the 2nd and a class of either <code>container</code> or <code>container-fluid</code> to your 3rd div</li>
+            <li>Inside your jumbotron div, add another <code>div</code> tag, with a class of <code>container</code>. Inside here, add a <code>h1</code> tag with some words, e.x. Awesome Bootstrap Jumbrotron!</li>
+            <li>Add a <code>p</code> tag below, and fill it with a line of random text from <a href="http://www.lipsum.com" target="_blank">Lorem Ipsum</a>, also add 1 <code>a</code> tag with the classes of <code>btn</code>, <code>btn-primary</code> &amp; <code>btn-lg</code> and its role attribute equal to <code>button</code>. Give content to the anchor: Learn More - text between tags</li>
+            <li>Below the btn-primary a tag, add a <code>div</code> tag, with a class of <code>clearfix</code> here and a line break tag: <code>&lt;br&gt;</code> after, followed by another <code>div</code> tag, with a class of <code>row</code>. Inside here, add 4 more <code>div</code> tags, with the classes of <code>col-xs-6</code> &amp; <code>col-md-3</code> on each one</li>
+            <li>Inside each each of the 4 new divs, add 1 <code>a</code> tag with a class of <code>thumbnail</code> and an <code>img</code> tag inside each anchor, we'll use the same image we used before <a href="http://img1.wikia.nocookie.net/__cb20100519113307/mafiawars/images/8/8d/7-eleven_logo-250x250.gif.png" target="_blank">This Sweet 7Eleven Logo</a> - or you can use any other one</li>
+            <li>Set each img src to your 7.11 logo <code>src="img/711.jpg"</code> and add a alt attribute equal to <code>image place holder</code> and the number of the image 1 - 4. <strong>Alternatively</strong> you can set each img <code>src="http://img1.wikia.nocookie.net/__cb20100519113307/mafiawars/images/8/8d/7-eleven_logo-250x250.gif.png"</code>, the images file location, rendering the image without saving it</li>
+            <li>Move into your 3rd original div with the class of <code>container</code> or <code>container-fluid</code>, add 3  <code>div</code> tags inside here, the 1st with a class of <code>jumbotron</code>, the 2nd a class of <code>page-header</code> and your 3rd a class of <code>row</code></li>
+            <li>In the interior of your jumbotron div, again add a <code>h1</code> with some text e.x. Bootstraps Jumbotron! - Add a <code>p</code> tag below and fill a line of text with <a href="http://www.lipsum.com" target="_blank">Lorem Ipsum</a>, And finally add a <code>a</code> tag with the classes of <code>btn</code>,  <code>btn-success</code> &amp; <code>btn-lg</code> and a role attribute of <code>button</code>. Add content to the anchor. i.e. Learn More</li>
+            <li>In your <code>page-header</code> div add a <code>h1</code>tag and add some text e.x. Example Bootstrap Page Header - Nice!</li>
+            <li>Next inside your <code>row</code> div, add four new <code>div</code> tags, with the classes of <code>col-sm-6</code> &amp; <code>col-md-3</code> on each. Add another <code>div</code> tag, inside each grid div with a class of <code>thumbnail</code></li>
+            <li>Add a <code>img</code> tag, again link your img src to <a href="http://img1.wikia.nocookie.net/__cb20100519113307/mafiawars/images/8/8d/7-eleven_logo-250x250.gif.png" target="_blank">This Sweet 7Eleven Logo</a>. &amp; a <code>div</code> tag below the img, with a class of <code>caption</code></li>
+            <li>Next create a <code>h3</code>, <code>p</code> &amp; 2 <code>a</code>tags inside your caption div. Add text of "Thumbnail label" to your h3 tag. Fill your p tag with some more dummy <a href="http://www.lipsum.com" target="_blank">Lorem Ipsum</a> text</li>
+            <li>Add the text of <code>button</code> in between your <code>a</code> tags, and add a role of <code>button</code> to each one</li>
+            <li>Finally the 1st anchor the classes of <code>btn</code> &amp; <code>btn-success</code> and the 2nd anchor the classes of <code>btn</code> &amp; <code>btn-danger</code></li>
           </ol>
           <p>Open this file in your browser to see your Thumbs, Page-header &amp; JUMBOTRON!</p>
           <a href="answers/lesson10.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
-          <p>Jumbotrons, Thumbnails & Page Headers are great Bootstrap CSS elements that you can utilize anytime now!</p>
-          <p>Check out <a href="http://getbootstrap.com/components/#page-header" target="_blank">Bootstrap Page Headers</a>, <a href="http://getbootstrap.com/components/#thumbnails" target="_blank">Bootstrap Thumbnails</a> & <a href="http://getbootstrap.com/components/#jumbotron" target="_blank">Bootstrap's Jumbotrons</a> to learn even more!</p>
+          <p>Jumbotrons, Thumbnails &amp; Page Headers are great Bootstrap CSS elements that you can utilize anytime now!</p>
+          <p>Check out <a href="http://getbootstrap.com/components/#page-header" target="_blank">Bootstrap Page Headers</a>, <a href="http://getbootstrap.com/components/#thumbnails" target="_blank">Bootstrap Thumbnails</a> &amp; <a href="http://getbootstrap.com/components/#jumbotron" target="_blank">Bootstrap's Jumbotrons</a> to learn even more!</p>
           <div class="next1">
             <a href="#tab11" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Panels, Wells &amp; List-Groups! <i class="fa fa-2x fa-child"></i></a>
           </div>

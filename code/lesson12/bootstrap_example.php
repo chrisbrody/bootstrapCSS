@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="example_color">&lt;!-- Font Awesome Buttons --&gt;</span>
 <br>
 <span class="nt">&lt;a</span>

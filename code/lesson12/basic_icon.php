@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="example_color">&lt;!-- Basic Icon Examples --&gt;</span>
 <br>
 <span class=" content_color glyphicon glyphicon-search"></span> <span class="div_color">&lt;span</span>

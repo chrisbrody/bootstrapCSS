@@ -361,7 +361,7 @@
 
     <div class="row"></div>
 
-	<!-- lesson task -->
+	<!-- task 3 -->
 	<div class="task">
 		<div class="task1">
 			<div class="col-md-12">

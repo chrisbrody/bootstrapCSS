@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="example_color">&lt;!-- Bootstrap Icon Button --&gt;</span>
 <br>
 <span class="div_color">&lt;button</span>

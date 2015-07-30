@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="nt">&lt;span</span>
 <span class="na">class=</span><span class="s">"fa-stack fa-lg"</span><span class="nt">&gt;</span>
 <br>

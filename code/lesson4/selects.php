@@ -1,5 +1,5 @@
 <!-- start select -->
-<br>
+<!-- <br> -->
 <span class="div_color">&lt;select</span> <span class="class_color">class=</span><span class="container_color">"form-control"</span><span class="div_color">&gt;</span>
 <br>
 <span class="div_color form_padding">&lt;option></span>1<span class="div_color">&lt;/option&gt;</span>

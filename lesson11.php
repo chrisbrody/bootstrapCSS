@@ -3,13 +3,13 @@
 
     <div class="lesson_title">
       <h4>Lesson 11</h4>
-      <h1>The Use Of Panels, Wells & List Groups</h1>
+      <h1>The Use Of Panels, Wells &amp; List Groups</h1>
     </div>
 
     <!-- Panels -->
     <div class="panels">
       <h2>Panels</h2>
-      <p class="lead">While not always necessary, sometimes you need to put your content in a box. For these situations, try the panel component.</p>
+      <p>While not always necessary, sometimes you need to put your content in a box. For these situations, try the panel component.</p>
       <hr>
         <!-- basic panel -->
         <div class="col-md-4">
@@ -215,25 +215,26 @@
 
     </div>
 
-    <!-- lesson task 11a-->
+    <!-- task 11a-->
     <div class="task">
       <div class="task1">
         <div class="col-md-12">
           <h3>Wells can be very usful drawing a user's attention...so lets write some more of your own <code>CODE</code> to check them out!</h3>
+          <p class="lead">Open your index.html again</p>
           <ol>
-            <li>We'll start with a new <code>container</code> div, add 3 more divs inside here, with a class of <code>well</code>. To the 1st <code>well</code> and another class of <code>well-sm</code> & To the 2nd <code>well</code> and another class of <code>well-lg</code>.</li>
-            <li>In your <code>well-sm</code> lets add a new div with a class of <code>panel panel-default</code> add a <code>h2</code> tag below your div, with some text i.e. "Basic Bootstrap Panel".</li>
-            <li>Inside your <code>panel-default</code> div create one more div with a class of <code>panel-body</code> and add some text between your open and close div tags. i.e. "Basic panel example".</li>
-            <li>Lets move into your 2nd <code>well</code> div, and again we want to add a new div with a class of <code>panel panel-success</code> add a <code>h2</code> tag below your div, with some text i.e. "Bootstrap Success Panel with Header!".</li>
-            <li>We need 2 new divs in <code>panel-success</code> div, the 1st with a class of <code>panel-heading</code> & the 2nd with a class of <code>panel-body</code>.</li>
-            <li>Add a <code>h3</code> inside your <code>panel-heading</code> with some text i.e. "Success Panel Title" & a class of <code>panel-title</code>.</li>
-            <li>Next we need to add a little <code>panel-body</code> content, i.e. "Success Panel content". <strong>NOTE:</strong> we could use more <code>HTML</code> tags inside here, but we wont for this instance.</li>
-            <li>Inside your 3rd <code>well</code> div, we want to add a new div with a class of <code>panel panel-danger</code> and again a <code>h2</code> tag below your div, with some text i.e. "Here we have some more well text!".</li>
-            <li>Make 3 new divs inside your <code>panel-danger</code> div, the 1st with a class of <code>panel-heading</code>, the 2nd with a class of <code>panel-body</code> & the 3rd with a class of <code>panel-footer</code>.</li>
-            <li>Add a new <code>h3</code> tag inside your <code>panel-heading</code> with a class of <code>panel-title</code> & some text i.e. "Danger Panel Title".</li>
-            <li>We need to add a little <code>panel-body</code> content, i.e. "Danger Panel content". between your open and closing div. And the same for your <code>panel-footer</code> and some text. i.e. "Danger Panel footer".</li>
+            <li>Start a <code>div</code> tag below everything, with a class of <code>container</code> or <code>container-fluid</code>, add 3 more <code>div</code> tags inside here, with a class equal to <code>well</code>. To the 1st well and another class of <code>well-sm</code> and To the 2nd <code>well</code> add another class of <code>well-lg</code></li>
+            <li>In your well-sm div, add another <code>div</code> tag, with the classes of <code>panel</code> &amp; <code>panel-default</code>. Add a <code>h2</code> tag below your panel-default div, with some content e.x. Basic Bootstrap Panel</li>
+            <li>Inside your panel-default div, create one more <code>div</code> tag, with a class of <code>panel-body</code> and add some content between your tags e.x. Basic panel example</li>
+            <li>Lets move into your 2nd <code>well</code> div, and add a <code>div</code> with the classes of <code>panel</code> &amp; <code>panel-success</code>. Add a <code>h2</code> tag below your well div again, with some content e.x. Bootstrap Success Panel with Header!</li>
+            <li>Create 2 <code>div</code> tags in <code>panel-success</code> div, the 1st with a class of <code>panel-heading</code> and the 2nd with a class of <code>panel-body</code></li>
+            <li>Add a <code>h3</code> tag inside your <code>panel-heading</code> with some content e.x. Success Panel Title and a class of <code>panel-title</code></li>
+            <li>Next add a some content into your panel-body div, e.x. Success Panel content. <strong>NOTE:</strong> you could use more <code>HTML</code> tags inside here, but we wont for this instance</li>
+            <li>Inside your 3rd well div, add a <code>div</code> tag, with the classes of <code>panel</code> &amp; <code>panel-danger</code> and another <code>h2</code> tag below your well div, with some content e.x. Here we have some more well text!</li>
+            <li>Add 3 <code>div</code> tags inside your panel-danger div, the 1st with a class of <code>panel-heading</code>, the 2nd with a class of <code>panel-body</code> and the 3rd with a class of <code>panel-footer</code></li>
+            <li>Add a <code>h3</code> tag inside your panel-heading div, with a class of <code>panel-title</code> and some content e.x. Danger Panel Title</li>
+            <li>Add some content to your panel-body, e.x. Danger Panel content! And the same for your panel-footer div, add some content e.x. Danger Panel footer - feel free to add more html in here.</li>
           </ol>
-          <p>Open this file in your browser to see what we just did!</p>          
+          <p>Open this file in your browser to see how you did!</p>          
           <a href="answers/lesson11a.php" target="_blank" class="text-danger">Check out how the new file should look</a>
           <br><br>
           <p>EXCELLENT!!! Building wells is pretty easy, as are panels, just adding a class or two to a div or two. Inspect some of the elements to see what Bootstrap's CSS is doing to your tags!</p>
@@ -444,25 +445,23 @@
 
     </div>
 
-    <!-- lesson task 11b-->
+    <!-- task 11b-->
     <div class="task">
       <div class="task1">
         <div class="col-md-12">
           <h3>Creating buttons and adjusting the look of your images is a breeze now...so lets write some more of your own <code>CODE</code>.</h3>
+          <p class="lead">Open your index.html again</p>
           <ol>
-            <li>This time we will add on to what we did with Bootstrap Wells & Panels. Lets add a <code>ul</code> after your 1st <code>h2</code> inside your <code>well-sm</code> div.</li>
-            <li>Add a <code>&lt;div class="list-group"&gt;&lt;/div&gt;</code> below your 2nd <code>well</code> div & another <code>ul</code> under your 3rd <code>h2</code> tag inside your <code>well-lg</code>.</li>
-            <li>Attach a class of <code>list-group</code> to each <code>ul</code>. In your 1st <code>ul</code> lets add 3 <code>li</code> tags with a class of <code>list-group-item</code>.</li>
-            <li>Inside each <code>li</code> add a <code>span</code> with a class of <code>badge</code> and add 3 random numbers between your open & close span tags. i.e. 42, 13, 2</li>
-            <li>We want to add some text after each span, on the line after each span add some dummy text. i.e. "Cras justo odio", "Dapibus ac facilisis in", "Cras justo odio"</li>
-            <li>Moving into your div with a class of <code>list-group</code>, we want to add 5 <code>a</code> tags, each with a class of <code>list-group-item</code>.  Add dummy text between each anchor tag. i.e. "Cras justo odio", "Vestibulum at eros", "Porta ac consectetur ac"</li>
-            <li>To your 1st <code>a</code> add another class of <code>active</code>.</li>
-            <li>For your 2nd anchor add another class of <code>list-group-item-success</code>, to your 3rd anchor a class of <code>list-group-item-info</code>.</li>
-            <li>To your 4th <code>a</code> add another class of <code>list-group-item-warning</code> & the 5th anchor another class of <code>list-group-item-danger</code>.</li>
-            <li>In your second <code>ul</code> we'll do the same we did for your <code>&lt;div class="list-group"&gt;</code> list-group, we want to add 5 <code>li</code> tags, each with a class of <code>list-group-item</code>.  Add some more dummy text to your anchor tag. i.e. "Porta ac consectetur ac", "Vestibulum at eros", "Cras justo odio" </li>
-            <li>To your 1st <code>li</code> a class of <code>active</code>.</li>
-            <li>For your 2nd anchor add a class of <code>list-group-item-success</code>, to your 3rd anchor a additional class of <code>list-group-item-info</code>.</li>
-            <li>To your 4th <code>li</code> add a class of <code>list-group-item-warning</code> & the 5th anchor another class of <code>list-group-item-danger</code>.</li>
+            <li>This time we will add on to what we did with Bootstrap Wells &amp; Panels. Add a <code>ul</code> tag after your h2 tag in your <code>well-sm</code> and <code>well-lg</code> divs, a <code>ul</code> tag after your h2 tag in your div with only the class of <code>well</code>. And add a class attribute equal to <code>list-group</code> to all 3 new elements</li>
+            <li>In your 1st <code>ul</code> lets add 3 <code>li</code> tags, with a class of <code>list-group-item</code> on each</li>
+            <li>In each li tag add a <code>span</code> tag, with a class of <code>badge</code> and add 3 random numbers between your tags. e.x. 42, 13, 2</li>
+            <li>Add content to each li tag, with dummy text. e.x. "Cras justo odio", "Dapibus ac facilisis in", "Cras justo odio"</li>
+            <li>In your div with a class of <code>list-group</code>, add 5 <code>a</code> tags, each with a class of <code>list-group-item</code>. And dummy text between each anchor tag. e.x. "Cras justo odio", "Vestibulum at eros", "Porta ac consectetur ac"</li>
+            <li>To your 1st <code>a</code> add another class of <code>active</code>, your 2nd anchor a class of <code>list-group-item-success</code>, and your 3rd anchor a class of <code>list-group-item-info</code></li>
+            <li>To your 4th <code>a</code> add class of <code>list-group-item-warning</code> and the 5th anchor a class of <code>list-group-item-danger</code></li>
+            <li>In your second <code>ul</code> we'll do the same we did for your <code>&lt;div class="list-group"&gt;</code> list-group, we want to add 5 <code>li</code> tags, each with a class of <code>list-group-item</code>.  Add some more dummy text to your anchor tag. e.x. "Porta ac consectetur ac", "Vestibulum at eros", "Cras justo odio" </li>
+            <li>Again to your 1st li tag a class of <code>active</code>, your 2nd li a class of <code>list-group-item-success</code>, your 3rd li a class of <code>list-group-item-info</code></li>
+            <li>To your 4th li tag add a class of <code>list-group-item-warning</code> &amp; the 5th li a class of <code>list-group-item-danger</code></li>
           </ol>
           <p>Open this file in our browser to see what we just did!</p>
           <a href="answers/lesson11b.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>

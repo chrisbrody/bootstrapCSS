@@ -1,5 +1,5 @@
 <!-- opening label -->
-<br>
+<!-- <br> -->
 <span class="div_color">&lt;label</span> <span class="class_color">class=</span><span class="container_color">"checkbox-inline"</span><span class="div_color">&gt;</span>
 <br>
 <span class="div_color form_padding">&lt;input</span> <span class="class_color">type=</span><span class="container_color">"checkbox"</span> <span class="class_color">id=</span><span class="container_color">"inlineCheckbox1"</span> <span class="class_color">value=</span><span class="container_color">"option1"</span><span class="div_color">&gt;</span> 1

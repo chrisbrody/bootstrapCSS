@@ -30,7 +30,7 @@
 					<h2>The Bootstrap CDN</h2>
 					<p>CDN:// - Content Delivery Network - Add the links below into the header of your website, and you can start using bootstrap right away. It's that easy.</p>
 					<div class="col-md-12">
-						<p>Include required CSS - <pre class="prettyprint">&lt;link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"&gt;</pre></p>
+						<p>Include required CSS - <span class="div_color">&lt;link</span> <span class="class_color">rel=</span><span class="container_color">"stylesheet"</span> <span class="class_color">href=</span><span class="container_color">"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"</span><span class="div_color">&gt;</span></p>
 					</div>
 				</div>
 

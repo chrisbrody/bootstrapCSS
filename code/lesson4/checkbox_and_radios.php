@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="div_color">&lt;div</span> <span class="class_color">class=</span><span class="container_color">"checkbox"</span><span class="div_color">&gt;</span>
 <br>
 <span class="div_color form_padding">&lt;label&gt;</span>

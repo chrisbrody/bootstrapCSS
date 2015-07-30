@@ -1,5 +1,5 @@
-<br>
-<span class="example_color">&lt;!-- Input checkbox & radiobox--&gt;</span>
+<!-- <br> -->
+<span class="example_color">&lt;!-- Input checkbox &amp; radiobox--&gt;</span>
 <br>
 <span class="div_color">&lt;div</span>
 <span class="class_color">class=</span><span class="container_color">"row"</span><span class="div_color">&gt;</span>

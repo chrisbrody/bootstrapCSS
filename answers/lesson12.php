@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>Codify Academy's Learning Bootstrap</title>
-<!--     <link rel="shortcut icon" href="favicon.ico"> -->
+    <link rel="shortcut icon" href="../favicon.ico">
     <meta charset="UTF-8">
     <meta name="description" content="Codify Academy's Bootstrap Learning">
     <meta name="keywords" content="Codify Academy, Learn Bootstrap, Twitter Bootstrap learning, HTML, CSS, Javascript">
@@ -58,9 +58,13 @@
     </div>
 
     <!-- image answer -->
-    <div class="col-md-12">
-      <img src="../img/answer12.jpg">
-    </div> 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="../img/answer12.jpg">
+        </div>
+      </div>
+    </div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

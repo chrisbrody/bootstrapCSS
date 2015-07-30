@@ -63,7 +63,7 @@
     <!-- badges -->
     <div class="badges">
       <h2>Badges</h2>
-      <p class="lead">
+      <p>
         Easily highlight new or unread items by adding a
         <code>&lt;span class="badge"&gt;</code>
         to links, Bootstrap navs, and more.
@@ -88,7 +88,7 @@
       <!-- Adapts to active nav states -->
       <div class="col-md-12">
         <h3>
-          Active nav states & Stacked
+          Active nav states &amp; Stacked
         </h3>
         <p>
           Built-in styles are included for placing badges in active states in pill navigations.
@@ -146,34 +146,33 @@
     </div>
 
 
-    <!-- lesson task -->
+    <!-- task 8 -->
     <div class="task">
       <div class="task1">
         <div class="col-md-12">
-          <h3>Lets Jump right into writing some <code>CODE</code> to make some labels & badges.</h3>
-          <p class="lead">Open our project folder we have been using the past few days</p>
+          <h3>Lets Jump right into writing some <code>CODE</code> to make some labels &amp; badges.</h3>
+          <p class="lead">Open our index.html file from the project folder we have been using the past Lessons</p>
           <ol>
-            <li>Lets start by creating a new div with class of <code>container-fluid</code>.</li>
-            <li>Add another div with a class of <code>row</code> & a 3rd div inside the row with a class of <code>col-xs-6 col-md-8</code>.</li>
-            <li>Lets add an <code>h1</code> with the text of Example Heading 1 add a space next to the text & add a <code>span</code> tag.</li>
-            <li>Give this span a class of <code>label label-default</code> and a text of Default Label</li>
-            <li>Add an <code>h2</code> below our <code>h1</code> with the text of Example Heading 2 add a space next to the text & add a <code>span</code> tag.</li>
-            <li>Attach a class of <code>label label-primary</code> to this span and a text of Primary Label</li>
-            <li>Lets add an <code>h3</code> tag below our <code>h2</code> with the text of Example Heading 3 add a space next to the text & add a <code>span</code> tag.</li>
-            <li>Give this span a class of <code>label label-primary</code> and a text of Primary Label.</li>
-            <li>Below our header tags lets make 2 <code>a</code> tags with a text of the 1st as Inbox and 2nd as Messages.</li>
-            <li>Add 1 space next to our text inside our anchors and create a span in each, with a class of <code>badge</code> & any number between each of the open and close span tags.</li>
-            <li>Sweet little badges we just made, Lets finish with a stacked navigation.</li>
-            <li>Add 2 <code>&lt;br&gt;</code> to add a little space between our elements. Next create a <code>ul</code> with a class of <code>nav nav-pills nav-stacked</code>.</li>
-            <li>Inside lets add 2 <code>li</code> with <code>a</code> tags inside each, so we can link them if we wanted to.</li>
-            <li>Set our 1st <code>li</code> to have a class of <code>active</code>. Add a span in each <code>a</code> with a class of <code>badge pull-right</code> and a number before the closing span tag.</li>
-            <li>Finally Label ou Nav items, on the next line after each span, designate names i.e. Home, Profile, Email, Contacts.</li>
+            <li>Start by a <code>div</code> tag, with class of <code>container-fluid</code> or <code>container</code>, outside all other lesson code</li>
+            <li>Add another <code>div</code> tag, with a class of <code>row</code> and a 3rd <code>div</code> inside the row with the classes of <code>col-xs-6</code> &amp; <code>col-md-8</code></li>
+            <li>Add a <code>h1</code> tag, with the text of Example Heading 1 add a space next to the text &amp; add a <code>span</code> tag</li>
+            <li>Give this span the classes of <code>label</code> &amp; <code>label-default</code> and a text of Default Label</li>
+            <li>Add an <code>h2</code> tag below your h1 with the text of Example Heading 2, add a space next to the text and add a <code>span</code> tag</li>
+            <li>Attach the classes of <code>label</code> &amp; <code>label-primary</code> to this span and a text of Primary Label</li>
+            <li>Next, add a <code>h3</code> tag below your h2 with the text of Example Heading 3. Again add a space next to the text and add a <code>span</code> tag</li>
+            <li>Give this span the classes of <code>label</code> &amp; <code>label-primary</code> and a text of Primary Label</li>
+            <li>Below your header3 tag, make 2 <code>a</code> tags with a text of the 1st as Inbox and 2nd as Messages.</li>
+            <li>Add 1 space next to our text inside our anchors and create a <code>span</code> tag in each, with a class attribte of <code>badge</code> and any number between each of the opening and closing span tags</li>
+            <li>Add 2 <code>&lt;br&gt;</code> tags below your anchors, to add a little space between our elements. Next create a <code>ul</code> with the classes of <code>nav</code>,  <code>nav-pills</code> &amp; <code>nav-stacked</code></li>
+            <li>Inside this, add 2 <code>li</code> tags, with <code>a</code> tags inside each, so we can link them when we need to to</li>
+            <li>Set our 1st <code>li</code> to have a class of <code>active</code>. Add a span in each a tag, with a classes of <code>badge</code> &amp; <code>pull-right</code> and a number between the span tags</li>
+            <li>Finally Label your nav items, on the next line after each span, designate names i.e. Home, Profile, Email, Contacts</li>
           </ol>
-          <p>Open this file in our browser to see what we just did!</p>          
+          <p>Open this file in your browser to see what we just did!</p>          
           <a href="answers/lesson8.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
-          <p>EXCELLENT!!! We just built some bootstrap sweet labels & badges, those will come in handy down the road!</p>
-          <p>Check out <a href="http://getbootstrap.com/components/#labels" target="_blank">Bootstrap Labels</a> & <a href="http://getbootstrap.com/components/#badges" target="_blank">Bootstrap Badges</a> to learn even more!</p>
+          <p>EXCELLENT!!! We just built some bootstrap sweet labels &amp; badges, those will come in handy down the road!</p>
+          <p>Check out <a href="http://getbootstrap.com/components/#labels" target="_blank">Bootstrap Labels</a> &amp; <a href="http://getbootstrap.com/components/#badges" target="_blank">Bootstrap Badges</a> to learn even more!</p>
           <div class="next1">
             <a href="#tab9" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Alerts &amp; Progress-bars! <i class="fa fa-2x fa-child"></i></a>
           </div>
