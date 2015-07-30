@@ -322,7 +322,7 @@
     <div class="task">
       <div class="task1">
         <div class="col-md-12">
-          <h3>Alerts & Progress Bars are Extremely helpful, lets div right in to writing <code>CODE</code> for these!</h3>
+          <h3>Alerts &amp; Progress Bars are Extremely helpful, lets div right in to writing <code>CODE</code> for these!</h3>
           <p class="lead">Open our project folder we have been using the past few days</p>
           <ol>
             <li>Lets start with a new div with a class of <code>container</code>. No row's or grid-columns this time!</li>
@@ -339,26 +339,24 @@
             <li>We need to set this divs role attribute to <code>progressbar</code>, and we will add <code>aria-valuenow="85"</code>, set our min value with<code>aria-valuemin="0"</code> & our max value of our bar to <code>aria-valuemax="100"</code>. Now add inline style and set our progress bar width to 85%.</li>
             <li>Add and Finally add a little text of 85% in between our open and closing <code>progress-bar</code> div, to have a label of 85% show on our progress bar.</li>
             <li>Last, lets create a stacked progress bar, to begin create a new div with a class of <code>progress</code>, add 3 new divs inside all getting a class of <code>progress-bar</code> added to it, also add a class of <code>alert-parimry alert-warning alert-danger</code>, one to each div we just made.</li>
-            <li>Let make our 3 progress bars total 100% width, add <code>style="width: ;"</code> & add 3 widths inside that total 100% i.e. 25%, 35%, 40%</li>
+            <li>Let make our 3 progress bars total 100% width, add <code>style="width: ;"</code> &amp; add 3 widths inside that total 100% i.e. 25%, 35%, 40%</li>
             <li>Add 1 span inside each div with a <code>class="sr-only"</code> add text that will only be seen by screen readers i.e. 25% Complete, 35% Complete</li>
-            <li>To our last div add 2 more classes to make it striped & animated <code>progress-bar-striped active</code>.</li>
+            <li>To our last div add 2 more classes to make it striped &amp; animated <code>progress-bar-striped active</code>.</li>
           </ol>
-          <p>Open this file in our browser to see View our new Bootstrap Alerts & Progress Bars!</p>
+          <p>Open this file in our browser to see View our new Bootstrap Alerts &amp; Progress Bars!</p>
           <a href="answers/lesson9.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
-          <p>EXCELLENT!!! you just hand built your first bootstrap alerts & some progress bars. Inspect some of the elements to see exactly what Bootstrap's Css is doing to our tags!</p>
-          <p>Check out more on <a href="http://getbootstrap.com/components/#alerts" target="_blank">Bootstrap Alerts</a> & <a href="http://getbootstrap.com/components/#progress" target="_blank">Bootstrap Progressbars</a>!</p>
+          <p>EXCELLENT!!! you just hand built your first bootstrap alerts &amp; some progress bars. Inspect some of the elements to see exactly what Bootstrap's Css is doing to our tags!</p>
+          <p>Check out more on <a href="http://getbootstrap.com/components/#alerts" target="_blank">Bootstrap Alerts</a> &amp; <a href="http://getbootstrap.com/components/#progress" target="_blank">Bootstrap Progressbars</a>!</p>
           <div class="next1">
             <a href="#tab10" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Headers, Thumbnails &amp; Jumbotron! <i class="fa fa-2x fa-child"></i></a>
           </div>
         </div>
       </div>
       <div class="clearfix"></div>
-      <br>
-      <div class="col-md-12">
-        <a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Alerts &amp; Progress Bars</Strong> Task Before Moving On!</a>
+      <div class="col-xs-12">
+        <a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Alerts &amp; Progress Bars</Strong> Task Before Moving On!</a>
       </div>
     </div>
-
   </article>
 </div>

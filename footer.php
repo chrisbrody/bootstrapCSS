@@ -11,7 +11,7 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Bootstrap Javascript -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>+
+    <script src="js/bootstrap.min.js"></script>+
     <!-- Goolge Pretty Print -->
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     <!-- Our Added JS -->

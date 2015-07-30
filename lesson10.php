@@ -85,7 +85,7 @@
           </code>     
         </div>
       </div>
-
+      <div class="clearfix"></div>
       <!-- Custom content -->
       <div class="col-md-12">
         <h3>
@@ -144,7 +144,6 @@
           </code>     
         </div>
       </div>
-
     </div>
 
     <!-- jumbotron -->
@@ -232,9 +231,8 @@
         </div>
       </div>
       <div class="clearfix"></div>
-      <br>
-      <div class="col-md-12">
-        <a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Header, Thumbnails &amp; Jumbotron</Strong> Task Before Moving On!</a>
+      <div class="col-xs-12">
+        <a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Header, Thumbnails &amp; Jumbotron</Strong> Task Before Moving On!</a>
       </div>
     </div>
 

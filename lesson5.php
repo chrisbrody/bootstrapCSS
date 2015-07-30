@@ -3,7 +3,7 @@
 
     <div class="lesson_title">
       <h4>Lesson 5</h4>
-      <h1>Bootstrap Buttons & Images</h1>
+      <h1>Bootstrap Buttons &amp; Images</h1>
     </div>
 
     <!-- buttons -->
@@ -188,24 +188,25 @@
 	<div class="task">
 		<div class="task1">
 			<div class="col-md-12">
-				<h3>Creating buttons and adjusting the look of your images is a breeze now. Time to practice what you've learned.</h3>
+				<h3>WooHoo creating nice buttons and adjusting images is a breeze now. Time to practice what you've learned!</h3>
+				<p class="lead">Open your index.html from the BootstrapTest folder in sublime.</p>
 				<ol>
-					<li>Creating 2 new divs, one with a class of <code>container-fluid</code>, and one with a class of <code>container</code>.</li>
-					<li>Add a <code>row</code> inside each new div.</li>
-					<li>Start by making a few full-width buttons to see what happens in each container. Inside each <code>row</code> add <code>button</code> tags. Attach a class of <code>btn btn-primary btn-block</code> to each, and in between the button tag name your new buttons, i.e. Submit, Send Email, Default Button, etc.</li>
-					<li>Add a <code>&lt;br&gt;</code> after your new button tags.</li>
-					<li>Time to add some grid components - make 2 new divs, 1 in each row - with a class of <code>col-md-8</code> for the 1st one and <code>col-md-6 col-md-offset-3</code> for the 2nd.</li>
-					<li>In our <code>col-md-8</code> div make your Bootstrap Buttons. Begin with 2 <code>button</code> tags, 1 <code>&lt;input&gt;</code> 1 <code>a</code> tag, and 1 more <code>button</code></li>
-					<li>Now you can add a few classes to make this components look nice really quickly. <strong>But</strong> first you should give these buttons names. In between the opening and closing <code>&lt;a&gt;</code> & <code>&lt;button&gt;</code> tags, give each button a name, i.e. Submit, act now, start today, etc. Finally add a value attribute to the input to name it, something like <code>value="Input Button"</code>.</li>
-					<li>On your 1st <code>button</code>, add a few classes <code>btn btn-lg</code>. On your 2nd <code>button</code>, add <code>btn btn-sm btn-primary</code>.</li>
-					<li>For your <code>input</code> add a class of <code>btn btn-danger btn-lg</code>, also add the type attribute <code>type="button"</code>.</li>
-					<li>Your <code>&lt;a&gt;</code> tag should get the class of <code>btn btn-success</code>.</li>
-					<li>For your 3rd button, give it the classes <code>btn btn-default btn-lg</code>.</li>
-					<li>Inside your other container, add 3 <code>img</code> tags inside your <code>col-md-6 col-md-offset-3</code> div.</li>
-					<li>Add 3 Images with a width no greater than 250px. If you need one you can save <a href="http://img1.wikia.nocookie.net/__cb20100519113307/mafiawars/images/8/8d/7-eleven_logo-250x250.gif.png" target="_blank">Sweet Picture!</a> this image into your img folder</li>
-					<li>On your 1st <code>img</code>, add a class of <code>img-circle</code>, to create a circle around your Image.</li>
-					<li>On your 2nd <code>img</code>, add a class of <code>img-rounded</code>, to round your Image.</li>
-					<li>On your 3rd <code>img</code>, add a class of <code>img-thumbnail</code>, to create a thumbnail feel around your Image.</li>
+					<li>Create 2 new sibiling - <strong>(seperate)</strong> <code>div</code> tags, one with a class of <code>container-fluid</code>, and one with a class of <code>container</code> below all other lesson practice divs</li>
+					<li>Add a div tag with a class of <code>row</code> inside each new div</li>
+					<li>Inside each <code>row</code> add <code>button</code> tags. Attach a class of <code>btn btn-primary btn-block</code> to each, and in between the button tag add content to your new buttons, i.e. Submit, Send Email, Default Button, etc.</li>
+					<li>Add a <code>&lt;br&gt;</code> after each new button tags</li>
+					<li>Time to add some grid components - make 2 new <code>div</code>, 1 in each row - with a class of <code>col-md-8</code> for the 1st one and <code>col-md-6 col-md-offset-3</code> for the 2nd</li>
+					<li>In our <code>col-md-8</code> div, begin with 2 new <code>button</code> tags, 1 <code>&lt;input&gt;</code> 1 <code>a</code> tag, and 1 more <code>button</code> forthe last tag</li>
+					<li>Now you can add a few classes to make this components look nice really quickly. <strong>But</strong> first you should give these buttons names. In between the opening and closing <code>a</code> &amp; <code>button</code> tags, give each button a name, i.e. Submit, act now, start today, etc. Finally add a value attribute to the <code>input</code> to name it, something like <code>value="Input Button"</code>.</li>
+					<li>Add a few classes <code>btn btn-lg</code> on your 1st <code>button</code>. On your 2nd <code>button</code>, add <code>btn btn-sm btn-primary</code></li>
+					<li>For your <code>input</code> add a class of <code>btn btn-danger btn-lg</code>, also add the type attribute equal to <code>button</code></li>
+					<li>Your <code>a</code> tag should get the class of <code>btn btn-success</code></li>
+					<li>For your 3rd button, give it the classes <code>btn btn-default btn-lg</code></li>
+					<li>Move inside your other <code>container</code> div, add 3 <code>img</code> tags inside your <code>col-md-6 col-md-offset-3</code> div in there</li>
+					<li>Add 3 Images with a width no greater than 250px. If you need one you can save this <a href="http://img1.wikia.nocookie.net/__cb20100519113307/mafiawars/images/8/8d/7-eleven_logo-250x250.gif.png" target="_blank">Sweet Picture!</a> image into your img folder</li>
+					<li>On your 1st <code>img</code>, add a class of <code>img-circle</code>, to create a circle around your Image</li>
+					<li>On your 2nd <code>img</code>, add a class of <code>img-rounded</code>, to round your Image</li>
+					<li>On your 3rd <code>img</code>, add a class of <code>img-thumbnail</code>, to create a thumbnail feel around your Image</li>
 				</ol>
 				<p>Open this file in your browser to see what you just did!</p>
 				<a href="answers/lesson5.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
@@ -218,11 +219,9 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<br>
-		<div class="col-md-12">
-			<a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Buttons &amp; Images</Strong> Task Before Moving On!</a>
+		<div class="col-xs-12">
+			<a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Buttons &amp; Images</Strong> Task Before Moving On!</a>
 		</div>
 	</div>
-
   </article>
 </div>

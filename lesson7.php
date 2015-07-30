@@ -149,8 +149,7 @@
         </div>
       </div>
       <div class="clearfix"></div>
-      <br>
-      <div class="col-md-12">
+      <div class="col-xs-12">
         <a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This <Strong>Bootstrap Nav</Strong> Task Before Moving On!</a>
       </div>
     </div>
@@ -293,6 +292,7 @@
 						</ul>
 					</div>
 				</nav>
+			</div>
 			<div class="well well-sm">		
 				<code>
 					<?php include('code/lesson7/fix_top.php'); ?>
@@ -300,7 +300,7 @@
 			</div>
 		</div>
 		<div class="col-md-6">
-			<div class="panel panel-danger" style="padding-bottom:10px;">
+			<div class="panel panel-danger" style="margin:10px 0;">
 				<div class="panel-heading">
 					<h4>Body padding required when using <code>navbar-fixed-top</code> Navigation Bars</h4>
 				</div>
@@ -515,8 +515,7 @@
         </div>
       </div>
       <div class="clearfix"></div>
-      <br>
-      <div class="col-md-12">
+      <div class="col-xs-12">
         <a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Navigation Bars</Strong> Task Before Moving On!</a>
       </div>
     </div>
@@ -788,11 +787,9 @@
         </div>
       </div>
       <div class="clearfix"></div>
-      <br>
-      <div class="col-md-12">
-        <a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Breadcrumbs & Pagination</Strong> Task Before Moving On!</a>
+      <div class="col-xs-12">
+        <a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Breadcrumbs & Pagination</Strong> Task Before Moving On!</a>
       </div>
     </div>
-
   </article>
 </div>

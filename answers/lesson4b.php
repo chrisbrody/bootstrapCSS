@@ -49,9 +49,12 @@
         </div>
       </div>
     </div>
-
-    <div class="col-md-12">
-      <img src="../img/answer4b.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="../img/answer4b.jpg">
+        </div>
+      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

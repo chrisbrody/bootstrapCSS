@@ -3,7 +3,7 @@
   <article class="lesson4">
     <div class="lesson_title">
       <h4>Lesson 4</h4>
-      <h1>Bootstrap Tables & Forms</h1>
+      <h1>Bootstrap Tables &amp; Forms</h1>
     </div>
 
     <div class="tables">
@@ -484,7 +484,8 @@
 	<div class="task">
 		<div class="task1">
 			<div class="col-md-12">
-				<h3>Sweet building tables with basic styles is easy now...so lets write some more of our own <code>CODE</code>.</h3>
+				<h3>Sweet building tables with basic styles is easy now...so lets write some more of our own <code>CODE</code>!</h3>
+				<p class="lead">Again open your index.html from your BootstrapTest folder in sublime.</p>
 				<ol>
 					<li>Start a new <code>container</code> or <code>container-fuild</code> div outside all your previous div tags</li>
 					<li>Next add a <code>row</code> div, inside our <code>.contaier</code> or <code>container-fluid</code> div</li>
@@ -508,15 +509,11 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<br>
-		<div class="col-md-12">
+		<div class="col-xs-12">
 			<a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <strong>TABLES</strong> Task Before Moving On!</a>
 		</div>
+		<div class="clearfix"></div>
 	</div>
-
-	<br>
-
-	<div class="row row_pad"></div>
     
     <!-- FORMS -->
     <div id="forms">
@@ -588,7 +585,7 @@
 	    				<h4>Inline requires custom widths</h4>
 	    			</div>
 	    			<div class="panel-body">
-	    				<p class="text-muted">Inputs, selects, and textareas are 100% wide by default in Bootstrap. Inline widths are set to auto, as long as we use the <code>form-inline</code> class for our form & set our input class to <code>form-control</code>. We can also adjust the width by add class to the specific tag if needed.</p>
+	    				<p class="text-muted">Inputs, selects, and textareas are 100% wide by default in Bootstrap. Inline widths are set to auto, as long as we use the <code>form-inline</code> class for our form &amp; set our input class to <code>form-control</code>. We can also adjust the width by add class to the specific tag if needed.</p>
 	    			</div>
 	    		</div>
     		</div>
@@ -975,17 +972,17 @@
 				<h3>Now that you understand how to style form components, It's time to do some coding to solidify what you've learned!</h3>
 				<p class="lead">Open the project folder we have been using all along</p>
 				<ol>
-					<li>Start by creating a new div with a class of <code>container</code></li>
+					<li>Start by creating a new div with a class of <code>container</code>, outside all other <code>div</code> tags</li>
 					<li>Add a <code>row</code> inside your <code>container</code> div</li>
-					<li>Create a div inside your <code>row</code> with a class of <code>col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4</code>, which will limit your forms size</li>
-					<li>nest the <code>&lt;form role="form"&gt;...&lt;/form&gt;</code> tags inside that div</li>
-					<li>nest 4 <code>div</code> tags with the class of <code>form-group</code> inside your form tags</li>
-					<li>Inside each  of the first 3 <code>form-group</code>s, create a <code>&lt;label&gt;...&lt;/label</code>, an <code>&lt;input &gt;</code> and a <code>&lt;p class="help-block"...&lt;/p&gt;</code></li>
-					<li>Inside the 4th <code>form-group</code> create a textarea with <code>&lt;textarea rows="5"&gt;...&lt;/textarea&gt;</code></li>
-					<li>Next, you need to include the nice looking bootstrap css to your inputs and the textarea by adding <code>class="form-control"</code> to all 4 of them. Otherwise they wont look pretty!</li>
-					<li>Now you need to assign some text to your labels by putting it between the opening and closing tags. Set your first label to say: Full Name, your second label should say: Email &amp; the third: Subject</li>
-					<li>Add type="text" to the 1st & 3rd <code>input</code> and type="email" in your 2nd <code>input</code></li>
-					<li>Finally lets add a little dummy text to your <code>&lt;p&gt;</code> tags with <a href="http://www.lipsum.com" target="_blank">Lurem Ipsum</a> again, add as many words as you'd like into each one</li>
+					<li>Create a div inside your <code>row</code> with a classes of <code>col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4</code>, which will limit your forms size</li>
+					<li>Nest a <code>form</code> tag inside that <code>row</code> div with a role attribute equal to <code>form</code></li>
+					<li>Include 4 <code>div</code> tags with the class of <code>form-group</code> inside your form tags</li>
+					<li>Inside each of the first 3 <code>form-group</code> divs, create a <code>label</code>, an <code>input</code> and a <code>p</code>, add a class of <code>help-block</code> to each <code>p</code> tag</li>
+					<li>Inside the last <code>form-group</code> div, create a <code>textarea</code> and add a row attribute equal to <code>5</code></li>
+					<li>Next, you need to include the nice looking bootstrap css to your inputs and the textarea by adding the class of <code>form-control</code> to all 4 form elements (input &amp; textarea),Otherwise they wont look pretty!</li>
+					<li>Now add some text to your labels by putting it between the opening and closing tags. Set your first label to say: Full Name, your second label should say: Email &amp; the third: Subject</li>
+					<li>Add the type attribute and set it equal to <code>text</code> to the 1st &amp; 3rd <code>input</code> and <code>email</code> to your 2nd <code>input</code> as an attribute</li>
+					<li>Finally lets add a little dummy text to your <code>p</code> tags with <a href="http://www.lipsum.com" target="_blank">Lurem Ipsum</a>, add as many words as you'd like into each one</li>
 				</ol>
 				<p>Open this new file in your browser, and try resizing the browser. You should notice the form resizing automatically. Grid columns for the win!</p>
 				<a href="answers/lesson4b.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
@@ -998,13 +995,9 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<br>
-		<div class="col-md-6">
-			<a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>FORMS</Strong> Task Before Moving On!</a>
+		<div class="col-xs-12">
+			<a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>FORMS</Strong> Task Before Moving On!</a>
 		</div>
 	</div>
-
-	<br>
-
   </article>
 </div>

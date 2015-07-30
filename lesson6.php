@@ -3,7 +3,7 @@
 
     <div class="lesson_title">
       <h4>Lesson 6</h4>
-      <h1>More Buttons & Input Groups</h1>
+      <h1>More Buttons &amp; Input Groups</h1>
     </div>
 
     <!-- button groups -->
@@ -201,41 +201,38 @@
 
     <div class="row"></div>
 
-    <!-- lesson task 1 -->
+    <!-- task 6a -->
 	<div class="task">
 		<div class="task1">
 			<div class="col-md-12">
-				<h3>Aligning buttons properly can be hard, luckily bootstraps got you covered. Time to practice your newly aquired skills!</h3>
+				<h3>Aligning buttons can be rough, luckily Bootstrap has you covered!</h3>
+				<p class="lead">Open your index.html from the BootstrapTest folder in sublime</p>
 				<ol>
-					<li>Start by adding a new div with the class of <code>container</code>.</li>
-					<li>Create a <code>row</code> div, and 2 divs nested inside of it, one with <code>col-xs-12</code> & the other <code>col-xs-6</code>.</li>
-					<li>Inside your <code>col-xs-12</code> add one more div with the class of <code>btn-group-vertical</code> to make your buttons appear vertically.</li>
-					<li>Add 4 <code>button</code> tags with type attribute of <code>button</code> and a class of <code>btn</code>.</li>
-					<li>You want the button's name for the 1st, 2nd & 4th to be Submit. Add this between the opening and closing tags</li>
-					<li>Add a class of <code>btn-lg and btn-success</code> to the 1st <code>button</code>.</li>
-					<li>For the 2nd <code>button</code>, add a class of <code>btn-lg and btn-primary</code>.</li>
-					<li>Make your 3rd button a dropdown by adding the <code>data-toggle="dropdown"</code> attribute to it, and giving it a class of <code>dropdown-toggle</code>.</li>
-					<li>Add the word Dropdown in between your button tags to name the third button. Last, add the caret to the button, by adding a <code>span</code> with a class of <code>caret</code> inside the button.</li>
-					<li>Next, you need a <code>ul</code> to add your <code>li</code> for the dropdown button. Add a class of <code>dropdown-menu</code> and a role of <code>menu</code> to your ul.</li>
-					<li>Now we are ready to add <code>&lt;li&gt;&lt;/li&gt;</code> with a <code>&lt;a href="#"&gt;&lt;/a&gt;</code> inside each <code>li</code> tag, so we can link our buttons to anywhere. Create 3 of these in your <code>ul</code>.</li>
-					<li>Name These 3 links whatever you prefer. Finally to the 4th <code>button</code>, add a class of <code>btn-lg and btn-info</code>.</li>
-					<li>Inside your <code>col-xs-6</code> div, create a div with the class of <code>btn-group btn-group-justified</code> and 2 divs inside this with the class of <code>btn-group</code></li>
-					<li>Add one button inside each group, with a type attribute of <code>button</code>, for one button add a class of <code>btn btn-lg btn-danger</code> and call this "Button Number One"</li>
-					<li>For your 2nd button, add a class of <code>btn btn-lg btn-info</code> and call this one Button Number Two.</li>
+					<li>Start by adding a new div with the class of <code>container</code> outside everthing we've done so far</li>
+					<li>Create a <code>div</code> tag with a class of <code>row</code>, and 2 sibiling <code>div</code> tags nested inside of it, one with <code>col-xs-12</code> &amp; the other <code>col-xs-6</code></li>
+					<li>Inside your <code>col-xs-12</code> add a <code>div</code> tag with the class of <code>btn-group-vertical</code> this will make your buttons appear vertically</li>
+					<li>Add 3 <code>button</code> tags with <code>type</code> attribute equal to <code>button</code> and a <code>class</code> attribute equal to <code>btn</code></li>
+					<li>Insert whatever content you want between the opening and closing tags of each <code>button</code></li>
+					<li>Add a class of <code>btn-lg and btn-success</code> to the 1st <code>button</code></li>
+					<li>On the 2nd <code>button</code> tag, add a class of <code>and btn-primary</code> and on the 3rd <code>button</code> tag add a class attribute of <code>btn btn-lg btn-info</code></li>
+					
+					
+					<li>Inside your <code>col-xs-6</code> div, create a div with the classes of <code>btn-group btn-group-justified</code> and 2 divs inside that with the class of <code>btn-group</code></li>
+					<li>Add one <code>button</code> tag inside each group, with a type attribute of <code>button</code>, for one button add the classes of <code>btn btn-lg btn-danger</code> and call this Button Number One - content in between the <code>button</code> tag</li>
+					<li>On your 2nd button, add the classes of <code>btn btn-lg btn-info</code> and call this one Button Number Two</li>
 				</ol>
 				<p>Open this file in your browser to test the code!</p>
 				<a href="answers/lesson6a.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
 				<br><br>
-				<p>You just hand built some more bootstrap buttons, vertical and justified!!!  <strong>Remember:</strong> Dropdowns need a class of <code>dropdown-toggle</code> and a <code>data-toggle="dropdown"</code> to make them work!</p>
+				<p>You just hand built some more bootstrap buttons, vertical and justified!</p>
 				<p>Read through <a href="http://getbootstrap.com/components/#btn-groups" target="_blank">Bootstrap Button Groups</a> to learn more about bootstrap buttons.</p>
 				<div class="next1">
-					<a href="#button_drops" class="btn btn-code btn btn-lg"><i class="fa fa-child fa-2x"></i> Next Up: Button Dropdowns! <i class="fa fa-2x fa-child"></i></a>
+					<a href="#inputs" class="btn btn-code btn btn-lg"><i class="fa fa-child fa-2x"></i> Next Up: More Inputs! <i class="fa fa-2x fa-child"></i></a>
 				</div>
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<br>
-		<div class="col-md-12">
+		<div class="col-xs-12">
 			<a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Buttons</Strong> Task Before Moving On!</a>
 		</div>
 	</div>
@@ -485,11 +482,12 @@
 
     <div class="row"></div>
 
-    <!-- lesson task 2 -->
+    <!-- task 6b -->
 	<div class="task">
 		<div class="task1">
 			<div class="col-md-12">
 				<h3>Creating more variations of Bootstrap buttons should be second nature by now ;)...time to write some of your own <code>CODE</code>!</h3>
+				<p class="lead">Open your index.html from the BootstrapTest folder in sublime</p>
 				<ol>
 					<li>Start with a new div that has a class of <code>container</code>.</li>
 					<li>Create a <code>row</code> div, and a <code>col-md-6</code> div.</li>
@@ -514,10 +512,10 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<br>
-		<div class="col-md-12">
+		<!-- Hide 6b due to no JS in this tutorial therefore no dropdowns -->
+		<!-- <div class="col-xs-12">
 			<a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Dropdown & Dropup Buttons</Strong> Task Before Moving On!</a>
-		</div>
+		</div> -->
 	</div>
 
     <div class="row"></div>
@@ -661,15 +659,16 @@
 	<div class="task">
 		<div class="task1">
 			<div class="col-md-12">
-				<h3>We Have the Ability to Create a variety of <code>inputs</code>.</h3>
+				<h3>Bootstrap gives you the ability to create a variety of sweet looking <code>inputs</code>!</h3>
+				<p class="lead">Open your index.html from the BootstrapTest folder in sublime.</p>
 				<ol>
-					<li>Start with a new <code>contianer-fluid</code> and <code>row</code> divs</li>
-					<li>a few grid divs one <code>col-xs-9 col-md-6</code> & one <code>col-xs-7 col-md-6</code> div. Also Create a <code>&lt;br&gt;</code> in between your two new inputs</li>
-					<li>In your first col-xs-9, lets add a two inputs with a class of <code>form-control</code>, give the 1st a type attribute of <code>color</code>.</li>
-					<li>Give your 2nd input a type attribute of <code>number</code> with a <code>min="1"</code> attribute and a max attribute = to <code>5</code>.</li>
-					<li>In your <code>col-xs-7 col-md-6</code> Create a 3rd input with a type attribute of <code>range</code> with a min attribute = to <code>1</code> and a <code>max="10"</code> attribute and a class of <code>form-control</code>.</li>
-					<li>Add another <code>&lt;br&gt;</code> between your 2 inputs.</li>
-					<li>Add another Input in your <code>col-xs-7 col-md-6</code> div with <code>type="date"</code> attribute, and a <code>class="form-control"</code>.</li>
+					<li>Start with a new <code>div</code> tag, &amp; add a class attribute equal to <code>contianer-fluid</code>, add a <code>div</code> inside, give it a class of <code>row</code></li>
+					<li>Add 2 <code>div</code> tags inside for your grid, one  with the classes of <code>col-xs-9 col-md-6</code> &amp; the other with the classes of <code>col-xs-7 col-md-6</code></li>
+					<li>In your first col-xs-9, add 2 <code>input</code> with a class attribute equal to <code>form-control</code>, give the 1st a type attribute of <code>color</code>.  Next create a <code>&lt;br&gt;</code> in between your two new inputs</li>
+					<li>Give your 2nd input a type attribute of <code>number</code> with a min attribute equal to <code>1</code> and a max attribute equal to <code>5</code></li>
+					<li>In your <code>div</code> with a class of <code>col-xs-7 col-md-6</code>, create a 2 more <code>input</code> tags, the 1st set a type attribute equal to <code>range</code> with a min attribute equal to <code>1</code> and a max attribute equal to <code>10</code>, also add a class attribute of <code>form-control</code></li>
+					<li>Add another <code>br</code> tag between your 2 new <code>input</code> tags</li>
+					<li>Last, set your type attribute equal to <code>date</code> in your 4th <code>input</code>, and a class attribute equal to <code>form-control</code></li>
 				</ol>
 				<p>Open this file in your browser to see how good out inputs look...<code>Be Aware:</code> Not all inputs are compatible with all browsers, Go to: <a href="http://www.w3schools.com/html/html5_form_input_types.asp" target="_blank">HTML5 Inputs</a> for a current list of all inputs and which browsers they work on.  If you can't use some of your new inputs try switching browsers based on your helpful link.</p>
 				<a href="answers/lesson6c.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
@@ -682,12 +681,9 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<br>
-		<div class="col-md-12">
-			<a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Inputs</Strong> Task Before Moving On!</a>
+		<div class="col-xs-12">
+			<a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <Strong>Inputs</Strong> Task Before Moving On!</a>
 		</div>
 	</div>
-
-
   </article>
 </div>

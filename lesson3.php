@@ -366,7 +366,7 @@
 		<div class="task1">
 			<div class="col-md-12">
 				<h3>Helper classes &amp; Responsive classes come in handy!</h3>
-				<p class="lead">Lets open our project folder again in sublime.</p>
+				<p class="lead">Open your index.html from the BootstrapTest folder we created in lesson 2.</p>
 				<ol>
 					<li>Create a new div after lesson 2 stuff, add a class <code>.container-fluid</code> to this new div</li>
 					<li>Next add a class of <code>row</code> to a <code>div</code> that you create inside your <code>continer-fluid</code></li>
@@ -387,13 +387,9 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<br>
-		<div class="col-md-6">
-			<a class="btn btn-lg btn-task"><i class="fa fa-terminal"></i> Complete This Bootstrap <strong>Helper &amp; Responsive</strong> Class Task Before Moving On!</a>
+		<div class="col-xs-12">
+			<a class="btn btn-lg btn-task btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <strong>Helper &amp; Responsive</strong> Class Task Before Moving On!</a>
 		</div>
 	</div>
-
-	<br>
-
   </article>
 </div>

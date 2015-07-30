@@ -28,18 +28,11 @@
           <div class="btn-group-vertical">
             <button type="button" class="btn btn-success btn-lg">Submit</button>
             <button type="button" class="btn btn-lg btn-primary">Submit</button>
-            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
-              Dropdown
-              <span class="caret">
-            </button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Dropdown link</a></li>
-              <li><a href="#">Dropdown link</a></li>
-            </ul> 
             <button type="button" class="btn btn-lg btn-info">Submit</button>
           </div>
         </div>
-        <br>
+      </div>
+      <div class="row">
         <div class="col-xs-6">
           <div class="btn-group btn-group-justified">
             <div class="btn-group">
@@ -56,10 +49,13 @@
     
     <br>
 
-    <div class="col-md-12">
-      <img src="../img/answer6a.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="../img/answer6a.jpg">
+        </div>
+      </div>
     </div>
-
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

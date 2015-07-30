@@ -42,8 +42,12 @@
 
     <br> 
 
-    <div class="col-md-12">
-      <img src="../img/answer6c.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="../img/answer6c.jpg">
+        </div>
+      </div>
     </div>
 
 

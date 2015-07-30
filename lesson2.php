@@ -429,7 +429,7 @@
 		<div class="task1">
 			<div class="col-md-12">
 				<h3>Now that you understand the grid a bit more...lets dig to some code, to solidify what you learned!</h3>
-				<p class="lead">Create a Folder called BootstrapTest, add an index.html and main.css file, lastly add the cdn to Bootstrap CSS from lesson 1</p>
+				<p class="lead">Create a Folder called BootstrapTest, add an index.html and main.css file, lastly add the cdn to Bootstrap CSS from lesson 1.</p>
 				<ol>
 					<li>Start by adding either a <code>container</code> or <code>container-fluid</code> to a div tag after the opening <code>body</code> tag</li>
 					<li>Inside this div, add a <code>row</code> class to a new <code>div</code> tag</li>
@@ -445,18 +445,14 @@
 				<p>GREAT JOB!!! you just hand built your first bootstrap grid layout, positioning will be a breeze from here on out, using our NEW 12 Column Grid System!</p>
 				<p>Check out <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap Grid</a> for even more in-depth talk about the GRID</p>
 				<div class="next1">
-					<a href="#tab3" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Helper lasses &amp; Responsive utilities <i class="fa fa-2x fa-child"></i></a>
+					<a href="#tab3" data-toggle="tab" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Up: Bootstrap Helper classes &amp; Responsive utilities <i class="fa fa-2x fa-child"></i></a>
 				</div>
-			</div>
+			</div>			
 		</div>
 		<div class="clearfix"></div>
-		<br>
-		<div class="col-md-6">
-			<a class="btn btn-task btn-lg btn_task"><i class="fa fa-terminal"></i> Complete This Bootstrap <strong>GRID</strong> Task Before Moving On!</a>
+		<div class="col-xs-12">
+			<a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This Bootstrap <strong>GRID</strong> Task Before Moving On!</a>
 		</div>
 	</div>
-
-	<br>
-
   </article>
 </div>

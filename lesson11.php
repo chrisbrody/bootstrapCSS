@@ -244,8 +244,7 @@
         </div>
       </div>
       <div class="clearfix"></div>
-      <br>
-      <div class="col-md-12">
+      <div class="col-xs-12">
         <a class="btn btn-task btn-lg btn_task btn-block"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>Panels &amp; Wells</Strong> Task Before Moving On!</a>
       </div>
     </div>
@@ -476,12 +475,9 @@
         </div>
       </div>
       <div class="clearfix"></div>
-      <br>
       <div class="col-md-12">
-        <a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>List Groups</Strong> Task Before Moving On!</a>
+        <a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete The Bootstrap <Strong>List Groups</Strong> Task Before Moving On!</a>
       </div>
     </div>
-
-    
   </article>
 </div>

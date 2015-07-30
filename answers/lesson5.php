@@ -51,8 +51,12 @@
     </div>
 
     <!-- image answer -->
-    <div class="col-md-12">
-      <img src="../img/answer5.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="../img/answer5.jpg">
+        </div>
+      </div>
     </div>
 
 

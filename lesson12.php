@@ -833,7 +833,9 @@
               </li>
             </div>
           </ul>
-          <button class="btn btn-task btn-lg" id="more_bootstrap"><i class="fa fa-angle-double-left"></i> See All Bootstrap Icons <i class="fa fa-angle-double-right"></i></button>
+          <div class="clearfix"></div>
+          <br>
+          <button class="btn btn-code btn-lg" id="more_bootstrap"><i class="fa fa-angle-double-left"></i> See All Bootstrap Icons <i class="fa fa-angle-double-right"></i></button>
         </div>
       </div>
 
@@ -896,14 +898,12 @@
           <a href="#">
             <i class="fa fa-automobile"></i>
             fa-automobile
-            <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
           <a href="../icon/university">
             <i class="fa fa-bank"></i>
             fa-bank
-            <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -934,7 +934,6 @@
           <a href="#">
             <i class="fa fa-cab"></i>
             fa-cab
-            <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1061,7 +1060,6 @@
           <a href="#">
           <i class="fa fa-file-movie-o"></i>
           fa-file-movie-o
-          <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1074,14 +1072,12 @@
           <a href="#">
           <i class="fa fa-file-photo-o"></i>
           fa-file-photo-o
-          <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
           <a href="#">
           <i class="fa fa-file-picture-o"></i>
           fa-file-picture-o
-          <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1094,7 +1090,6 @@
           <a href="#">
           <i class="fa fa-file-sound-o"></i>
           fa-file-sound-o
-          <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1113,14 +1108,12 @@
           <a href="#">
           <i class="fa fa-file-zip-o"></i>
           fa-file-zip-o
-          <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
           <a href="#">
           <i class="fa fa-ge"></i>
           fa-ge
-          <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1169,7 +1162,6 @@
           <a href="#">
           <i class="fa fa-institution"></i>
           fa-institution
-          <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1194,7 +1186,6 @@
           <a href="#">
           <i class="fa fa-life-bouy"></i>
           fa-life-bouy
-          <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1207,14 +1198,12 @@
           <a href="#">
           <i class="fa fa-life-saver"></i>
           fa-life-saver
-          <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
           <a href="#">
           <i class="fa fa-mortar-board"></i>
           fa-mortar-board
-          <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1263,7 +1252,6 @@
           <a href="#">
             <i class="fa fa-pied-piper-square"></i>
             fa-pied-piper-square
-            <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1276,7 +1264,6 @@
           <a href="#">
             <i class="fa fa-ra"></i>
             fa-ra
-            <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1307,14 +1294,12 @@
           <a href="#">
             <i class="fa fa-send"></i>
             fa-send
-            <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
           <a href="#">
             <i class="fa fa-send-o"></i>
             fa-send-o
-            <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1393,7 +1378,6 @@
           <a href="#">
             <i class="fa fa-support"></i>
             fa-support
-            <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1430,7 +1414,6 @@
           <a href="#">
             <i class="fa fa-wechat"></i>
             fa-wechat
-            <span class="text-muted">(alias)</span>
           </a>
         </div>
         <div class="fa-hover col-md-3 col-sm-4">
@@ -1453,7 +1436,7 @@
         </div>
       </div>
       <br>
-      <a href="http://fontawesome.io/icons/" target="_blank" class="btn btn-task btn-lg"><i class="fa fa-angle-double-left"></i> Check Out All 400+ Icons Here! <i class="fa fa-angle-double-right"></i></a>
+      <a href="http://fontawesome.io/icons/" target="_blank" class="btn btn-code btn-lg"><i class="fa fa-angle-double-left"></i> Check Out All 400+ Icons Here! <i class="fa fa-angle-double-right"></i></a>
 
       <div class="clearfix"></div>
 
@@ -1798,15 +1781,16 @@
         <br><br>
         <p>EXCELLENT!!! Your a pro at adding both Bootstrap &amp; Font Awesome icons to your websites now! Well Done.</p>
         <p>Check out <a href="http://getbootstrap.com/components/#glyphicons" target="_blank">Bootstrap Glyphicons</a> &amp; <a href="http://www.fontawesome.io" target="_blank">Font Awesome</a> For More!</p>        
+        <div class="next1">
+          <a href="http://codifyacademy.com/bootstrapjs" class="btn btn-code btn-lg tabs"><i class="fa fa-child fa-2x"></i> Next Tutorial: Bootstrap Javascrpit Plugins!!! <i class="fa fa-2x fa-child"></i></a>
+        </div>
       </div>
     </div>
     <div class="clearfix"></div>
-    <br>
-    <div class="col-md-12">
-      <a class="btn btn-task btn-lg"><i class="fa fa-terminal"></i> Complete This <strong>Glyphicons</Strong> &amp; <strong>Font Awesome</strong> Task!</a>
+    <div class="col-xs-12">s
+      <a class="btn btn-task btn-lg btn-block"><i class="fa fa-terminal"></i> Complete This <strong>Glyphicons</Strong> &amp; <strong>Font Awesome</strong> Task!</a>
     </div>
   </div>
-
   </article>
 </div>
 
