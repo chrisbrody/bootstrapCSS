@@ -14,7 +14,7 @@
           <div class="primary_logo">
             <a href="index.php">
               <strong><h3>Learn to Code</h3></strong>
-              <h2>Twitter Bootstrap</h2>
+              <h2>Twitter Bootstrap CSS</h2>
             </a>
           </div> 
           <!-- course navigation -->

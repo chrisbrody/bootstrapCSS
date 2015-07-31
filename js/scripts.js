@@ -1,4 +1,3 @@
-
 // lesson 1
 $(document).ready(function(){
 	// lesson 1 spining icons
@@ -48,8 +47,8 @@ $(document).ready(function(){
 	// Tooltips
 	$('[data-toggle="tooltip"]').tooltip()
 });
-var ipad = 1025;
-var laptop = 1200;
+
+
 function closeSidebar() {
 	if ( $(window).width() >= 1025 && $(window).width() <= 1200 ) {
 		$("#sidebar > a").animate({'left':'.75%'}, 500);

@@ -134,32 +134,30 @@ ol.course_overview_lessons {
 	font-family: 'Ruda', sans-serif;
 }
 ol.course_overview_lessons li {
-    counter-increment: lesson;
-    margin: 2em 0;
-    padding-left: 25%;
+  counter-increment: lesson;
+  margin: 2em 0;
+  padding-left: 25%;
 }
 .course_overview:first-child {
-    padding-right: 17px;
-    padding-right: 1.07143rem;
+  padding-right: 1.07143rem;
 }
 .course_overview:last-child {
-    padding-left: 17px;
-    padding-left: 1.07143rem;
+  padding-left: 1.07143rem;
 }
 .course_overview_lessons_2 {
     counter-reset: lesson 6;
 }
 .course_overview_lessons a:before {
 	background-color: rgb(46, 50, 54);
-    border-radius: 50%;
-    content: counter(lesson, decimal);
-    font-size: 20px;
-    margin: -2px 11px 1px -45px;
-    margin: -0.142857rem 0.714286rem 0.0714286rem -2.85714rem;
-    padding: 0.3em 0.6em;
-    color: #FFFFFF;
-    -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  content: counter(lesson, decimal);
+  font-size: 20px;
+  margin: -2px 11px 1px -45px;
+  margin: -0.142857rem 0.714286rem 0.0714286rem -2.85714rem;
+  padding: 0.3em 0.6em;
+  color: #FFFFFF;
+  -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
 }
 .course_overview_lessons a.tab_circle:before {	
 	padding:0.3em;
@@ -177,10 +175,10 @@ ol.course_overview_lessons li {
 .start_button {
 	margin-top:3em;
 	background-color: rgb(46, 50, 54);
-    border-color: rgb(37, 40, 43);
-    border-radius: 0;
-    -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
+  border-color: rgb(37, 40, 43);
+  border-radius: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
 }
 .start_button:hover,
 .start_button:focus {	
@@ -190,25 +188,25 @@ ol.course_overview_lessons li {
 .btn-code {
 	color: #FFF;
 	background-color: rgb(46, 50, 54);
-    border-color: rgb(37, 40, 43);
-    border-radius: 0;    
-    -webkit-transition: all 0.3s ease-in-out;    
-            transition: all 0.3s ease-in-out;
+  border-color: rgb(37, 40, 43);
+  border-radius: 0;    
+  -webkit-transition: all 0.3s ease-in-out;    
+          transition: all 0.3s ease-in-out;
 }
 .btn-code:hover,
 .btn-code:focus {
 	color: #FFF;
 	background-color: rgb(26, 188, 156);
-    border-color: rgb(23, 169, 140);
+  border-color: rgb(23, 169, 140);
 }
 .btn-task {
 	color: #FFF;
 	margin-top:15px;
 	background-color: rgb(26, 188, 156);
-    border-color: rgb(23, 169, 140);
-    border-radius: 0;    
-    -webkit-transition: all 0.3s ease-in-out;    
-            transition: all 0.3s ease-in-out;
+  border-color: rgb(23, 169, 140);
+  border-radius: 0;    
+  -webkit-transition: all 0.3s ease-in-out;    
+          transition: all 0.3s ease-in-out;
 }
 .btn-task:hover,
 .btn-task:focus {
@@ -268,7 +266,7 @@ div.lesson_title {
 }
 .thumbs:hover {
 	background-color: rgb(26, 188, 156);
-    border-color: rgb(23, 169, 140) !important;
+  border-color: rgb(23, 169, 140) !important;
 }
 .single_thumbnail h4 {
 	margin-bottom:5px;
@@ -364,11 +362,11 @@ ul#gridIntro li{
 }
 .table_example {
 	background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px 4px 0 0;
-    box-shadow: none;
-    margin-left: 0;
-    margin-right: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px 4px 0 0;
+  box-shadow: none;
+  margin-left: 0;
+  margin-right: 0;
     padding: 25px 15px 35px;
 }
 .row_pad {
